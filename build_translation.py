@@ -2,8 +2,8 @@
 """
 build_translation.py — SCMDB Community Translation Builder
 
-Baut eine Uebersetzungs-JSON aus einem SCMDB Language Template
-und einer fremdsprachigen Star Citizen global.ini.
+Builds a translation JSON from an SCMDB Language Template
+and a foreign-language Star Citizen global.ini.
 
 Usage:
     python build_translation.py --template lang-template-4.7.0-ptu.11475995.json --ini german_global.ini --lang de
@@ -11,10 +11,10 @@ Usage:
 Output:
     lang-de-4.7.0-ptu.11475995.json
 
-Voraussetzungen:
-    - Python 3.10+ (nur stdlib, keine externen Dependencies)
-    - lang-template-*.json (von SCMDB bereitgestellt)
-    - Fremdsprachige global.ini (Community-Uebersetzung oder CIG-Original)
+Requirements:
+    - Python 3.10+ (stdlib only, no external dependencies)
+    - lang-template-*.json (provided by SCMDB)
+    - Foreign-language global.ini (community translation or CIG original)
 """
 
 import argparse
@@ -24,8 +24,8 @@ import re
 import sys
 
 # ---------------------------------------------------------------------------
-# ~mission() Token-Normalisierung
-# Ersetzt Laufzeit-Platzhalter durch lesbare Tags
+# ~mission() token normalization
+# Replaces runtime placeholders with readable tags
 # ---------------------------------------------------------------------------
 
 _TOKEN_RE = re.compile(r"~mission\(([^)]+)\)")
@@ -51,7 +51,7 @@ _TOKEN_DISPLAY_MAP = {
 
 
 def normalize_runtime_tokens(text: str) -> str:
-    """Ersetzt ~mission(...) Tokens durch lesbare [PLATZHALTER]."""
+    """Replaces ~mission(...) tokens with readable [PLACEHOLDER] tags."""
     if not text:
         return text
 
@@ -65,12 +65,12 @@ def normalize_runtime_tokens(text: str) -> str:
 
 
 # ---------------------------------------------------------------------------
-# global.ini laden
+# Load global.ini
 # ---------------------------------------------------------------------------
 
 def load_ini(path: str) -> dict:
-    """Laedt eine global.ini (key=value Format).
-    Probiert mehrere Encodings (utf-8-sig, cp1252, utf-8)."""
+    """Loads a global.ini (key=value format).
+    Tries multiple encodings (utf-8-sig, cp1252, utf-8)."""
     content = None
     for enc in ("utf-8-sig", "cp1252", "utf-8"):
         try:
@@ -101,14 +101,14 @@ def load_ini(path: str) -> dict:
 
 
 # ---------------------------------------------------------------------------
-# Uebersetzung bauen
+# Build translation
 # ---------------------------------------------------------------------------
 
 def build_translation(template: dict, ini: dict, lang_code: str) -> tuple:
-    """Baut Uebersetzungs-JSON aus Template + INI.
-    Gibt (output_dict, stats) zurueck."""
+    """Builds translation JSON from template + INI.
+    Returns (output_dict, stats)."""
 
-    # Auch lowercase Keys fuer Fallback
+    # Also keep lowercase keys for fallback
     ini_lower = {k.lower(): v for k, v in ini.items()}
 
     translated = {}
@@ -123,7 +123,7 @@ def build_translation(template: dict, ini: dict, lang_code: str) -> tuple:
             noloc.append(key)
             continue
 
-        # Key in INI suchen (mit und ohne @, case-insensitive)
+        # Look up key in INI (with and without @, case-insensitive)
         val = (ini.get(key) or ini.get(f"@{key}") or
                ini_lower.get(key.lower()) or ini_lower.get(f"@{key}".lower()))
 
@@ -132,7 +132,7 @@ def build_translation(template: dict, ini: dict, lang_code: str) -> tuple:
                 val = val[:-2].rstrip()
             val = normalize_runtime_tokens(val)
 
-            # Platzhalter-Only Check (z.B. nur "[CONTRACTOR]")
+            # Placeholder-only check (e.g. just "[CONTRACTOR]")
             if bracket_re.match(val):
                 translated[key] = {"en": english_text, "tr": english_text}
                 placeholder_only += 1
@@ -173,22 +173,22 @@ def build_translation(template: dict, ini: dict, lang_code: str) -> tuple:
 def main():
     parser = argparse.ArgumentParser(
         description="SCMDB Community Translation Builder",
-        epilog="Beispiel: python build_translation.py --template lang-template-4.7.0-ptu.json --ini german_global.ini --lang de"
+        epilog="Example: python build_translation.py --template lang-template-4.7.0-ptu.json --ini german_global.ini --lang de"
     )
     parser.add_argument("--template", required=True,
-                        help="Pfad zur lang-template-*.json (von SCMDB)")
+                        help="Path to lang-template-*.json (from SCMDB)")
     parser.add_argument("--ini", required=True,
-                        help="Pfad zur fremdsprachigen global.ini")
+                        help="Path to foreign-language global.ini")
     parser.add_argument("--lang", required=True,
-                        help="Sprachcode (z.B. de, fr, ja, ko, zh-cn)")
+                        help="Language code (e.g. de, fr, ja, ko, zh-cn)")
     args = parser.parse_args()
 
-    # Template laden
+    # Load template
     if not os.path.exists(args.template):
-        print(f"FEHLER: Template nicht gefunden: {args.template}")
+        print(f"ERROR: Template not found: {args.template}")
         sys.exit(1)
 
-    print(f"Lade Template: {args.template}")
+    print(f"Loading template: {args.template}")
     with open(args.template, encoding="utf-8") as f:
         template = json.load(f)
 
@@ -197,49 +197,49 @@ def main():
     print(f"  Version: {version}")
     print(f"  Keys: {key_count}")
 
-    # INI laden
+    # Load INI
     if not os.path.exists(args.ini):
-        print(f"FEHLER: INI nicht gefunden: {args.ini}")
+        print(f"ERROR: INI not found: {args.ini}")
         sys.exit(1)
 
-    print(f"Lade INI: {args.ini}")
+    print(f"Loading INI: {args.ini}")
     ini = load_ini(args.ini)
-    print(f"  {len(ini)} Eintraege geladen")
+    print(f"  {len(ini)} entries loaded")
 
-    # Uebersetzen
-    print(f"\nBaue Uebersetzung ({args.lang})...")
+    # Build translation
+    print(f"\nBuilding translation ({args.lang})...")
     output, stats = build_translation(template, ini, args.lang)
 
-    # Ausgabe
+    # Output
     out_name = f"lang-{args.lang}-{version}.json"
     out_path = os.path.join(os.path.dirname(args.template) or ".", out_name)
 
     with open(out_path, "w", encoding="utf-8") as f:
         json.dump(output, f, ensure_ascii=False, indent=2)
 
-    # Bericht
+    # Report
     pct = stats["translated"] / stats["total"] * 100 if stats["total"] else 0
     print(f"\n{'=' * 50}")
-    print(f"  Datei:            {out_name}")
+    print(f"  File:             {out_name}")
     print(f"  Total Keys:       {stats['total']}")
-    print(f"  Uebersetzt:       {stats['translated']} ({pct:.1f}%)")
-    print(f"  Fehlend:          {stats['missing']} (Fallback: Englisch)")
-    print(f"  Platzhalter-Only: {stats['placeholderOnly']} (Fallback: Englisch)")
-    print(f"  Ohne Loc-Key:     {stats['noLocKey']} (1:1 uebernommen)")
+    print(f"  Translated:       {stats['translated']} ({pct:.1f}%)")
+    print(f"  Missing:          {stats['missing']} (fallback: English)")
+    print(f"  Placeholder-Only: {stats['placeholderOnly']} (fallback: English)")
+    print(f"  No Loc-Key:       {stats['noLocKey']} (kept as-is)")
     print(f"{'=' * 50}")
 
     if stats["missing"] > 0:
-        print(f"\nFehlende Keys ({stats['missing']}):")
+        print(f"\nMissing Keys ({stats['missing']}):")
         for k in stats["missingKeys"][:30]:
             en_text = template["keys"].get(k, "")
             short = en_text[:60] + "..." if len(en_text) > 60 else en_text
             print(f"  {k}")
             print(f"    EN: {short}")
         if stats["missing"] > 30:
-            print(f"  ... und {stats['missing'] - 30} weitere")
-        print(f"\nDiese Keys fehlen in der INI. Englischer Text wird als Fallback verwendet.")
+            print(f"  ... and {stats['missing'] - 30} more")
+        print(f"\nThese keys are missing from the INI. English text is used as fallback.")
 
-    print(f"\nFertig! Datei hosten und Link teilen: scmdb.dev?lang=<URL_ZUR_DATEI>")
+    print(f"\nDone! Host the file and share the link: scmdb.dev?lang=<FILE_URL>")
 
 
 if __name__ == "__main__":
