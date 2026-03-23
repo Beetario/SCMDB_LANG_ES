@@ -1,1 +1,4 @@
 publish_templates.py
+# Local test files (foreign INIs + test translations)
+global_*.ini
+lang-global_*.json
