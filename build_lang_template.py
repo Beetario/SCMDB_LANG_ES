@@ -499,6 +499,7 @@ def build_translation(template: dict, foreign_ini_path: str, version: str,
     noloc = []
     mismatched = []
     substituted = 0
+    placeholder_fallback = 0
 
     for key, english_text in template.get("keys", {}).items():
         if key.startswith("_noloc_"):
@@ -556,6 +557,18 @@ def build_translation(template: dict, foreign_ini_path: str, version: str,
                                 placeholder, en_value
                             )
 
+            # Placeholder-only detection: if the entire foreign text is just
+            # placeholders (e.g. "[CONTRACTOR]"), fall back to English.
+            # Remove all [PLACEHOLDER] patterns (both known and dynamic).
+            stripped = re.sub(r'\[[A-Z_]+\]', '', foreign_normalized)
+            # Also strip common markup/punctuation that might wrap placeholders
+            stripped = stripped.strip(" \t\n\r:|-—·•/\\()[]{}\"'")
+            if not stripped:
+                # Nothing left after removing placeholders -> use English
+                translated[key] = {"en": english_text, "tr": english_text}
+                placeholder_fallback += 1
+                continue
+
             translated[key] = {"en": english_text, "tr": foreign_normalized}
 
             # Mismatch detection: foreign text still contains token placeholders
@@ -563,13 +576,12 @@ def build_translation(template: dict, foreign_ini_path: str, version: str,
             # Only check if the raw EN text contained ~mission() tokens.
             raw_en = raw_keys.get(key)
             if raw_en and "~mission(" in raw_en:
-                # Check if foreign text has placeholders not present in EN
-                for token_placeholder in set(_TOKEN_DISPLAY_MAP.values()):
-                    if (token_placeholder
-                            and token_placeholder in foreign_normalized
-                            and token_placeholder not in english_text):
-                        mismatched.append(key)
-                        break
+                # Check if foreign text has [PLACEHOLDER] patterns not present in EN
+                foreign_placeholders = set(re.findall(r'\[[A-Z_]+\]', foreign_normalized))
+                en_placeholders = set(re.findall(r'\[[A-Z_]+\]', english_text))
+                if foreign_placeholders - en_placeholders:
+                    mismatched.append(key)
+
         else:
             # Fallback to English
             translated[key] = {"en": english_text, "tr": english_text}
@@ -577,9 +589,10 @@ def build_translation(template: dict, foreign_ini_path: str, version: str,
 
     stats = {
         "total": len(template.get("keys", {})),
-        "translated": len(translated) - len(missing) - len(noloc),
+        "translated": len(translated) - len(missing) - len(noloc) - placeholder_fallback,
         "missing": len(missing),
         "noLocKey": len(noloc),
+        "placeholderFallback": placeholder_fallback,
         "mismatch": len(mismatched),
         "tokenSubstitutions": substituted,
         "missingKeys": sorted(missing),
@@ -607,6 +620,7 @@ def _print_translation_report(translation, stats, out_name):
     print(f"  Total:         {stats['total']}")
     print(f"  Translated:    {stats['translated']}")
     print(f"  Missing:       {stats['missing']}")
+    print(f"  Placeholder:   {stats.get('placeholderFallback', 0)} (placeholder-only -> EN fallback)")
     print(f"  Mismatch:      {stats.get('mismatch', 0)} (token placeholders in foreign text)")
     print(f"  Substituted:   {stats.get('tokenSubstitutions', 0)} (placeholders replaced with foreign values)")
     print(f"  No loc key:    {stats['noLocKey']} (kept as-is)")
