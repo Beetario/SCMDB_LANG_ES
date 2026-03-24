@@ -4695,11 +4695,11 @@
   "tokenSubstitutions": {
     "Covalex_RecoverCargo_VeryEasy_Title": {
       "ReputationRank": "@RepStanding_TransportGuild_Rank1",
-      "Contractor|SignOff": "Thanks in advance for ensuring prompt service,"
+      "Contractor|SignOff": "@Covalex_SignOff_001"
     },
     "Covalex_RecoverCargo_VeryEasy_Description": {
       "ReputationRank": "@RepStanding_TransportGuild_Rank1",
-      "Contractor|SignOff": "Thanks in advance for ensuring prompt service,"
+      "Contractor|SignOff": "@Covalex_SignOff_001"
     },
     "Headhunters_Delivery_Outpost_title_001": {
       "ReputationRank": "@mobiGlas_Reputation_Stance_Neutral"
@@ -4748,32 +4748,32 @@
     "vaughn_assassination_title_E": {
       "Danger": "@assassin_danger_0006",
       "ReputationRank": "@RepScope_Contractor_Rank1",
-      "Contractor|BountyTitleEasy": "A Basic Task",
-      "Contractor|BountyDescriptionEasy": "~mission(TargetName) needs to be eliminated. My contacts tell me they will have one or two escorts, but nothing you can't handle. Find them near ~mission(Location|Address).\\n\\nMost Sincerely,\\nVaughn"
+      "Contractor|BountyTitleEasy": "@vaughn_assassination_E_title_003",
+      "Contractor|BountyDescriptionEasy": "@vaughn_assassination_E_desc_001"
     },
     "vaughn_assassination_E_title_003": {
       "Danger": "@assassin_danger_0006",
       "ReputationRank": "@RepScope_Contractor_Rank1",
-      "Contractor|BountyTitleEasy": "A Basic Task",
-      "Contractor|BountyDescriptionEasy": "~mission(TargetName) needs to be eliminated. My contacts tell me they will have one or two escorts, but nothing you can't handle. Find them near ~mission(Location|Address).\\n\\nMost Sincerely,\\nVaughn"
+      "Contractor|BountyTitleEasy": "@vaughn_assassination_E_title_003",
+      "Contractor|BountyDescriptionEasy": "@vaughn_assassination_E_desc_001"
     },
     "vaughn_assassination_description_E": {
       "Danger": "@assassin_danger_0006",
       "ReputationRank": "@RepScope_Contractor_Rank1",
-      "Contractor|BountyTitleEasy": "A Basic Task",
-      "Contractor|BountyDescriptionEasy": "~mission(TargetName) needs to be eliminated. My contacts tell me they will have one or two escorts, but nothing you can't handle. Find them near ~mission(Location|Address).\\n\\nMost Sincerely,\\nVaughn"
+      "Contractor|BountyTitleEasy": "@vaughn_assassination_E_title_003",
+      "Contractor|BountyDescriptionEasy": "@vaughn_assassination_E_desc_001"
     },
     "openbounty_title": {
-      "Contractor|OpenBountyTitle": "A Call to Arms",
-      "Contractor|OpenBountyDescription": "The Civilian Defense Force needs YOU! Everyday, in the Stanton system innocent civilians are preyed upon by vicious outlaws and heartless criminals.\\n\\nNO MORE.\\n\\nUnder the authority of the UEE and the Militia Mobilization Initiative, the CDF is deputizing all combat minded individuals in good legal standing* to engage and neutralize any individuals or vehicles that they verify to have an active CrimeStat.\\n\\nIn exchange for these selfless contributions to the general populaces safety, the CDF will financially compensate those who successfully bring these criminals to justice with a reward** of ~mission(RewardValue_Wanted1) UEC per outlaw dealt with. \\n\\nNow is your chance to help bring about a positive change for yourself and all other Stanton travelers. Sign up today and do your part!\\n\\n\\n\\n* Be aware, acquiring a CrimeStat will revoke CDF membership and cancel any outstanding contracts.\\n** Please note, criminals encountered as part of paid contract work do not qualify for the reward."
+      "Contractor|OpenBountyTitle": "@cdf_openbounty_title_001",
+      "Contractor|OpenBountyDescription": "@cdf_openbounty_desc_001"
     },
     "cdf_openbounty_title_001": {
-      "Contractor|OpenBountyTitle": "A Call to Arms",
-      "Contractor|OpenBountyDescription": "The Civilian Defense Force needs YOU! Everyday, in the Stanton system innocent civilians are preyed upon by vicious outlaws and heartless criminals.\\n\\nNO MORE.\\n\\nUnder the authority of the UEE and the Militia Mobilization Initiative, the CDF is deputizing all combat minded individuals in good legal standing* to engage and neutralize any individuals or vehicles that they verify to have an active CrimeStat.\\n\\nIn exchange for these selfless contributions to the general populaces safety, the CDF will financially compensate those who successfully bring these criminals to justice with a reward** of ~mission(RewardValue_Wanted1) UEC per outlaw dealt with. \\n\\nNow is your chance to help bring about a positive change for yourself and all other Stanton travelers. Sign up today and do your part!\\n\\n\\n\\n* Be aware, acquiring a CrimeStat will revoke CDF membership and cancel any outstanding contracts.\\n** Please note, criminals encountered as part of paid contract work do not qualify for the reward."
+      "Contractor|OpenBountyTitle": "@cdf_openbounty_title_001",
+      "Contractor|OpenBountyDescription": "@cdf_openbounty_desc_001"
     },
     "openbounty_desc": {
-      "Contractor|OpenBountyTitle": "A Call to Arms",
-      "Contractor|OpenBountyDescription": "The Civilian Defense Force needs YOU! Everyday, in the Stanton system innocent civilians are preyed upon by vicious outlaws and heartless criminals.\\n\\nNO MORE.\\n\\nUnder the authority of the UEE and the Militia Mobilization Initiative, the CDF is deputizing all combat minded individuals in good legal standing* to engage and neutralize any individuals or vehicles that they verify to have an active CrimeStat.\\n\\nIn exchange for these selfless contributions to the general populaces safety, the CDF will financially compensate those who successfully bring these criminals to justice with a reward** of ~mission(RewardValue_Wanted1) UEC per outlaw dealt with. \\n\\nNow is your chance to help bring about a positive change for yourself and all other Stanton travelers. Sign up today and do your part!\\n\\n\\n\\n* Be aware, acquiring a CrimeStat will revoke CDF membership and cancel any outstanding contracts.\\n** Please note, criminals encountered as part of paid contract work do not qualify for the reward."
+      "Contractor|OpenBountyTitle": "@cdf_openbounty_title_001",
+      "Contractor|OpenBountyDescription": "@cdf_openbounty_desc_001"
     },
     "vaughn_assassination_VE_title_intro": {
       "Danger": "@assassin_danger_0005",
@@ -4786,53 +4786,53 @@
     "vaughn_assassination_title_M": {
       "Danger": "@assassin_danger_0007",
       "ReputationRank": "@RepScope_Contractor_Rank2",
-      "Contractor|BountyTitleMedium": "A Complicated Task",
-      "Contractor|BountyDescriptionMedium": "The latest name for our list is ~mission(TargetName).\\n\\nThey will be traveling around ~mission(Location|Address) in a better class of ship and with a better class of escort. Approach with caution, and try to make this a clean kill.\\n\\nRegards,\\nVaughn"
+      "Contractor|BountyTitleMedium": "@vaughn_assassination_M_title_001",
+      "Contractor|BountyDescriptionMedium": "@vaughn_assassination_M_desc_001"
     },
     "vaughn_assassination_M_title_001": {
       "Danger": "@assassin_danger_0007",
       "ReputationRank": "@RepScope_Contractor_Rank2",
-      "Contractor|BountyTitleMedium": "A Complicated Task",
-      "Contractor|BountyDescriptionMedium": "The latest name for our list is ~mission(TargetName).\\n\\nThey will be traveling around ~mission(Location|Address) in a better class of ship and with a better class of escort. Approach with caution, and try to make this a clean kill.\\n\\nRegards,\\nVaughn"
+      "Contractor|BountyTitleMedium": "@vaughn_assassination_M_title_001",
+      "Contractor|BountyDescriptionMedium": "@vaughn_assassination_M_desc_001"
     },
     "vaughn_assassination_description_M": {
       "Danger": "@assassin_danger_0007",
       "ReputationRank": "@RepScope_Contractor_Rank2",
-      "Contractor|BountyTitleMedium": "A Complicated Task",
-      "Contractor|BountyDescriptionMedium": "The latest name for our list is ~mission(TargetName).\\n\\nThey will be traveling around ~mission(Location|Address) in a better class of ship and with a better class of escort. Approach with caution, and try to make this a clean kill.\\n\\nRegards,\\nVaughn"
+      "Contractor|BountyTitleMedium": "@vaughn_assassination_M_title_001",
+      "Contractor|BountyDescriptionMedium": "@vaughn_assassination_M_desc_001"
     },
     "vaughn_assassination_title_H": {
       "Danger": "@assassin_danger_0008",
       "ReputationRank": "@RepScope_Contractor_Rank3",
-      "Contractor|BountyTitleHard": "A Difficult Task",
-      "Contractor|BountyDescriptionHard": "Killing ~mission(TargetName) may end up being quite the challenge. They are aboard a well-protected ship near ~mission(Location|Address) and are most likely in the company of skilled escorts.\\n\\nA cautious approach may be wise.\\n\\nWarmest Regards,\\nVaughn"
+      "Contractor|BountyTitleHard": "@vaughn_assassination_H_title_001",
+      "Contractor|BountyDescriptionHard": "@vaughn_assassination_H_desc_001"
     },
     "vaughn_assassination_H_title_001": {
       "Danger": "@assassin_danger_0008",
       "ReputationRank": "@RepScope_Contractor_Rank3",
-      "Contractor|BountyTitleHard": "A Difficult Task",
-      "Contractor|BountyDescriptionHard": "Killing ~mission(TargetName) may end up being quite the challenge. They are aboard a well-protected ship near ~mission(Location|Address) and are most likely in the company of skilled escorts.\\n\\nA cautious approach may be wise.\\n\\nWarmest Regards,\\nVaughn"
+      "Contractor|BountyTitleHard": "@vaughn_assassination_H_title_001",
+      "Contractor|BountyDescriptionHard": "@vaughn_assassination_H_desc_001"
     },
     "vaughn_assassination_description_H": {
       "Danger": "@assassin_danger_0008",
       "ReputationRank": "@RepScope_Contractor_Rank3",
-      "Contractor|BountyTitleHard": "A Difficult Task",
-      "Contractor|BountyDescriptionHard": "Killing ~mission(TargetName) may end up being quite the challenge. They are aboard a well-protected ship near ~mission(Location|Address) and are most likely in the company of skilled escorts.\\n\\nA cautious approach may be wise.\\n\\nWarmest Regards,\\nVaughn"
+      "Contractor|BountyTitleHard": "@vaughn_assassination_H_title_001",
+      "Contractor|BountyDescriptionHard": "@vaughn_assassination_H_desc_001"
     },
     "searchbodyspace_title_VH": {
       "ReputationRank": "@RepScope_Contractor_Rank4",
-      "Contractor|SearchBodySpaceTitleVeryHard": "A Fond Farewell",
-      "Contractor|SearchBodySpaceDescriptionVeryHard": "It is with deep disappointment that I send this message. A peerless contractor of ours was out on a job, but it seems like the target may have gotten the better of them.\\n\\nI need you to travel to <EM4>~mission(Location|Address)</EM4> and see if our contractor, <EM4>~mission(TargetName)</EM4>, is truly gone.\\n\\nI suspect that the location will be somewhat chaotic since there will most likely still be multiple threats on site. Therefore, a supporting crew is strongly advised.\\n\\nSincerely,\\n\\nVaughn"
+      "Contractor|SearchBodySpaceTitleVeryHard": "@vaughn_searchbody_space_VH_Title_001",
+      "Contractor|SearchBodySpaceDescriptionVeryHard": "@vaughn_searchbody_space_VH_Desc_001"
     },
     "vaughn_searchbody_space_VH_Title_001": {
       "ReputationRank": "@RepScope_Contractor_Rank4",
-      "Contractor|SearchBodySpaceTitleVeryHard": "A Fond Farewell",
-      "Contractor|SearchBodySpaceDescriptionVeryHard": "It is with deep disappointment that I send this message. A peerless contractor of ours was out on a job, but it seems like the target may have gotten the better of them.\\n\\nI need you to travel to <EM4>~mission(Location|Address)</EM4> and see if our contractor, <EM4>~mission(TargetName)</EM4>, is truly gone.\\n\\nI suspect that the location will be somewhat chaotic since there will most likely still be multiple threats on site. Therefore, a supporting crew is strongly advised.\\n\\nSincerely,\\n\\nVaughn"
+      "Contractor|SearchBodySpaceTitleVeryHard": "@vaughn_searchbody_space_VH_Title_001",
+      "Contractor|SearchBodySpaceDescriptionVeryHard": "@vaughn_searchbody_space_VH_Desc_001"
     },
     "searchbodyspace_desc_VH": {
       "ReputationRank": "@RepScope_Contractor_Rank4",
-      "Contractor|SearchBodySpaceTitleVeryHard": "A Fond Farewell",
-      "Contractor|SearchBodySpaceDescriptionVeryHard": "It is with deep disappointment that I send this message. A peerless contractor of ours was out on a job, but it seems like the target may have gotten the better of them.\\n\\nI need you to travel to <EM4>~mission(Location|Address)</EM4> and see if our contractor, <EM4>~mission(TargetName)</EM4>, is truly gone.\\n\\nI suspect that the location will be somewhat chaotic since there will most likely still be multiple threats on site. Therefore, a supporting crew is strongly advised.\\n\\nSincerely,\\n\\nVaughn"
+      "Contractor|SearchBodySpaceTitleVeryHard": "@vaughn_searchbody_space_VH_Title_001",
+      "Contractor|SearchBodySpaceDescriptionVeryHard": "@vaughn_searchbody_space_VH_Desc_001"
     },
     "headhunters_ChainElimAll_1C_AttackCFP_E_title_001": {
       "ReputationRank": "@RepScope_Contractor_Rank3"
@@ -4843,20 +4843,20 @@
     "vaughn_assassination_title_VE": {
       "Danger": "@assassin_danger_0006",
       "ReputationRank": "@mobiGlas_Reputation_Stance_Neutral",
-      "Contractor|BountyTitleVeryEasy": "A Simple Task",
-      "Contractor|BountyDescriptionVeryEasy": "I have a new assignment for you.\\n\\nDispatch ~mission(TargetName). You should be able to find them at ~mission(Location|Address). \\n\\nI do not expect them to put up much of a struggle. At least not a formidable one.\\n\\nSincerely,\\nVaughn"
+      "Contractor|BountyTitleVeryEasy": "@vaughn_assassination_VE_title_001",
+      "Contractor|BountyDescriptionVeryEasy": "@vaughn_assassination_VE_desc_001"
     },
     "vaughn_assassination_VE_title_001": {
       "Danger": "@assassin_danger_0006",
       "ReputationRank": "@mobiGlas_Reputation_Stance_Neutral",
-      "Contractor|BountyTitleVeryEasy": "A Simple Task",
-      "Contractor|BountyDescriptionVeryEasy": "I have a new assignment for you.\\n\\nDispatch ~mission(TargetName). You should be able to find them at ~mission(Location|Address). \\n\\nI do not expect them to put up much of a struggle. At least not a formidable one.\\n\\nSincerely,\\nVaughn"
+      "Contractor|BountyTitleVeryEasy": "@vaughn_assassination_VE_title_001",
+      "Contractor|BountyDescriptionVeryEasy": "@vaughn_assassination_VE_desc_001"
     },
     "vaughn_assassination_description_VE": {
       "Danger": "@assassin_danger_0006",
       "ReputationRank": "@mobiGlas_Reputation_Stance_Neutral",
-      "Contractor|BountyTitleVeryEasy": "A Simple Task",
-      "Contractor|BountyDescriptionVeryEasy": "I have a new assignment for you.\\n\\nDispatch ~mission(TargetName). You should be able to find them at ~mission(Location|Address). \\n\\nI do not expect them to put up much of a struggle. At least not a formidable one.\\n\\nSincerely,\\nVaughn"
+      "Contractor|BountyTitleVeryEasy": "@vaughn_assassination_VE_title_001",
+      "Contractor|BountyDescriptionVeryEasy": "@vaughn_assassination_VE_desc_001"
     },
     "Headhunters_eliminateall_caves_title_01": {
       "ReputationRank": "@mobiGlas_Reputation_Stance_Neutral"
@@ -4867,38 +4867,38 @@
     "vaughn_assassination_title_S": {
       "Danger": "@assassin_danger_0010",
       "ReputationRank": "@RepScope_Contractor_Rank5",
-      "Contractor|BountyTitleSuper": "A Troublesome Task",
-      "Contractor|BountyDescriptionSuper": "I fear this is another one of those assignments that will take your full skillset to see to completion.\\n\\n~mission(TargetName) is aboard a very heavily armed vessel protected by at least two equally armed escorts. They are traveling near ~mission(Location|Address).\\n\\nNot for the faint of heart.\\n\\nFondly,\\nVaughn"
+      "Contractor|BountyTitleSuper": "@vaughn_assassination_S_title_001",
+      "Contractor|BountyDescriptionSuper": "@vaughn_assassination_S_desc_001"
     },
     "vaughn_assassination_S_title_001": {
       "Danger": "@assassin_danger_0010",
       "ReputationRank": "@RepScope_Contractor_Rank5",
-      "Contractor|BountyTitleSuper": "A Troublesome Task",
-      "Contractor|BountyDescriptionSuper": "I fear this is another one of those assignments that will take your full skillset to see to completion.\\n\\n~mission(TargetName) is aboard a very heavily armed vessel protected by at least two equally armed escorts. They are traveling near ~mission(Location|Address).\\n\\nNot for the faint of heart.\\n\\nFondly,\\nVaughn"
+      "Contractor|BountyTitleSuper": "@vaughn_assassination_S_title_001",
+      "Contractor|BountyDescriptionSuper": "@vaughn_assassination_S_desc_001"
     },
     "vaughn_assassination_description_S": {
       "Danger": "@assassin_danger_0010",
       "ReputationRank": "@RepScope_Contractor_Rank5",
-      "Contractor|BountyTitleSuper": "A Troublesome Task",
-      "Contractor|BountyDescriptionSuper": "I fear this is another one of those assignments that will take your full skillset to see to completion.\\n\\n~mission(TargetName) is aboard a very heavily armed vessel protected by at least two equally armed escorts. They are traveling near ~mission(Location|Address).\\n\\nNot for the faint of heart.\\n\\nFondly,\\nVaughn"
+      "Contractor|BountyTitleSuper": "@vaughn_assassination_S_title_001",
+      "Contractor|BountyDescriptionSuper": "@vaughn_assassination_S_desc_001"
     },
     "vaughn_assassination_title_VH": {
       "Danger": "@assassin_danger_0009",
       "ReputationRank": "@RepScope_Contractor_Rank4",
-      "Contractor|BountyTitleVeryHard": "A Very Difficult Task",
-      "Contractor|BountyDescriptionVeryHard": "An tricky assignment has just arrived that I think you will be ideally suited for.\\n\\nExpect to encounter ~mission(TargetName) aboard a heavily armed vessel near ~mission(Location|Address) and accompanied by some of the most highly-seasoned pilots that can be hired. \\n\\nDeal with the escorts as you wish. As long as you kill ~mission(TargetName), I will be more than satisfied.\\n\\nRespectfully,\\nVaughn"
+      "Contractor|BountyTitleVeryHard": "@vaughn_assassination_VH_title_001",
+      "Contractor|BountyDescriptionVeryHard": "@vaughn_assassination_VH_desc_001"
     },
     "vaughn_assassination_VH_title_001": {
       "Danger": "@assassin_danger_0009",
       "ReputationRank": "@RepScope_Contractor_Rank4",
-      "Contractor|BountyTitleVeryHard": "A Very Difficult Task",
-      "Contractor|BountyDescriptionVeryHard": "An tricky assignment has just arrived that I think you will be ideally suited for.\\n\\nExpect to encounter ~mission(TargetName) aboard a heavily armed vessel near ~mission(Location|Address) and accompanied by some of the most highly-seasoned pilots that can be hired. \\n\\nDeal with the escorts as you wish. As long as you kill ~mission(TargetName), I will be more than satisfied.\\n\\nRespectfully,\\nVaughn"
+      "Contractor|BountyTitleVeryHard": "@vaughn_assassination_VH_title_001",
+      "Contractor|BountyDescriptionVeryHard": "@vaughn_assassination_VH_desc_001"
     },
     "vaughn_assassination_description_VH": {
       "Danger": "@assassin_danger_0009",
       "ReputationRank": "@RepScope_Contractor_Rank4",
-      "Contractor|BountyTitleVeryHard": "A Very Difficult Task",
-      "Contractor|BountyDescriptionVeryHard": "An tricky assignment has just arrived that I think you will be ideally suited for.\\n\\nExpect to encounter ~mission(TargetName) aboard a heavily armed vessel near ~mission(Location|Address) and accompanied by some of the most highly-seasoned pilots that can be hired. \\n\\nDeal with the escorts as you wish. As long as you kill ~mission(TargetName), I will be more than satisfied.\\n\\nRespectfully,\\nVaughn"
+      "Contractor|BountyTitleVeryHard": "@vaughn_assassination_VH_title_001",
+      "Contractor|BountyDescriptionVeryHard": "@vaughn_assassination_VH_desc_001"
     },
     "Vaughn_EliminateSpecific_FPS_Rockcracker_title_001": {
       "ReputationRank": "@RepScope_Contractor_Rank1"
@@ -5197,126 +5197,126 @@
     "blackbox_recover_title_S_001": {
       "ObjectiveSetup": "@mission_item_0055",
       "ReputationRank": "@RepScope_Contractor_Rank5",
-      "Contractor|BlackBoxRecoverTitleSuper": "Bad at Goodbyes",
-      "Contractor|BlackBoxRecoverDescriptionSuper": "Got a big job for a big player. We’re in the process of making someone disappear, like completely vanish, and a part of that is recovering the blackbox from the “accident” that they had recently over at <EM4>~mission(Location|Address)</EM4>.\\nOnly problem is, seems the people this person hired to stage the accident have gotten it in their heads that there’s more money to be made. So much so that they’re still keeping tabs on the now deceased’s ship.\\nThese guys aren’t playing around either. You’ll need a couple of friends to help you do this. But if you can get the blackbox out of there and into our hands by dropping it at <EM4>~mission(Destination|Target|Address)</EM4>, we can really make it worth your while.\\n\\n-Bit Zeros"
+      "Contractor|BlackBoxRecoverTitleSuper": "@BitZeros_blackbox_S_Title_001",
+      "Contractor|BlackBoxRecoverDescriptionSuper": "@BitZeros_blackbox_S_Desc_001"
     },
     "BitZeros_blackbox_S_Title_001": {
       "ObjectiveSetup": "@mission_item_0055",
       "ReputationRank": "@RepScope_Contractor_Rank5",
-      "Contractor|BlackBoxRecoverTitleSuper": "Bad at Goodbyes",
-      "Contractor|BlackBoxRecoverDescriptionSuper": "Got a big job for a big player. We’re in the process of making someone disappear, like completely vanish, and a part of that is recovering the blackbox from the “accident” that they had recently over at <EM4>~mission(Location|Address)</EM4>.\\nOnly problem is, seems the people this person hired to stage the accident have gotten it in their heads that there’s more money to be made. So much so that they’re still keeping tabs on the now deceased’s ship.\\nThese guys aren’t playing around either. You’ll need a couple of friends to help you do this. But if you can get the blackbox out of there and into our hands by dropping it at <EM4>~mission(Destination|Target|Address)</EM4>, we can really make it worth your while.\\n\\n-Bit Zeros"
+      "Contractor|BlackBoxRecoverTitleSuper": "@BitZeros_blackbox_S_Title_001",
+      "Contractor|BlackBoxRecoverDescriptionSuper": "@BitZeros_blackbox_S_Desc_001"
     },
     "blackbox_recover_desc_S_001": {
       "ObjectiveSetup": "@mission_item_0055",
       "ReputationRank": "@RepScope_Contractor_Rank5",
-      "Contractor|BlackBoxRecoverTitleSuper": "Bad at Goodbyes",
-      "Contractor|BlackBoxRecoverDescriptionSuper": "Got a big job for a big player. We’re in the process of making someone disappear, like completely vanish, and a part of that is recovering the blackbox from the “accident” that they had recently over at <EM4>~mission(Location|Address)</EM4>.\\nOnly problem is, seems the people this person hired to stage the accident have gotten it in their heads that there’s more money to be made. So much so that they’re still keeping tabs on the now deceased’s ship.\\nThese guys aren’t playing around either. You’ll need a couple of friends to help you do this. But if you can get the blackbox out of there and into our hands by dropping it at <EM4>~mission(Destination|Target|Address)</EM4>, we can really make it worth your while.\\n\\n-Bit Zeros"
+      "Contractor|BlackBoxRecoverTitleSuper": "@BitZeros_blackbox_S_Title_001",
+      "Contractor|BlackBoxRecoverDescriptionSuper": "@BitZeros_blackbox_S_Desc_001"
     },
     "blackbox_recover_title_M_001": {
       "ObjectiveSetup": "@mission_item_0055",
       "ReputationRank": "@RepScope_Contractor_Rank2",
-      "Contractor|BlackBoxRecoverTitleMedium": "Blackbox Recovery Request: Investigator Level",
-      "Contractor|BlackBoxRecoverDescriptionMedium": "Hockrow Agency \\nCase File #BR74382\\nLead Investigator: Arken Mallor\\n\\nCase Summary: \\nA known outlaw attacked and destroyed a ship near <EM4>~mission(Location|Address)</EM4>. The agency has been contracted to retrieve the ship’s blackbox in order to build a case against them and lobby for Advocacy intervention. \\n\\nContract Investigator Actions:\\nAn operative is needed to head to the crime scene at <EM4>~mission(Location|Address)</EM4>, secure the area from any hostiles present to procure the blackbox, and deliver to <EM4>~mission(Destination|Target|Address)</EM4>.\\n\\nAdditional Notes:\\nBe advised that there are still <EM4>hostile forces in the area</EM4> that will attack. These will most likely have some experience fighting, so be prepared. \\n\\nThis contract has been flagged as a <EM4>combat mission</EM4>."
+      "Contractor|BlackBoxRecoverTitleMedium": "@Hockrow_BlackBox_space_M_Title_001",
+      "Contractor|BlackBoxRecoverDescriptionMedium": "@Hockrow_BlackBox_space_M_Desc_001"
     },
     "Hockrow_BlackBox_space_M_Title_001": {
       "ObjectiveSetup": "@mission_item_0055",
       "ReputationRank": "@RepScope_Contractor_Rank2",
-      "Contractor|BlackBoxRecoverTitleMedium": "Blackbox Recovery Request: Investigator Level",
-      "Contractor|BlackBoxRecoverDescriptionMedium": "Hockrow Agency \\nCase File #BR74382\\nLead Investigator: Arken Mallor\\n\\nCase Summary: \\nA known outlaw attacked and destroyed a ship near <EM4>~mission(Location|Address)</EM4>. The agency has been contracted to retrieve the ship’s blackbox in order to build a case against them and lobby for Advocacy intervention. \\n\\nContract Investigator Actions:\\nAn operative is needed to head to the crime scene at <EM4>~mission(Location|Address)</EM4>, secure the area from any hostiles present to procure the blackbox, and deliver to <EM4>~mission(Destination|Target|Address)</EM4>.\\n\\nAdditional Notes:\\nBe advised that there are still <EM4>hostile forces in the area</EM4> that will attack. These will most likely have some experience fighting, so be prepared. \\n\\nThis contract has been flagged as a <EM4>combat mission</EM4>."
+      "Contractor|BlackBoxRecoverTitleMedium": "@Hockrow_BlackBox_space_M_Title_001",
+      "Contractor|BlackBoxRecoverDescriptionMedium": "@Hockrow_BlackBox_space_M_Desc_001"
     },
     "blackbox_recover_desc_M_001": {
       "ObjectiveSetup": "@mission_item_0055",
       "ReputationRank": "@RepScope_Contractor_Rank2",
-      "Contractor|BlackBoxRecoverTitleMedium": "Blackbox Recovery Request: Investigator Level",
-      "Contractor|BlackBoxRecoverDescriptionMedium": "Hockrow Agency \\nCase File #BR74382\\nLead Investigator: Arken Mallor\\n\\nCase Summary: \\nA known outlaw attacked and destroyed a ship near <EM4>~mission(Location|Address)</EM4>. The agency has been contracted to retrieve the ship’s blackbox in order to build a case against them and lobby for Advocacy intervention. \\n\\nContract Investigator Actions:\\nAn operative is needed to head to the crime scene at <EM4>~mission(Location|Address)</EM4>, secure the area from any hostiles present to procure the blackbox, and deliver to <EM4>~mission(Destination|Target|Address)</EM4>.\\n\\nAdditional Notes:\\nBe advised that there are still <EM4>hostile forces in the area</EM4> that will attack. These will most likely have some experience fighting, so be prepared. \\n\\nThis contract has been flagged as a <EM4>combat mission</EM4>."
+      "Contractor|BlackBoxRecoverTitleMedium": "@Hockrow_BlackBox_space_M_Title_001",
+      "Contractor|BlackBoxRecoverDescriptionMedium": "@Hockrow_BlackBox_space_M_Desc_001"
     },
     "blackbox_recover_title_E_001": {
       "ObjectiveSetup": "@mission_item_0055",
       "ReputationRank": "@RepScope_Contractor_Rank1",
-      "Contractor|BlackBoxRecoverTitleEasy": "Blackbox Recovery Request: Junior Level",
-      "Contractor|BlackBoxRecoverDescriptionEasy": "Hockrow Agency \\nCase File #BR83215\\nLead Investigator: Arken Mallor\\n\\nCase Summary: \\nClient hired the agency to look into the destruction of one of their ships near <EM4>~mission(Location|Address)</EM4>. They are claiming that the ship was destroyed by an ex-partner and need the blackbox to prove it.\\n\\nContract Investigator Actions:\\nDispatch to <EM4>~mission(Location|Address)</EM4> and locate the derelict ship. Secure the area from any hostiles. Retrieve the blackbox and deliver it to <EM4>~mission(Destination|Target|Address)</EM4>.\\n\\nAdditional Notes:\\nWhoever destroyed the ship could still be in the area so be prepared for a fight, as such this has been flagged as a <EM4>combat mission</EM4>."
+      "Contractor|BlackBoxRecoverTitleEasy": "@Hockrow_BlackBox_space_E_Title_001",
+      "Contractor|BlackBoxRecoverDescriptionEasy": "@Hockrow_BlackBox_space_E_Desc_001"
     },
     "Hockrow_BlackBox_space_E_Title_001": {
       "ObjectiveSetup": "@mission_item_0055",
       "ReputationRank": "@RepScope_Contractor_Rank1",
-      "Contractor|BlackBoxRecoverTitleEasy": "Blackbox Recovery Request: Junior Level",
-      "Contractor|BlackBoxRecoverDescriptionEasy": "Hockrow Agency \\nCase File #BR83215\\nLead Investigator: Arken Mallor\\n\\nCase Summary: \\nClient hired the agency to look into the destruction of one of their ships near <EM4>~mission(Location|Address)</EM4>. They are claiming that the ship was destroyed by an ex-partner and need the blackbox to prove it.\\n\\nContract Investigator Actions:\\nDispatch to <EM4>~mission(Location|Address)</EM4> and locate the derelict ship. Secure the area from any hostiles. Retrieve the blackbox and deliver it to <EM4>~mission(Destination|Target|Address)</EM4>.\\n\\nAdditional Notes:\\nWhoever destroyed the ship could still be in the area so be prepared for a fight, as such this has been flagged as a <EM4>combat mission</EM4>."
+      "Contractor|BlackBoxRecoverTitleEasy": "@Hockrow_BlackBox_space_E_Title_001",
+      "Contractor|BlackBoxRecoverDescriptionEasy": "@Hockrow_BlackBox_space_E_Desc_001"
     },
     "blackbox_recover_desc_E_001": {
       "ObjectiveSetup": "@mission_item_0055",
       "ReputationRank": "@RepScope_Contractor_Rank1",
-      "Contractor|BlackBoxRecoverTitleEasy": "Blackbox Recovery Request: Junior Level",
-      "Contractor|BlackBoxRecoverDescriptionEasy": "Hockrow Agency \\nCase File #BR83215\\nLead Investigator: Arken Mallor\\n\\nCase Summary: \\nClient hired the agency to look into the destruction of one of their ships near <EM4>~mission(Location|Address)</EM4>. They are claiming that the ship was destroyed by an ex-partner and need the blackbox to prove it.\\n\\nContract Investigator Actions:\\nDispatch to <EM4>~mission(Location|Address)</EM4> and locate the derelict ship. Secure the area from any hostiles. Retrieve the blackbox and deliver it to <EM4>~mission(Destination|Target|Address)</EM4>.\\n\\nAdditional Notes:\\nWhoever destroyed the ship could still be in the area so be prepared for a fight, as such this has been flagged as a <EM4>combat mission</EM4>."
+      "Contractor|BlackBoxRecoverTitleEasy": "@Hockrow_BlackBox_space_E_Title_001",
+      "Contractor|BlackBoxRecoverDescriptionEasy": "@Hockrow_BlackBox_space_E_Desc_001"
     },
     "blackbox_recover_title_VH_001": {
       "ObjectiveSetup": "@mission_item_0055",
       "ReputationRank": "@RepScope_Contractor_Rank4",
-      "Contractor|BlackBoxRecoverTitleVeryHard": "Blackbox Recovery Request: Lead Investigator Level",
-      "Contractor|BlackBoxRecoverDescriptionVeryHard": "Hockrow Agency \\nCase File #BR23665\\nLead Investigator: Arken Mallor\\n\\nCase Summary: \\nOperative with <EM4>extensive combat experience</EM4> needed to retrieve a <EM4>blackbox</EM4> from a compromised ship at <EM4>~mission(Location|Address)</EM4>. Client hasn’t specified why they need it but are paying good money to have it back. \\n\\nAnalysis of the wreck indicates that there are some serious hostiles in the area, so any attempt to retrieve will likely require a fight. Our records indicate that these hostiles are highly trained and aggressive, so prepare accordingly.\\n\\nContract Investigator Actions:\\nRoute to <EM4>~mission(Location|Address)</EM4> and secure the blacbox by any means necessary. Once obtained, deliver it to <EM4>~mission(Destination|Target|Address)</EM4> for payment.\\n\\nAdditional Notes:\\nOperations wanted to reiterate that this will be a <EM4>heavy combat mission</EM4> so make sure you bring allies or equipment to handle it."
+      "Contractor|BlackBoxRecoverTitleVeryHard": "@Hockrow_BlackBox_space_VH_Title_001",
+      "Contractor|BlackBoxRecoverDescriptionVeryHard": "@Hockrow_BlackBox_space_VH_Desc_001"
     },
     "Hockrow_BlackBox_space_VH_Title_001": {
       "ObjectiveSetup": "@mission_item_0055",
       "ReputationRank": "@RepScope_Contractor_Rank4",
-      "Contractor|BlackBoxRecoverTitleVeryHard": "Blackbox Recovery Request: Lead Investigator Level",
-      "Contractor|BlackBoxRecoverDescriptionVeryHard": "Hockrow Agency \\nCase File #BR23665\\nLead Investigator: Arken Mallor\\n\\nCase Summary: \\nOperative with <EM4>extensive combat experience</EM4> needed to retrieve a <EM4>blackbox</EM4> from a compromised ship at <EM4>~mission(Location|Address)</EM4>. Client hasn’t specified why they need it but are paying good money to have it back. \\n\\nAnalysis of the wreck indicates that there are some serious hostiles in the area, so any attempt to retrieve will likely require a fight. Our records indicate that these hostiles are highly trained and aggressive, so prepare accordingly.\\n\\nContract Investigator Actions:\\nRoute to <EM4>~mission(Location|Address)</EM4> and secure the blacbox by any means necessary. Once obtained, deliver it to <EM4>~mission(Destination|Target|Address)</EM4> for payment.\\n\\nAdditional Notes:\\nOperations wanted to reiterate that this will be a <EM4>heavy combat mission</EM4> so make sure you bring allies or equipment to handle it."
+      "Contractor|BlackBoxRecoverTitleVeryHard": "@Hockrow_BlackBox_space_VH_Title_001",
+      "Contractor|BlackBoxRecoverDescriptionVeryHard": "@Hockrow_BlackBox_space_VH_Desc_001"
     },
     "blackbox_recover_desc_VH_001": {
       "ObjectiveSetup": "@mission_item_0055",
       "ReputationRank": "@RepScope_Contractor_Rank4",
-      "Contractor|BlackBoxRecoverTitleVeryHard": "Blackbox Recovery Request: Lead Investigator Level",
-      "Contractor|BlackBoxRecoverDescriptionVeryHard": "Hockrow Agency \\nCase File #BR23665\\nLead Investigator: Arken Mallor\\n\\nCase Summary: \\nOperative with <EM4>extensive combat experience</EM4> needed to retrieve a <EM4>blackbox</EM4> from a compromised ship at <EM4>~mission(Location|Address)</EM4>. Client hasn’t specified why they need it but are paying good money to have it back. \\n\\nAnalysis of the wreck indicates that there are some serious hostiles in the area, so any attempt to retrieve will likely require a fight. Our records indicate that these hostiles are highly trained and aggressive, so prepare accordingly.\\n\\nContract Investigator Actions:\\nRoute to <EM4>~mission(Location|Address)</EM4> and secure the blacbox by any means necessary. Once obtained, deliver it to <EM4>~mission(Destination|Target|Address)</EM4> for payment.\\n\\nAdditional Notes:\\nOperations wanted to reiterate that this will be a <EM4>heavy combat mission</EM4> so make sure you bring allies or equipment to handle it."
+      "Contractor|BlackBoxRecoverTitleVeryHard": "@Hockrow_BlackBox_space_VH_Title_001",
+      "Contractor|BlackBoxRecoverDescriptionVeryHard": "@Hockrow_BlackBox_space_VH_Desc_001"
     },
     "blackbox_recover_title_VE_001": {
       "ObjectiveSetup": "@mission_item_0055",
       "ReputationRank": "@mobiGlas_Reputation_Stance_Neutral",
-      "Contractor|BlackBoxRecoverTitleVeryEasy": "Blackbox Recovery Request: Probationary Level",
-      "Contractor|BlackBoxRecoverDescriptionVeryEasy": "Hockrow Agency \\nCase File #BR56263\\nLead Investigator: Arken Mallor\\n\\nCase Summary: \\nNeed an operative to extract the blackbox from a destroyed ship. The ship’s owner claims that it was genuinely lost in an outlaw attack, but the insurance company has doubts. We’ve been hired to find out which is true.\\n\\nI suspect that the perpetrators are long gone by now, so you shouldn't run into any resistance.\\n\\nContract Investigator Actions:\\nProceed to <EM4>~mission(Location|Address)</EM4>, secure the black box in the derelict spaceship there and return it to <EM4>~mission(Destination|Target|Address)</EM4>.\\n\\nAdditional Notes:\\nYou will need to EVA for this one so make sure you got a suit."
+      "Contractor|BlackBoxRecoverTitleVeryEasy": "@Hockrow_BlackBox_space_VE_Title_001",
+      "Contractor|BlackBoxRecoverDescriptionVeryEasy": "@Hockrow_BlackBox_space_VE_Desc_001"
     },
     "Hockrow_BlackBox_space_VE_Title_001": {
       "ObjectiveSetup": "@mission_item_0055",
       "ReputationRank": "@mobiGlas_Reputation_Stance_Neutral",
-      "Contractor|BlackBoxRecoverTitleVeryEasy": "Blackbox Recovery Request: Probationary Level",
-      "Contractor|BlackBoxRecoverDescriptionVeryEasy": "Hockrow Agency \\nCase File #BR56263\\nLead Investigator: Arken Mallor\\n\\nCase Summary: \\nNeed an operative to extract the blackbox from a destroyed ship. The ship’s owner claims that it was genuinely lost in an outlaw attack, but the insurance company has doubts. We’ve been hired to find out which is true.\\n\\nI suspect that the perpetrators are long gone by now, so you shouldn't run into any resistance.\\n\\nContract Investigator Actions:\\nProceed to <EM4>~mission(Location|Address)</EM4>, secure the black box in the derelict spaceship there and return it to <EM4>~mission(Destination|Target|Address)</EM4>.\\n\\nAdditional Notes:\\nYou will need to EVA for this one so make sure you got a suit."
+      "Contractor|BlackBoxRecoverTitleVeryEasy": "@Hockrow_BlackBox_space_VE_Title_001",
+      "Contractor|BlackBoxRecoverDescriptionVeryEasy": "@Hockrow_BlackBox_space_VE_Desc_001"
     },
     "blackbox_recover_desc_VE_001": {
       "ObjectiveSetup": "@mission_item_0055",
       "ReputationRank": "@mobiGlas_Reputation_Stance_Neutral",
-      "Contractor|BlackBoxRecoverTitleVeryEasy": "Blackbox Recovery Request: Probationary Level",
-      "Contractor|BlackBoxRecoverDescriptionVeryEasy": "Hockrow Agency \\nCase File #BR56263\\nLead Investigator: Arken Mallor\\n\\nCase Summary: \\nNeed an operative to extract the blackbox from a destroyed ship. The ship’s owner claims that it was genuinely lost in an outlaw attack, but the insurance company has doubts. We’ve been hired to find out which is true.\\n\\nI suspect that the perpetrators are long gone by now, so you shouldn't run into any resistance.\\n\\nContract Investigator Actions:\\nProceed to <EM4>~mission(Location|Address)</EM4>, secure the black box in the derelict spaceship there and return it to <EM4>~mission(Destination|Target|Address)</EM4>.\\n\\nAdditional Notes:\\nYou will need to EVA for this one so make sure you got a suit."
+      "Contractor|BlackBoxRecoverTitleVeryEasy": "@Hockrow_BlackBox_space_VE_Title_001",
+      "Contractor|BlackBoxRecoverDescriptionVeryEasy": "@Hockrow_BlackBox_space_VE_Desc_001"
     },
     "blackbox_recover_title_H_001": {
       "ObjectiveSetup": "@mission_item_0055",
       "ReputationRank": "@RepScope_Contractor_Rank3",
-      "Contractor|BlackBoxRecoverTitleHard": "Blackbox Recovery Request: Senior Investigator Level"
+      "Contractor|BlackBoxRecoverTitleHard": "@Hockrow_BlackBox_space_H_Title_001"
     },
     "Hockrow_BlackBox_space_H_Title_001": {
       "ObjectiveSetup": "@mission_item_0055",
       "ReputationRank": "@RepScope_Contractor_Rank3",
-      "Contractor|BlackBoxRecoverTitleHard": "Blackbox Recovery Request: Senior Investigator Level"
+      "Contractor|BlackBoxRecoverTitleHard": "@Hockrow_BlackBox_space_H_Title_001"
     },
     "Hockrow_BlackBox_space_S_Title_001": {
       "ObjectiveSetup": "@mission_item_0055",
       "ReputationRank": "@RepScope_Contractor_Rank5",
-      "Contractor|BlackBoxRecoverTitleSuper": "Blackbox Recovery Request: Special Investigator Level",
-      "Contractor|BlackBoxRecoverDescriptionSuper": "Hockrow Agency \\nCase File #BR547384\\nLead Investigator: Arken Mallor\\n\\nCase Summary: \\nThis request comes down from Head Office. \\n\\nWe’ve just learned that a recent ship attack near <EM4>~mission(Location|Address)</EM4> might have been the work of a notorious and equally elusive outlaw ringleader. The last time they popped their head above water was years ago, so this is a rare opportunity to catch them. This is an opportunity that our client does not want to pass up. We need a <EM4>top-tier operative</EM4> with elite combat experience to retrieve the blackbox of this downed ship in order to prove the ringleader’s involvement.\\n\\n<EM4>There will be highly-trained hostiles present on the scene</EM4> who will put up significant resistance to your presence. Eliminate them and complete the mission.\\n\\n\\nContract Investigator Actions:\\nImmediately scramble to <EM4>~mission(Location|Address)</EM4> and clear the surrounding airspace in order to secure the blackbox. Once obtained, deliver it to <EM4>~mission(Destination|Target|Address)</EM4>.\\n\\nAdditional Notes:\\nHead Office stresses that this will be an incredibly difficult mission to pull off. Make sure you bring your A-game."
+      "Contractor|BlackBoxRecoverTitleSuper": "@Hockrow_BlackBox_space_S_Title_001",
+      "Contractor|BlackBoxRecoverDescriptionSuper": "@Hockrow_BlackBox_space_S_Desc_001"
     },
     "recovery_title": {
       "ObjectiveSetup": "@mission_item_0055",
       "ReputationRank": "@RepScope_Contractor_Rank1",
-      "Contractor|RecoverItemTitle": "Bleeding Edge Tech",
-      "Contractor|RecoverItemDescription": "Managed to hunt down a rare piece of tech only for it to get snagged by someone right at the last second. Tracking it isn't exactly hard, but I'd rather not keeping chasing this thing.\\n\\nHead to <EM4>~mission(Location|Address)</EM4> and get it back for us. The people over there probably don't even know what it is, so let's do them a favor and take it off their hands. No idea if it's being guarded, so up to you how you wanna deal with any potential threats.\\n\\nOnce you've got it, take it to <EM4>~mission(Destination|Target|Address)</EM4> and then we'll send over the creds.\\n\\n-Bit Zeros"
+      "Contractor|RecoverItemTitle": "@BitZeros_RecoverItem_Generic_Title_001",
+      "Contractor|RecoverItemDescription": "@BitZeros_RecoverItem_Generic_Desc_001"
     },
     "BitZeros_RecoverItem_Generic_Title_001": {
       "ObjectiveSetup": "@mission_item_0055",
       "ReputationRank": "@RepScope_Contractor_Rank1",
-      "Contractor|RecoverItemTitle": "Bleeding Edge Tech",
-      "Contractor|RecoverItemDescription": "Managed to hunt down a rare piece of tech only for it to get snagged by someone right at the last second. Tracking it isn't exactly hard, but I'd rather not keeping chasing this thing.\\n\\nHead to <EM4>~mission(Location|Address)</EM4> and get it back for us. The people over there probably don't even know what it is, so let's do them a favor and take it off their hands. No idea if it's being guarded, so up to you how you wanna deal with any potential threats.\\n\\nOnce you've got it, take it to <EM4>~mission(Destination|Target|Address)</EM4> and then we'll send over the creds.\\n\\n-Bit Zeros"
+      "Contractor|RecoverItemTitle": "@BitZeros_RecoverItem_Generic_Title_001",
+      "Contractor|RecoverItemDescription": "@BitZeros_RecoverItem_Generic_Desc_001"
     },
     "recovery_desc": {
       "ObjectiveSetup": "@mission_item_0055",
       "ReputationRank": "@RepScope_Contractor_Rank1",
-      "Contractor|RecoverItemTitle": "Bleeding Edge Tech",
-      "Contractor|RecoverItemDescription": "Managed to hunt down a rare piece of tech only for it to get snagged by someone right at the last second. Tracking it isn't exactly hard, but I'd rather not keeping chasing this thing.\\n\\nHead to <EM4>~mission(Location|Address)</EM4> and get it back for us. The people over there probably don't even know what it is, so let's do them a favor and take it off their hands. No idea if it's being guarded, so up to you how you wanna deal with any potential threats.\\n\\nOnce you've got it, take it to <EM4>~mission(Destination|Target|Address)</EM4> and then we'll send over the creds.\\n\\n-Bit Zeros"
+      "Contractor|RecoverItemTitle": "@BitZeros_RecoverItem_Generic_Title_001",
+      "Contractor|RecoverItemDescription": "@BitZeros_RecoverItem_Generic_Desc_001"
     },
     "Headhunters_defend_XT_VH_title_001": {
       "ReputationRank": "@RepScope_Contractor_Rank2"
@@ -5357,11 +5357,11 @@
     },
     "Covalex_RecoverCargo_VeryHard_Title": {
       "ReputationRank": "@RepStanding_TransportGuild_Rank5",
-      "Contractor|SignOff": "Thanks in advance for ensuring prompt service,"
+      "Contractor|SignOff": "@Covalex_SignOff_001"
     },
     "Covalex_RecoverCargo_VeryHard_Description": {
       "ReputationRank": "@RepStanding_TransportGuild_Rank5",
-      "Contractor|SignOff": "Thanks in advance for ensuring prompt service,"
+      "Contractor|SignOff": "@Covalex_SignOff_001"
     },
     "cfp_defend_regionshift_title_001": {
       "ReputationRank": "@RepScope_Contractor_Rank1"
@@ -5377,51 +5377,51 @@
     },
     "mg_miles_capturegang_title_006": {
       "Danger": "@procedural_text_null",
-      "Contractor|ApprovalCode": "ME-01"
+      "Contractor|ApprovalCode": "@mg_miles_mission_app_0001"
     },
     "mg_miles_capturegang_desc_006": {
       "Danger": "@procedural_text_null",
-      "Contractor|ApprovalCode": "ME-01"
+      "Contractor|ApprovalCode": "@mg_miles_mission_app_0001"
     },
     "mg_miles_capturegang_title_005": {
       "Danger": "@procedural_text_null",
-      "Contractor|ApprovalCode": "ME-01"
+      "Contractor|ApprovalCode": "@mg_miles_mission_app_0001"
     },
     "mg_miles_capturegang_desc_005": {
       "Danger": "@procedural_text_null",
-      "Contractor|ApprovalCode": "ME-01"
+      "Contractor|ApprovalCode": "@mg_miles_mission_app_0001"
     },
     "mg_miles_capturegang_title_001": {
       "Danger": "@procedural_text_null",
-      "Contractor|ApprovalCode": "ME-01"
+      "Contractor|ApprovalCode": "@mg_miles_mission_app_0001"
     },
     "mg_miles_capturegang_desc_001": {
       "Danger": "@procedural_text_null",
-      "Contractor|ApprovalCode": "ME-01"
+      "Contractor|ApprovalCode": "@mg_miles_mission_app_0001"
     },
     "mg_miles_capturegang_title_002": {
       "Danger": "@procedural_text_null",
-      "Contractor|ApprovalCode": "ME-01"
+      "Contractor|ApprovalCode": "@mg_miles_mission_app_0001"
     },
     "mg_miles_capturegang_desc_002": {
       "Danger": "@procedural_text_null",
-      "Contractor|ApprovalCode": "ME-01"
+      "Contractor|ApprovalCode": "@mg_miles_mission_app_0001"
     },
     "mg_miles_capturegang_title_004": {
       "Danger": "@procedural_text_null",
-      "Contractor|ApprovalCode": "ME-01"
+      "Contractor|ApprovalCode": "@mg_miles_mission_app_0001"
     },
     "mg_miles_capturegang_desc_004": {
       "Danger": "@procedural_text_null",
-      "Contractor|ApprovalCode": "ME-01"
+      "Contractor|ApprovalCode": "@mg_miles_mission_app_0001"
     },
     "mg_miles_capturegang_title_003": {
       "Danger": "@procedural_text_null",
-      "Contractor|ApprovalCode": "ME-01"
+      "Contractor|ApprovalCode": "@mg_miles_mission_app_0001"
     },
     "mg_miles_capturegang_desc_003": {
       "Danger": "@procedural_text_null",
-      "Contractor|ApprovalCode": "ME-01"
+      "Contractor|ApprovalCode": "@mg_miles_mission_app_0001"
     },
     "Foxwell_EliminateAll_NonHostiles_title_001": {
       "ReputationRank": "@RepStanding_Security_Rank3"
@@ -5480,37 +5480,37 @@
     },
     "searchbodyspace_title_E": {
       "ReputationRank": "@RepScope_Contractor_Rank1",
-      "Contractor|SearchBodySpaceTitleEasy": "Checking For a Pulse",
-      "Contractor|SearchBodySpaceDescriptionEasy": "A rather creative former contractor of ours with a knack for staging accidents was so swept up in their work that they forgot to confirm the death of <EM4>~mission(TargetName)</EM4> for us.\\n\\nThe target’s body should be located at <EM4>~mission(Location|Address)</EM4>. I need you to give the hopefully deceased an inspection to ensure the job was completed to our standard. \\n\\nDo be careful when you arrive at the location. It wouldn’t surprise me if there was a few vultures lurking around.\\n\\nSincerely,\\n\\nVaughn"
+      "Contractor|SearchBodySpaceTitleEasy": "@vaughn_searchbody_space_E_Title_001",
+      "Contractor|SearchBodySpaceDescriptionEasy": "@vaughn_searchbody_space_E_Desc_001"
     },
     "vaughn_searchbody_space_E_Title_001": {
       "ReputationRank": "@RepScope_Contractor_Rank1",
-      "Contractor|SearchBodySpaceTitleEasy": "Checking For a Pulse",
-      "Contractor|SearchBodySpaceDescriptionEasy": "A rather creative former contractor of ours with a knack for staging accidents was so swept up in their work that they forgot to confirm the death of <EM4>~mission(TargetName)</EM4> for us.\\n\\nThe target’s body should be located at <EM4>~mission(Location|Address)</EM4>. I need you to give the hopefully deceased an inspection to ensure the job was completed to our standard. \\n\\nDo be careful when you arrive at the location. It wouldn’t surprise me if there was a few vultures lurking around.\\n\\nSincerely,\\n\\nVaughn"
+      "Contractor|SearchBodySpaceTitleEasy": "@vaughn_searchbody_space_E_Title_001",
+      "Contractor|SearchBodySpaceDescriptionEasy": "@vaughn_searchbody_space_E_Desc_001"
     },
     "searchbodyspace_desc_E": {
       "ReputationRank": "@RepScope_Contractor_Rank1",
-      "Contractor|SearchBodySpaceTitleEasy": "Checking For a Pulse",
-      "Contractor|SearchBodySpaceDescriptionEasy": "A rather creative former contractor of ours with a knack for staging accidents was so swept up in their work that they forgot to confirm the death of <EM4>~mission(TargetName)</EM4> for us.\\n\\nThe target’s body should be located at <EM4>~mission(Location|Address)</EM4>. I need you to give the hopefully deceased an inspection to ensure the job was completed to our standard. \\n\\nDo be careful when you arrive at the location. It wouldn’t surprise me if there was a few vultures lurking around.\\n\\nSincerely,\\n\\nVaughn"
+      "Contractor|SearchBodySpaceTitleEasy": "@vaughn_searchbody_space_E_Title_001",
+      "Contractor|SearchBodySpaceDescriptionEasy": "@vaughn_searchbody_space_E_Desc_001"
     },
     "SalvageContractor_Title": {
       "ReputationRank": "@RepScope_Contractor_Rank1",
-      "Contractor|SalvageContractorTitle": "Claim #~mission(ClaimNumber): ~mission(Ship) Salvage Rights",
-      "Contractor|SalvageContractorDesc": "Attention:\\n\\nRights to a new Salvage Claim are available for purchase. Exclusive access to the ship’s verified coordinates in monitored space will be provided upon confirmed credit transfer. The coordinates will remain accessible as long as the accepted contract is active. When you are satisfied with the amount of material you've salvaged, you may abandon the contract early with no penalty to clear the coordinates from your Starmap.\\n\\nClaim #~mission(ClaimNumber):\\n• SHIP: ~mission(Ship)\\n• CAUSE OF ACCIDENT: ~mission(ShipStory)\\n• LOCATION: ~mission(location)\\n\\nAdagio Rights Division"
+      "Contractor|SalvageContractorTitle": "@Adagio_BasicSalvage_Title_01",
+      "Contractor|SalvageContractorDesc": "@Adagio_BasicSalvage_Desc_01"
     },
     "Adagio_BasicSalvage_Title_01": {
       "ReputationRank": "@RepScope_Contractor_Rank1",
-      "Contractor|SalvageContractorTitle": "Claim #~mission(ClaimNumber): ~mission(Ship) Salvage Rights",
-      "Contractor|SalvageContractorDesc": "Attention:\\n\\nRights to a new Salvage Claim are available for purchase. Exclusive access to the ship’s verified coordinates in monitored space will be provided upon confirmed credit transfer. The coordinates will remain accessible as long as the accepted contract is active. When you are satisfied with the amount of material you've salvaged, you may abandon the contract early with no penalty to clear the coordinates from your Starmap.\\n\\nClaim #~mission(ClaimNumber):\\n• SHIP: ~mission(Ship)\\n• CAUSE OF ACCIDENT: ~mission(ShipStory)\\n• LOCATION: ~mission(location)\\n\\nAdagio Rights Division"
+      "Contractor|SalvageContractorTitle": "@Adagio_BasicSalvage_Title_01",
+      "Contractor|SalvageContractorDesc": "@Adagio_BasicSalvage_Desc_01"
     },
     "SalvageContractor_Description": {
       "ReputationRank": "@RepScope_Contractor_Rank1",
-      "Contractor|SalvageContractorTitle": "Claim #~mission(ClaimNumber): ~mission(Ship) Salvage Rights",
-      "Contractor|SalvageContractorDesc": "Attention:\\n\\nRights to a new Salvage Claim are available for purchase. Exclusive access to the ship’s verified coordinates in monitored space will be provided upon confirmed credit transfer. The coordinates will remain accessible as long as the accepted contract is active. When you are satisfied with the amount of material you've salvaged, you may abandon the contract early with no penalty to clear the coordinates from your Starmap.\\n\\nClaim #~mission(ClaimNumber):\\n• SHIP: ~mission(Ship)\\n• CAUSE OF ACCIDENT: ~mission(ShipStory)\\n• LOCATION: ~mission(location)\\n\\nAdagio Rights Division"
+      "Contractor|SalvageContractorTitle": "@Adagio_BasicSalvage_Title_01",
+      "Contractor|SalvageContractorDesc": "@Adagio_BasicSalvage_Desc_01"
     },
     "SalvageContractor_Difficulty_Hard": {
       "ReputationRank": "@RepScope_Contractor_Rank3",
-      "Contractor|SalvageContractorTitle": "Claim #~mission(ClaimNumber): ~mission(Ship) Salvage Rights"
+      "Contractor|SalvageContractorTitle": "@Adagio_BasicSalvage_Title_01"
     },
     "DeadSaints_RecoverCargo_Easy_Title": {
       "ReputationRank": "@RepScope_Contractor_Rank1"
@@ -5585,110 +5585,110 @@
     "spacecollect_cargo_title_VE_01": {
       "ObjectiveSetup": "@mission_item_0055",
       "ReputationRank": "@mobiGlas_Reputation_Stance_Neutral",
-      "Contractor|RecoverSpaceTitleVeryEasy": "COURIER NEEDED FOR RETRIEVAL - EXP: U",
-      "Contractor|RecoverSpaceDescriptionVeryEasy": "ATTENTION ALL FTL COURIERS\\nFOR IMMEDIATE ASSIGNMENT\\n\\n**CONTRACT DETAILS** \\nRECOMMENDED EXPERIENCE LEVEL – UNIVERSAL\\n\\nPICKUP LOCATION – Need a courier dispatched to <EM4>~mission(Location|Address)</EM4> to retrieve a package from a downed ship.\\n\\nDROPOFF LOCATION – Package will need to be delivered to <EM4>~mission(Destination|Target|Address)</EM4>. \\n\\nTHREAT LEVEL – <EM4>Light engagements</EM4> expected.\\n\\nTRAVEL– All transportation needs should be arranged by courier. \\n\\n~mission(Contractor|SignOff)"
+      "Contractor|RecoverSpaceTitleVeryEasy": "@FTL_RecoverItem_VE_Title_001",
+      "Contractor|RecoverSpaceDescriptionVeryEasy": "@FTL_RecoverItem_VE_Desc_001"
     },
     "FTL_RecoverItem_VE_Title_001": {
       "ObjectiveSetup": "@mission_item_0055",
       "ReputationRank": "@mobiGlas_Reputation_Stance_Neutral",
-      "Contractor|RecoverSpaceTitleVeryEasy": "COURIER NEEDED FOR RETRIEVAL - EXP: U",
-      "Contractor|RecoverSpaceDescriptionVeryEasy": "ATTENTION ALL FTL COURIERS\\nFOR IMMEDIATE ASSIGNMENT\\n\\n**CONTRACT DETAILS** \\nRECOMMENDED EXPERIENCE LEVEL – UNIVERSAL\\n\\nPICKUP LOCATION – Need a courier dispatched to <EM4>~mission(Location|Address)</EM4> to retrieve a package from a downed ship.\\n\\nDROPOFF LOCATION – Package will need to be delivered to <EM4>~mission(Destination|Target|Address)</EM4>. \\n\\nTHREAT LEVEL – <EM4>Light engagements</EM4> expected.\\n\\nTRAVEL– All transportation needs should be arranged by courier. \\n\\n~mission(Contractor|SignOff)"
+      "Contractor|RecoverSpaceTitleVeryEasy": "@FTL_RecoverItem_VE_Title_001",
+      "Contractor|RecoverSpaceDescriptionVeryEasy": "@FTL_RecoverItem_VE_Desc_001"
     },
     "spacecollect_cargo_desc_VE_01": {
       "ObjectiveSetup": "@mission_item_0055",
       "ReputationRank": "@mobiGlas_Reputation_Stance_Neutral",
-      "Contractor|RecoverSpaceTitleVeryEasy": "COURIER NEEDED FOR RETRIEVAL - EXP: U",
-      "Contractor|RecoverSpaceDescriptionVeryEasy": "ATTENTION ALL FTL COURIERS\\nFOR IMMEDIATE ASSIGNMENT\\n\\n**CONTRACT DETAILS** \\nRECOMMENDED EXPERIENCE LEVEL – UNIVERSAL\\n\\nPICKUP LOCATION – Need a courier dispatched to <EM4>~mission(Location|Address)</EM4> to retrieve a package from a downed ship.\\n\\nDROPOFF LOCATION – Package will need to be delivered to <EM4>~mission(Destination|Target|Address)</EM4>. \\n\\nTHREAT LEVEL – <EM4>Light engagements</EM4> expected.\\n\\nTRAVEL– All transportation needs should be arranged by courier. \\n\\n~mission(Contractor|SignOff)"
+      "Contractor|RecoverSpaceTitleVeryEasy": "@FTL_RecoverItem_VE_Title_001",
+      "Contractor|RecoverSpaceDescriptionVeryEasy": "@FTL_RecoverItem_VE_Desc_001"
     },
     "spacecollect_cargo_title_E_01": {
       "ObjectiveSetup": "@mission_item_0055",
       "ReputationRank": "@RepScope_Contractor_Rank1",
-      "Contractor|RecoverSpaceTitleEasy": "COURIER NEEDED FOR RETRIEVAL. EXP: E",
-      "Contractor|RecoverSpaceDescriptionEasy": "ATTENTION ALL FTL COURIERS\\nFOR IMMEDIATE ASSIGNMENT\\n\\n**CONTRACT DETAILS** \\nRECOMMENDED EXPERIENCE LEVEL – ENTRY\\n\\nPICKUP LOCATION – Courier needed to retrieve lost package from a downed ship at <EM4>~mission(Location|Address)</EM4>.\\n\\nDROPOFF LOCATION – Once obtained, deliver package to <EM4>~mission(Destination|Target|Address)</EM4>. \\n\\nTHREAT LEVEL – <EM4>Light engagements</EM4> expected.\\n\\nTRAVEL – All transportation needs should be arranged by courier. \\n\\n~mission(Contractor|SignOff)"
+      "Contractor|RecoverSpaceTitleEasy": "@FTL_RecoverItem_E_Title_001",
+      "Contractor|RecoverSpaceDescriptionEasy": "@FTL_RecoverItem_E_Desc_001"
     },
     "FTL_RecoverItem_E_Title_001": {
       "ObjectiveSetup": "@mission_item_0055",
       "ReputationRank": "@RepScope_Contractor_Rank1",
-      "Contractor|RecoverSpaceTitleEasy": "COURIER NEEDED FOR RETRIEVAL. EXP: E",
-      "Contractor|RecoverSpaceDescriptionEasy": "ATTENTION ALL FTL COURIERS\\nFOR IMMEDIATE ASSIGNMENT\\n\\n**CONTRACT DETAILS** \\nRECOMMENDED EXPERIENCE LEVEL – ENTRY\\n\\nPICKUP LOCATION – Courier needed to retrieve lost package from a downed ship at <EM4>~mission(Location|Address)</EM4>.\\n\\nDROPOFF LOCATION – Once obtained, deliver package to <EM4>~mission(Destination|Target|Address)</EM4>. \\n\\nTHREAT LEVEL – <EM4>Light engagements</EM4> expected.\\n\\nTRAVEL – All transportation needs should be arranged by courier. \\n\\n~mission(Contractor|SignOff)"
+      "Contractor|RecoverSpaceTitleEasy": "@FTL_RecoverItem_E_Title_001",
+      "Contractor|RecoverSpaceDescriptionEasy": "@FTL_RecoverItem_E_Desc_001"
     },
     "spacecollect_cargo_desc_E_01": {
       "ObjectiveSetup": "@mission_item_0055",
       "ReputationRank": "@RepScope_Contractor_Rank1",
-      "Contractor|RecoverSpaceTitleEasy": "COURIER NEEDED FOR RETRIEVAL. EXP: E",
-      "Contractor|RecoverSpaceDescriptionEasy": "ATTENTION ALL FTL COURIERS\\nFOR IMMEDIATE ASSIGNMENT\\n\\n**CONTRACT DETAILS** \\nRECOMMENDED EXPERIENCE LEVEL – ENTRY\\n\\nPICKUP LOCATION – Courier needed to retrieve lost package from a downed ship at <EM4>~mission(Location|Address)</EM4>.\\n\\nDROPOFF LOCATION – Once obtained, deliver package to <EM4>~mission(Destination|Target|Address)</EM4>. \\n\\nTHREAT LEVEL – <EM4>Light engagements</EM4> expected.\\n\\nTRAVEL – All transportation needs should be arranged by courier. \\n\\n~mission(Contractor|SignOff)"
+      "Contractor|RecoverSpaceTitleEasy": "@FTL_RecoverItem_E_Title_001",
+      "Contractor|RecoverSpaceDescriptionEasy": "@FTL_RecoverItem_E_Desc_001"
     },
     "spacecollect_cargo_title_S_01": {
       "ObjectiveSetup": "@mission_item_0055",
       "ReputationRank": "@RepScope_Contractor_Rank5",
-      "Contractor|RecoverSpaceTitleSuper": "COURIER NEEDED FOR RETRIEVAL. EXP: EL",
-      "Contractor|RecoverSpaceDescriptionSuper": "ATTENTION ALL FTL COURIERS\\nFOR IMMEDIATE ASSIGNMENT\\n\\n**CONTRACT DETAILS** \\nRECOMMENDED EXPERIENCE LEVEL – ELITE\\n\\nPICKUP LOCATION – Top-tier courier required to retrieve a package at <EM4>~mission(Location|Address)</EM4> from wreckage of a downed courier.\\n\\nDROPOFF LOCATION – Deliver package to <EM4>~mission(Destination|Target|Address)</EM4>. \\n\\nDELIVERY WINDOW – ~mission(Contractor|Timed)\\n\\nTRAVEL –  All transportation needs should be arranged by courier. \\n\\n~mission(Contractor|SignOff)"
+      "Contractor|RecoverSpaceTitleSuper": "@FTL_RecoverItem_S_Title_001",
+      "Contractor|RecoverSpaceDescriptionSuper": "@FTL_RecoverItem_S_Desc_001"
     },
     "FTL_RecoverItem_S_Title_001": {
       "ObjectiveSetup": "@mission_item_0055",
       "ReputationRank": "@RepScope_Contractor_Rank5",
-      "Contractor|RecoverSpaceTitleSuper": "COURIER NEEDED FOR RETRIEVAL. EXP: EL",
-      "Contractor|RecoverSpaceDescriptionSuper": "ATTENTION ALL FTL COURIERS\\nFOR IMMEDIATE ASSIGNMENT\\n\\n**CONTRACT DETAILS** \\nRECOMMENDED EXPERIENCE LEVEL – ELITE\\n\\nPICKUP LOCATION – Top-tier courier required to retrieve a package at <EM4>~mission(Location|Address)</EM4> from wreckage of a downed courier.\\n\\nDROPOFF LOCATION – Deliver package to <EM4>~mission(Destination|Target|Address)</EM4>. \\n\\nDELIVERY WINDOW – ~mission(Contractor|Timed)\\n\\nTRAVEL –  All transportation needs should be arranged by courier. \\n\\n~mission(Contractor|SignOff)"
+      "Contractor|RecoverSpaceTitleSuper": "@FTL_RecoverItem_S_Title_001",
+      "Contractor|RecoverSpaceDescriptionSuper": "@FTL_RecoverItem_S_Desc_001"
     },
     "spacecollect_cargo_desc_S_01": {
       "ObjectiveSetup": "@mission_item_0055",
       "ReputationRank": "@RepScope_Contractor_Rank5",
-      "Contractor|RecoverSpaceTitleSuper": "COURIER NEEDED FOR RETRIEVAL. EXP: EL",
-      "Contractor|RecoverSpaceDescriptionSuper": "ATTENTION ALL FTL COURIERS\\nFOR IMMEDIATE ASSIGNMENT\\n\\n**CONTRACT DETAILS** \\nRECOMMENDED EXPERIENCE LEVEL – ELITE\\n\\nPICKUP LOCATION – Top-tier courier required to retrieve a package at <EM4>~mission(Location|Address)</EM4> from wreckage of a downed courier.\\n\\nDROPOFF LOCATION – Deliver package to <EM4>~mission(Destination|Target|Address)</EM4>. \\n\\nDELIVERY WINDOW – ~mission(Contractor|Timed)\\n\\nTRAVEL –  All transportation needs should be arranged by courier. \\n\\n~mission(Contractor|SignOff)"
+      "Contractor|RecoverSpaceTitleSuper": "@FTL_RecoverItem_S_Title_001",
+      "Contractor|RecoverSpaceDescriptionSuper": "@FTL_RecoverItem_S_Desc_001"
     },
     "spacecollect_cargo_title_VH_01": {
       "ObjectiveSetup": "@mission_item_0055",
       "ReputationRank": "@RepScope_Contractor_Rank4",
-      "Contractor|RecoverSpaceTitleVeryHard": "COURIER NEEDED FOR RETRIEVAL. EXP: EX",
-      "Contractor|RecoverSpaceDescriptionVeryHard": "ATTENTION ALL FTL COURIERS\\nFOR IMMEDIATE ASSIGNMENT\\n\\n**CONTRACT DETAILS** \\nRECOMMENDED EXPERIENCE LEVEL – EXPERIENCED\\n\\nPICKUP LOCATION – Need an experienced courier to dispatch to <EM4>~mission(Location|Address)</EM4> and retrieve a package from a downed ship.\\n\\nDROPOFF LOCATION – Once secured, finish delivery by dropping off at <EM4>~mission(Destination|Target|Address)</EM4>. \\n\\nTHREAT LEVEL – <EM4>Intense Hostile Contact</EM4> Expected.\\n\\nTRAVEL – All transportation needs should be arranged by courier. \\n\\n~mission(Contractor|SignOff)"
+      "Contractor|RecoverSpaceTitleVeryHard": "@FTL_RecoverItem_VH_Title_001",
+      "Contractor|RecoverSpaceDescriptionVeryHard": "@FTL_RecoverItem_VH_Desc_001"
     },
     "FTL_RecoverItem_VH_Title_001": {
       "ObjectiveSetup": "@mission_item_0055",
       "ReputationRank": "@RepScope_Contractor_Rank4",
-      "Contractor|RecoverSpaceTitleVeryHard": "COURIER NEEDED FOR RETRIEVAL. EXP: EX",
-      "Contractor|RecoverSpaceDescriptionVeryHard": "ATTENTION ALL FTL COURIERS\\nFOR IMMEDIATE ASSIGNMENT\\n\\n**CONTRACT DETAILS** \\nRECOMMENDED EXPERIENCE LEVEL – EXPERIENCED\\n\\nPICKUP LOCATION – Need an experienced courier to dispatch to <EM4>~mission(Location|Address)</EM4> and retrieve a package from a downed ship.\\n\\nDROPOFF LOCATION – Once secured, finish delivery by dropping off at <EM4>~mission(Destination|Target|Address)</EM4>. \\n\\nTHREAT LEVEL – <EM4>Intense Hostile Contact</EM4> Expected.\\n\\nTRAVEL – All transportation needs should be arranged by courier. \\n\\n~mission(Contractor|SignOff)"
+      "Contractor|RecoverSpaceTitleVeryHard": "@FTL_RecoverItem_VH_Title_001",
+      "Contractor|RecoverSpaceDescriptionVeryHard": "@FTL_RecoverItem_VH_Desc_001"
     },
     "spacecollect_cargo_desc_VH_01": {
       "ObjectiveSetup": "@mission_item_0055",
       "ReputationRank": "@RepScope_Contractor_Rank4",
-      "Contractor|RecoverSpaceTitleVeryHard": "COURIER NEEDED FOR RETRIEVAL. EXP: EX",
-      "Contractor|RecoverSpaceDescriptionVeryHard": "ATTENTION ALL FTL COURIERS\\nFOR IMMEDIATE ASSIGNMENT\\n\\n**CONTRACT DETAILS** \\nRECOMMENDED EXPERIENCE LEVEL – EXPERIENCED\\n\\nPICKUP LOCATION – Need an experienced courier to dispatch to <EM4>~mission(Location|Address)</EM4> and retrieve a package from a downed ship.\\n\\nDROPOFF LOCATION – Once secured, finish delivery by dropping off at <EM4>~mission(Destination|Target|Address)</EM4>. \\n\\nTHREAT LEVEL – <EM4>Intense Hostile Contact</EM4> Expected.\\n\\nTRAVEL – All transportation needs should be arranged by courier. \\n\\n~mission(Contractor|SignOff)"
+      "Contractor|RecoverSpaceTitleVeryHard": "@FTL_RecoverItem_VH_Title_001",
+      "Contractor|RecoverSpaceDescriptionVeryHard": "@FTL_RecoverItem_VH_Desc_001"
     },
     "spacecollect_cargo_title_M_01": {
       "ObjectiveSetup": "@mission_item_0055",
       "ReputationRank": "@RepScope_Contractor_Rank2",
-      "Contractor|RecoverSpaceTitleMedium": "COURIER NEEDED FOR RETRIEVAL. EXP: JR",
-      "Contractor|RecoverSpaceDescriptionMedium": "ATTENTION ALL FTL COURIERS\\nFOR IMMEDIATE ASSIGNMENT\\n\\n**CONTRACT DETAILS** \\nRECOMMENDED EXPERIENCE LEVEL – JUNIOR\\n\\nPICKUP LOCATION – An FTL ship went down at <EM4>~mission(Location|Address)</EM4>. Courier needed to retrieve package and continue delivery.\\n\\nDROPOFF LOCATION – Package must be taken to <EM4>~mission(Destination|Target|Address)</EM4>. \\n\\nTHREAT LEVEL – <EM4>Medium level engagements</EM4> expected.\\n\\nTRAVEL –  All transportation needs should be arranged by courier. \\n\\n~mission(Contractor|SignOff)"
+      "Contractor|RecoverSpaceTitleMedium": "@FTL_RecoverItem_M_Title_001",
+      "Contractor|RecoverSpaceDescriptionMedium": "@FTL_RecoverItem_M_Desc_001"
     },
     "FTL_RecoverItem_M_Title_001": {
       "ObjectiveSetup": "@mission_item_0055",
       "ReputationRank": "@RepScope_Contractor_Rank2",
-      "Contractor|RecoverSpaceTitleMedium": "COURIER NEEDED FOR RETRIEVAL. EXP: JR",
-      "Contractor|RecoverSpaceDescriptionMedium": "ATTENTION ALL FTL COURIERS\\nFOR IMMEDIATE ASSIGNMENT\\n\\n**CONTRACT DETAILS** \\nRECOMMENDED EXPERIENCE LEVEL – JUNIOR\\n\\nPICKUP LOCATION – An FTL ship went down at <EM4>~mission(Location|Address)</EM4>. Courier needed to retrieve package and continue delivery.\\n\\nDROPOFF LOCATION – Package must be taken to <EM4>~mission(Destination|Target|Address)</EM4>. \\n\\nTHREAT LEVEL – <EM4>Medium level engagements</EM4> expected.\\n\\nTRAVEL –  All transportation needs should be arranged by courier. \\n\\n~mission(Contractor|SignOff)"
+      "Contractor|RecoverSpaceTitleMedium": "@FTL_RecoverItem_M_Title_001",
+      "Contractor|RecoverSpaceDescriptionMedium": "@FTL_RecoverItem_M_Desc_001"
     },
     "spacecollect_cargo_desc_M_01": {
       "ObjectiveSetup": "@mission_item_0055",
       "ReputationRank": "@RepScope_Contractor_Rank2",
-      "Contractor|RecoverSpaceTitleMedium": "COURIER NEEDED FOR RETRIEVAL. EXP: JR",
-      "Contractor|RecoverSpaceDescriptionMedium": "ATTENTION ALL FTL COURIERS\\nFOR IMMEDIATE ASSIGNMENT\\n\\n**CONTRACT DETAILS** \\nRECOMMENDED EXPERIENCE LEVEL – JUNIOR\\n\\nPICKUP LOCATION – An FTL ship went down at <EM4>~mission(Location|Address)</EM4>. Courier needed to retrieve package and continue delivery.\\n\\nDROPOFF LOCATION – Package must be taken to <EM4>~mission(Destination|Target|Address)</EM4>. \\n\\nTHREAT LEVEL – <EM4>Medium level engagements</EM4> expected.\\n\\nTRAVEL –  All transportation needs should be arranged by courier. \\n\\n~mission(Contractor|SignOff)"
+      "Contractor|RecoverSpaceTitleMedium": "@FTL_RecoverItem_M_Title_001",
+      "Contractor|RecoverSpaceDescriptionMedium": "@FTL_RecoverItem_M_Desc_001"
     },
     "spacecollect_cargo_title_H_01": {
       "ObjectiveSetup": "@mission_item_0055",
       "ReputationRank": "@RepScope_Contractor_Rank3",
-      "Contractor|RecoverSpaceTitleHard": "COURIER NEEDED FOR RETRIEVAL. EXP: S",
-      "Contractor|RecoverSpaceDescriptionHard": "ATTENTION ALL FTL COURIERS\\nFOR IMMEDIATE ASSIGNMENT\\n\\n**CONTRACT DETAILS** \\nRECOMMENDED EXPERIENCE LEVEL – SEASONED\\n\\nPICKUP LOCATION – Courier needed to retrieve package at <EM4>~mission(Location|Address)</EM4> and continue delivery.\\n\\nDROPOFF LOCATION – Deliver package to <EM4>~mission(Destination|Target|Address)</EM4>. \\n\\nTHREAT LEVEL – <EM4>High level engagements</EM4> expected.\\n\\nTRAVEL – All transportation needs should be arranged by courier. \\n\\n~mission(Contractor|SignOff)"
+      "Contractor|RecoverSpaceTitleHard": "@FTL_RecoverItem_H_Title_001",
+      "Contractor|RecoverSpaceDescriptionHard": "@FTL_RecoverItem_H_Desc_001"
     },
     "FTL_RecoverItem_H_Title_001": {
       "ObjectiveSetup": "@mission_item_0055",
       "ReputationRank": "@RepScope_Contractor_Rank3",
-      "Contractor|RecoverSpaceTitleHard": "COURIER NEEDED FOR RETRIEVAL. EXP: S",
-      "Contractor|RecoverSpaceDescriptionHard": "ATTENTION ALL FTL COURIERS\\nFOR IMMEDIATE ASSIGNMENT\\n\\n**CONTRACT DETAILS** \\nRECOMMENDED EXPERIENCE LEVEL – SEASONED\\n\\nPICKUP LOCATION – Courier needed to retrieve package at <EM4>~mission(Location|Address)</EM4> and continue delivery.\\n\\nDROPOFF LOCATION – Deliver package to <EM4>~mission(Destination|Target|Address)</EM4>. \\n\\nTHREAT LEVEL – <EM4>High level engagements</EM4> expected.\\n\\nTRAVEL – All transportation needs should be arranged by courier. \\n\\n~mission(Contractor|SignOff)"
+      "Contractor|RecoverSpaceTitleHard": "@FTL_RecoverItem_H_Title_001",
+      "Contractor|RecoverSpaceDescriptionHard": "@FTL_RecoverItem_H_Desc_001"
     },
     "spacecollect_cargo_desc_H_01": {
       "ObjectiveSetup": "@mission_item_0055",
       "ReputationRank": "@RepScope_Contractor_Rank3",
-      "Contractor|RecoverSpaceTitleHard": "COURIER NEEDED FOR RETRIEVAL. EXP: S",
-      "Contractor|RecoverSpaceDescriptionHard": "ATTENTION ALL FTL COURIERS\\nFOR IMMEDIATE ASSIGNMENT\\n\\n**CONTRACT DETAILS** \\nRECOMMENDED EXPERIENCE LEVEL – SEASONED\\n\\nPICKUP LOCATION – Courier needed to retrieve package at <EM4>~mission(Location|Address)</EM4> and continue delivery.\\n\\nDROPOFF LOCATION – Deliver package to <EM4>~mission(Destination|Target|Address)</EM4>. \\n\\nTHREAT LEVEL – <EM4>High level engagements</EM4> expected.\\n\\nTRAVEL – All transportation needs should be arranged by courier. \\n\\n~mission(Contractor|SignOff)"
+      "Contractor|RecoverSpaceTitleHard": "@FTL_RecoverItem_H_Title_001",
+      "Contractor|RecoverSpaceDescriptionHard": "@FTL_RecoverItem_H_Desc_001"
     },
     "headhunters_multikillship_base_Generic_M_title_001": {
       "ReputationRank": "@RepScope_Contractor_Rank4"
@@ -5733,20 +5733,20 @@
     "blackbox_recover_title_intro_001": {
       "ObjectiveSetup": "@mission_item_0055",
       "ReputationRank": "@mobiGlas_Reputation_Stance_Neutral",
-      "Contractor|BlackBoxRecoverTitleIntro": "Data Transfer",
-      "Contractor|BlackBoxRecoverDescriptionIntro": "Who we are and what we do is not important. All you gotta know is that we need things to get done and we pay people to do it.\\n\\nIf everything goes well, we don’t ever have to meet. Doesn’t that sound good?\\n\\nGot a good one to start you off, nice and simple. There’s a blackbox from a downed ship at <EM4>~mission(Location|Address)</EM4> that we want.\\n\\nAll you have to do is take it to <EM4>~mission(Destination|Target|Address)</EM4> and you get paid. Easy right? Watch out for scavs, you never know what kind of weirdos are hanging around these abandoned ships.\\n\\n-Bit Zeros"
+      "Contractor|BlackBoxRecoverTitleIntro": "@BitZeros_blackbox_Intro_Title_001",
+      "Contractor|BlackBoxRecoverDescriptionIntro": "@BitZeros_blackbox_Intro_Desc_001"
     },
     "BitZeros_blackbox_Intro_Title_001": {
       "ObjectiveSetup": "@mission_item_0055",
       "ReputationRank": "@mobiGlas_Reputation_Stance_Neutral",
-      "Contractor|BlackBoxRecoverTitleIntro": "Data Transfer",
-      "Contractor|BlackBoxRecoverDescriptionIntro": "Who we are and what we do is not important. All you gotta know is that we need things to get done and we pay people to do it.\\n\\nIf everything goes well, we don’t ever have to meet. Doesn’t that sound good?\\n\\nGot a good one to start you off, nice and simple. There’s a blackbox from a downed ship at <EM4>~mission(Location|Address)</EM4> that we want.\\n\\nAll you have to do is take it to <EM4>~mission(Destination|Target|Address)</EM4> and you get paid. Easy right? Watch out for scavs, you never know what kind of weirdos are hanging around these abandoned ships.\\n\\n-Bit Zeros"
+      "Contractor|BlackBoxRecoverTitleIntro": "@BitZeros_blackbox_Intro_Title_001",
+      "Contractor|BlackBoxRecoverDescriptionIntro": "@BitZeros_blackbox_Intro_Desc_001"
     },
     "blackbox_recover_desc_intro_001": {
       "ObjectiveSetup": "@mission_item_0055",
       "ReputationRank": "@mobiGlas_Reputation_Stance_Neutral",
-      "Contractor|BlackBoxRecoverTitleIntro": "Data Transfer",
-      "Contractor|BlackBoxRecoverDescriptionIntro": "Who we are and what we do is not important. All you gotta know is that we need things to get done and we pay people to do it.\\n\\nIf everything goes well, we don’t ever have to meet. Doesn’t that sound good?\\n\\nGot a good one to start you off, nice and simple. There’s a blackbox from a downed ship at <EM4>~mission(Location|Address)</EM4> that we want.\\n\\nAll you have to do is take it to <EM4>~mission(Destination|Target|Address)</EM4> and you get paid. Easy right? Watch out for scavs, you never know what kind of weirdos are hanging around these abandoned ships.\\n\\n-Bit Zeros"
+      "Contractor|BlackBoxRecoverTitleIntro": "@BitZeros_blackbox_Intro_Title_001",
+      "Contractor|BlackBoxRecoverDescriptionIntro": "@BitZeros_blackbox_Intro_Desc_001"
     },
     "DeadSaints_HaulCargo_SingleToMulti_title": {
       "CargoRouteToken": "@HaulCargo_CargoRoute_Interstellar",
@@ -5930,18 +5930,18 @@
     },
     "searchbodyspace_title_H": {
       "ReputationRank": "@RepScope_Contractor_Rank3",
-      "Contractor|SearchBodySpaceTitleHard": "Down For the Count",
-      "Contractor|SearchBodySpaceDescriptionHard": "<EM4>~mission(TargetName)</EM4> was a name that proved particularly troublesome for some time. Whether a master of evasion or just unerringly lucky all of our attempts have thus far failed.\\n\\nWith that being said, it seems that someone else may have beaten us to the punch so to speak. We’d like you to visit <EM4>~mission(Location|Address)</EM4> and confirm if the target has indeed been neutralized. But be advised, I suspect they’re former crew may still be in the area, most likely out of a misplaced sense of loyalty. I’d suggest a crew of your own for this one, but will defer to your expertise.\\n\\nSincerely,\\n\\nVaughn"
+      "Contractor|SearchBodySpaceTitleHard": "@vaughn_searchbody_space_H_Title_001",
+      "Contractor|SearchBodySpaceDescriptionHard": "@vaughn_searchbody_space_H_Desc_001"
     },
     "vaughn_searchbody_space_H_Title_001": {
       "ReputationRank": "@RepScope_Contractor_Rank3",
-      "Contractor|SearchBodySpaceTitleHard": "Down For the Count",
-      "Contractor|SearchBodySpaceDescriptionHard": "<EM4>~mission(TargetName)</EM4> was a name that proved particularly troublesome for some time. Whether a master of evasion or just unerringly lucky all of our attempts have thus far failed.\\n\\nWith that being said, it seems that someone else may have beaten us to the punch so to speak. We’d like you to visit <EM4>~mission(Location|Address)</EM4> and confirm if the target has indeed been neutralized. But be advised, I suspect they’re former crew may still be in the area, most likely out of a misplaced sense of loyalty. I’d suggest a crew of your own for this one, but will defer to your expertise.\\n\\nSincerely,\\n\\nVaughn"
+      "Contractor|SearchBodySpaceTitleHard": "@vaughn_searchbody_space_H_Title_001",
+      "Contractor|SearchBodySpaceDescriptionHard": "@vaughn_searchbody_space_H_Desc_001"
     },
     "searchbodyspace_desc_H": {
       "ReputationRank": "@RepScope_Contractor_Rank3",
-      "Contractor|SearchBodySpaceTitleHard": "Down For the Count",
-      "Contractor|SearchBodySpaceDescriptionHard": "<EM4>~mission(TargetName)</EM4> was a name that proved particularly troublesome for some time. Whether a master of evasion or just unerringly lucky all of our attempts have thus far failed.\\n\\nWith that being said, it seems that someone else may have beaten us to the punch so to speak. We’d like you to visit <EM4>~mission(Location|Address)</EM4> and confirm if the target has indeed been neutralized. But be advised, I suspect they’re former crew may still be in the area, most likely out of a misplaced sense of loyalty. I’d suggest a crew of your own for this one, but will defer to your expertise.\\n\\nSincerely,\\n\\nVaughn"
+      "Contractor|SearchBodySpaceTitleHard": "@vaughn_searchbody_space_H_Title_001",
+      "Contractor|SearchBodySpaceDescriptionHard": "@vaughn_searchbody_space_H_Desc_001"
     },
     "headhunters_ChainElimAll_1C_ElimSpec_AttackCFP_M_title_001": {
       "ReputationRank": "@RepScope_Contractor_Rank4"
@@ -5958,20 +5958,20 @@
     "spacecollect_cargo_title_intro_01": {
       "ObjectiveSetup": "@mission_item_0055",
       "ReputationRank": "@mobiGlas_Reputation_Stance_Neutral",
-      "Contractor|RecoverSpaceTitleIntro": "Easy Creds for Easy Work",
-      "Contractor|RecoverSpaceDescriptionIntro": "Here’s the deal. Dead Saints need some new blood to help shift gear across the ’verse and if you can prove yourself useful, you could make some nice creds doing it.\\n\\nGot an easy one to start you out. Couple of hours ago, something went down over at <EM4>~mission(Location|Address)</EM4> and a pilot of mine got ghosted. My tracker’s telling me that they didn’t find the stash of gear in there.\\n\\nIf you can get out there, get the package back and take it to <EM4>~mission(Destination|Target|Address)</EM4> without dying, I might have some more work for you. Can’t see you running into too much trouble as any ships you spot will likely be scavs looking for a quick cred. I’m sure you can take care of that.\\n\\n-Twitch"
+      "Contractor|RecoverSpaceTitleIntro": "@deadsaints_recoveritem_Intro_Title_001",
+      "Contractor|RecoverSpaceDescriptionIntro": "@deadsaints_recoveritem_Intro_Desc_001"
     },
     "deadsaints_recoveritem_Intro_Title_001": {
       "ObjectiveSetup": "@mission_item_0055",
       "ReputationRank": "@mobiGlas_Reputation_Stance_Neutral",
-      "Contractor|RecoverSpaceTitleIntro": "Easy Creds for Easy Work",
-      "Contractor|RecoverSpaceDescriptionIntro": "Here’s the deal. Dead Saints need some new blood to help shift gear across the ’verse and if you can prove yourself useful, you could make some nice creds doing it.\\n\\nGot an easy one to start you out. Couple of hours ago, something went down over at <EM4>~mission(Location|Address)</EM4> and a pilot of mine got ghosted. My tracker’s telling me that they didn’t find the stash of gear in there.\\n\\nIf you can get out there, get the package back and take it to <EM4>~mission(Destination|Target|Address)</EM4> without dying, I might have some more work for you. Can’t see you running into too much trouble as any ships you spot will likely be scavs looking for a quick cred. I’m sure you can take care of that.\\n\\n-Twitch"
+      "Contractor|RecoverSpaceTitleIntro": "@deadsaints_recoveritem_Intro_Title_001",
+      "Contractor|RecoverSpaceDescriptionIntro": "@deadsaints_recoveritem_Intro_Desc_001"
     },
     "spacecollect_cargo_desc_intro_01": {
       "ObjectiveSetup": "@mission_item_0055",
       "ReputationRank": "@mobiGlas_Reputation_Stance_Neutral",
-      "Contractor|RecoverSpaceTitleIntro": "Easy Creds for Easy Work",
-      "Contractor|RecoverSpaceDescriptionIntro": "Here’s the deal. Dead Saints need some new blood to help shift gear across the ’verse and if you can prove yourself useful, you could make some nice creds doing it.\\n\\nGot an easy one to start you out. Couple of hours ago, something went down over at <EM4>~mission(Location|Address)</EM4> and a pilot of mine got ghosted. My tracker’s telling me that they didn’t find the stash of gear in there.\\n\\nIf you can get out there, get the package back and take it to <EM4>~mission(Destination|Target|Address)</EM4> without dying, I might have some more work for you. Can’t see you running into too much trouble as any ships you spot will likely be scavs looking for a quick cred. I’m sure you can take care of that.\\n\\n-Twitch"
+      "Contractor|RecoverSpaceTitleIntro": "@deadsaints_recoveritem_Intro_Title_001",
+      "Contractor|RecoverSpaceDescriptionIntro": "@deadsaints_recoveritem_Intro_Desc_001"
     },
     "Headhunters_DefendLocation_VE_Title_001": {
       "ReputationRank": "@mobiGlas_Reputation_Stance_Neutral"
@@ -6005,19 +6005,19 @@
     },
     "FTL_Courier_Nyx_Easy_Title_001": {
       "ReputationRank": "@mobiGlas_Reputation_Stance_Neutral",
-      "Contractor|SignOff": "Good luck and good speed, courier!"
+      "Contractor|SignOff": "@FTL_SignOff_001"
     },
     "FTL_Courier_Nyx_Easy_Desc_001": {
       "ReputationRank": "@mobiGlas_Reputation_Stance_Neutral",
-      "Contractor|SignOff": "Good luck and good speed, courier!"
+      "Contractor|SignOff": "@FTL_SignOff_001"
     },
     "FTL_Courier_Stanton_Easy_Title_001": {
       "ReputationRank": "@mobiGlas_Reputation_Stance_Neutral",
-      "Contractor|SignOff": "Good luck and good speed, courier!"
+      "Contractor|SignOff": "@FTL_SignOff_001"
     },
     "FTL_Courier_Stanton_Easy_Desc_001": {
       "ReputationRank": "@mobiGlas_Reputation_Stance_Neutral",
-      "Contractor|SignOff": "Good luck and good speed, courier!"
+      "Contractor|SignOff": "@FTL_SignOff_001"
     },
     "cfp_sabotage_server_elimiatespecific_HH_title_001": {
       "ItemsToDestroy": "@rc_PowerGenerator",
@@ -6159,14 +6159,14 @@
     "destroyprobelegal_title": {
       "target": "@destroyitemsspace_item_01",
       "ReputationRank": "@RepStanding_Security_Rank0",
-      "Contractor|DestroyProbeTitle": "Orange Level Contract: Handle Security Threat",
-      "Contractor|DestroyProbeDescription": "After a contractor successfully recovered data stolen from one of our clients, a security analyst verified that it was captured by unauthorized surveillance monitors illegally installed around <EM4>~mission(Location|Address)</EM4>. We’re looking for someone to follow up and take out those monitors.\\n\\nYou will need to find the <EM4>~mission(Contractor|DestroyProbeAmount)</EM4> and destroy them before any more data can be gathered. Passive 'Skimmers' like these typically are hard to find so be thorough in your search.\\n\\nOnce attacked, their security protocols will cause them to begin transmitting the contents of their drives, so it’s imperative that you stop the upload before it can complete. There’s also a good chance that whoever’s responsible might be in the area, so be careful.\\n\\n\\nMarcus Clenn\\nFoxwell Enforcement\\n'Security, Your Way'\\n\\nFoxwell Enforcement is a bonded security specialist licensed to operate throughout the UEE. We are always looking for new operators to join our family. If you or anyone you know is interested, please reach out to one of our contract representatives."
+      "Contractor|DestroyProbeTitle": "@Foxwell_destroyprobe_M_name_001",
+      "Contractor|DestroyProbeDescription": "@Foxwell_destroyprobe_M_desc_001"
     },
     "destroyprobelegal_desc": {
       "target": "@destroyitemsspace_item_01",
       "ReputationRank": "@RepStanding_Security_Rank0",
-      "Contractor|DestroyProbeTitle": "Orange Level Contract: Handle Security Threat",
-      "Contractor|DestroyProbeDescription": "After a contractor successfully recovered data stolen from one of our clients, a security analyst verified that it was captured by unauthorized surveillance monitors illegally installed around <EM4>~mission(Location|Address)</EM4>. We’re looking for someone to follow up and take out those monitors.\\n\\nYou will need to find the <EM4>~mission(Contractor|DestroyProbeAmount)</EM4> and destroy them before any more data can be gathered. Passive 'Skimmers' like these typically are hard to find so be thorough in your search.\\n\\nOnce attacked, their security protocols will cause them to begin transmitting the contents of their drives, so it’s imperative that you stop the upload before it can complete. There’s also a good chance that whoever’s responsible might be in the area, so be careful.\\n\\n\\nMarcus Clenn\\nFoxwell Enforcement\\n'Security, Your Way'\\n\\nFoxwell Enforcement is a bonded security specialist licensed to operate throughout the UEE. We are always looking for new operators to join our family. If you or anyone you know is interested, please reach out to one of our contract representatives."
+      "Contractor|DestroyProbeTitle": "@Foxwell_destroyprobe_M_name_001",
+      "Contractor|DestroyProbeDescription": "@Foxwell_destroyprobe_M_desc_001"
     },
     "RAIN_CollectResources_storm_title_003": {
       "ReputationRank": "@RepScope_Contractor_Rank2"
@@ -6177,14 +6177,14 @@
     "deadsaints_recoveritem_M_Title_001": {
       "ObjectiveSetup": "@mission_item_0055",
       "ReputationRank": "@RepScope_Contractor_Rank2",
-      "Contractor|RecoverSpaceTitleMedium": "Get My Gear Back",
-      "Contractor|RecoverSpaceDescriptionMedium": "A couple of hours ago I was supposed to receive a shipment of gear from a pilot of mine. I don’t like late, so I need you to head to their location and recover my stuff. I’ve got trackers on the packages so they should be easy enough to find.\\n\\nMy gut says the pilot’s been ghosted. They knew how to handle a ship well, so the scavs that took them out must be decent. When you get my three packages back, take them to <EM4>~mission(Destination|Target|Address)</EM4> for me and I’ll wire you the creds.\\n\\n-Twitch"
+      "Contractor|RecoverSpaceTitleMedium": "@deadsaints_recoveritem_M_Title_001",
+      "Contractor|RecoverSpaceDescriptionMedium": "@deadsaints_recoveritem_M_Desc_001"
     },
     "DeadSaints_RecoverItem_Generic_Title_001": {
       "ObjectiveSetup": "@mission_item_0055",
       "ReputationRank": "@RepScope_Contractor_Rank1",
-      "Contractor|RecoverItemTitle": "Getting Our Gear Back",
-      "Contractor|RecoverItemDescription": "If you want something done right, you gotta do it yourself. That's what they say, right? Wish I had the time for that, but I have a business to run.\\n\\nSome of our goods have been mislaid and I need a contractor to put this right for me. Got some info that the guys at <EM4>~mission(Location|Address)</EM4> ghosted one of my gang and got their hands on our gear. I need you to grab the stuff, deal with anyone at the location and take it to the drop-off at <EM4>~mission(Destination|Target|Address)</EM4> for me. Get it done and I'll sort out your payment.\\n\\n-Twitch"
+      "Contractor|RecoverItemTitle": "@DeadSaints_RecoverItem_Generic_Title_001",
+      "Contractor|RecoverItemDescription": "@DeadSaints_RecoverItem_Generic_Desc_001"
     },
     "Headhunters_HaulCargo_MultiToSingle_title_01": {
       "CargoRouteToken": "@HaulCargo_CargoRoute_Solar",
@@ -6203,14 +6203,14 @@
     "BitZeros_blackbox_E_Title_001": {
       "ObjectiveSetup": "@mission_item_0055",
       "ReputationRank": "@RepScope_Contractor_Rank1",
-      "Contractor|BlackBoxRecoverTitleEasy": "Getting To the Bottom of It",
-      "Contractor|BlackBoxRecoverDescriptionEasy": "So we were expecting a pretty important package earlier today but turns out the pilot got ghosted and they ripped the tracking chip from it and got away. Pretty clever right? Not really, because they forgot to take the flight recorder too.\\n\\nGet the blackbox from the wreck at <EM4>~mission(Location|Address)</EM4> and take it to <EM4>~mission(Destination|Target|Address)</EM4>. We’ll send you the creds when you’re done.\\n\\nOh and watch out for scavs, people are pretty desperate these days, even if it just some busted courier ship.\\n\\n-Bit Zeros"
+      "Contractor|BlackBoxRecoverTitleEasy": "@BitZeros_blackbox_E_Title_001",
+      "Contractor|BlackBoxRecoverDescriptionEasy": "@BitZeros_blackbox_E_Desc_001"
     },
     "deadsaints_recoveritem_VH_Title_001": {
       "ObjectiveSetup": "@mission_item_0055",
       "ReputationRank": "@RepScope_Contractor_Rank4",
-      "Contractor|RecoverSpaceTitleVeryHard": "Getting What They Deserve",
-      "Contractor|RecoverSpaceDescriptionVeryHard": "I got a situation I need dealing with pronto. A rival crew has intercepted a major shipment of gear I was expecting and all hell is breaking loose. The pilot’s ghosted, the ship’s busted, and it’s only a matter of time before they take my shit and leave. If you’re up for cracking these assholes, head to <EM4>~mission(Location|Address)</EM4> and get my five packages.\\n\\nHead’s up though, the pilot they ghosted was one of my best, so this crew’s got to be seriously kitted out. Bring your finest mates with you and show the bastards no mercy. Understood?\\n\\nWhen you’re done, take the gear to <EM4>~mission(Destination|Target|Address)</EM4> and I’ll make sure you get a serious cut of the takings.\\n\\n-Twitch"
+      "Contractor|RecoverSpaceTitleVeryHard": "@deadsaints_recoveritem_VH_Title_001",
+      "Contractor|RecoverSpaceDescriptionVeryHard": "@deadsaints_recoveritem_VH_Desc_001"
     },
     "HeadHunters_RecoverCargo_VeryHard_Title": {
       "ReputationRank": "@RepScope_Contractor_Rank4"
@@ -6508,11 +6508,11 @@
     },
     "FTL_Courier_Stanton_Medium_Title_001": {
       "ReputationRank": "@RepScope_Contractor_Rank1",
-      "Contractor|SignOff": "Good luck and good speed, courier!"
+      "Contractor|SignOff": "@FTL_SignOff_001"
     },
     "FTL_Courier_Stanton_Medium_Desc_001": {
       "ReputationRank": "@RepScope_Contractor_Rank1",
-      "Contractor|SignOff": "Good luck and good speed, courier!"
+      "Contractor|SignOff": "@FTL_SignOff_001"
     },
     "RedWind_HaulCargo_SingleToMulti_desc_01": {
       "CargoRouteToken": "@HaulCargo_CargoRoute_Planetary",
@@ -6560,11 +6560,11 @@
     },
     "Covalex_RecoverCargo_Hard_Title": {
       "ReputationRank": "@RepStanding_TransportGuild_Rank4",
-      "Contractor|SignOff": "Thanks in advance for ensuring prompt service,"
+      "Contractor|SignOff": "@Covalex_SignOff_001"
     },
     "Covalex_RecoverCargo_Hard_Description": {
       "ReputationRank": "@RepStanding_TransportGuild_Rank4",
-      "Contractor|SignOff": "Thanks in advance for ensuring prompt service,"
+      "Contractor|SignOff": "@Covalex_SignOff_001"
     },
     "headhunters_maintenance_local_M_title_001": {
       "ReputationRank": "@RepScope_Contractor_Rank3"
@@ -6593,14 +6593,14 @@
     "BitZeros_blackbox_H_Title_001": {
       "ObjectiveSetup": "@mission_item_0055",
       "ReputationRank": "@RepScope_Contractor_Rank3",
-      "Contractor|BlackBoxRecoverTitleHard": "Legendary Info?",
-      "Contractor|BlackBoxRecoverDescriptionHard": "Don’t know if you’ve heard, but there’s a bunch of ships over at <EM4>~mission(Location|Address)</EM4> surrounding a burnt-out ship. You curious why? I know we are.\\nThink you can get in that wreck, grab the blackbox, and get out? We’ll pay you for it.\\n\\nBased on the number of sketchy ships in the area, you should bring some friends with to watch your ass, unless you’re some crazy solo act, but we’d prefer if you actually survived this so you can drop off the blackbox at <EM4>~mission(Destination|Target|Address)</EM4> for us. \\n\\nBut hey, your call. As long as it gets done.\\n\\n-Bit Zeros"
+      "Contractor|BlackBoxRecoverTitleHard": "@BitZeros_blackbox_H_Title_001",
+      "Contractor|BlackBoxRecoverDescriptionHard": "@BitZeros_blackbox_H_Desc_001"
     },
     "blackbox_recover_desc_H_001": {
       "ObjectiveSetup": "@mission_item_0055",
       "ReputationRank": "@RepScope_Contractor_Rank3",
-      "Contractor|BlackBoxRecoverTitleHard": "Legendary Info?",
-      "Contractor|BlackBoxRecoverDescriptionHard": "Don’t know if you’ve heard, but there’s a bunch of ships over at <EM4>~mission(Location|Address)</EM4> surrounding a burnt-out ship. You curious why? I know we are.\\nThink you can get in that wreck, grab the blackbox, and get out? We’ll pay you for it.\\n\\nBased on the number of sketchy ships in the area, you should bring some friends with to watch your ass, unless you’re some crazy solo act, but we’d prefer if you actually survived this so you can drop off the blackbox at <EM4>~mission(Destination|Target|Address)</EM4> for us. \\n\\nBut hey, your call. As long as it gets done.\\n\\n-Bit Zeros"
+      "Contractor|BlackBoxRecoverTitleHard": "@BitZeros_blackbox_H_Title_001",
+      "Contractor|BlackBoxRecoverDescriptionHard": "@BitZeros_blackbox_H_Desc_001"
     },
     "LingFamily_HaulCargo_AToB_title": {
       "CargoRouteToken": "@HaulCargo_CargoRoute_Interstellar",
@@ -6648,8 +6648,8 @@
     },
     "Hockrow_searchbody_space_H_Title_001": {
       "ReputationRank": "@RepScope_Contractor_Rank3",
-      "Contractor|SearchBodySpaceTitleHard": "Locate Missing Agent: ~mission(TargetName)",
-      "Contractor|SearchBodySpaceDescriptionHard": "Hockrow Agency \\nCase File #MP65817\\nLead Investigator: Arken Mallor\\n\\nCase Summary: \\nA client has hired the agency to look for a missing friend who has not been returning their comms and have been acting increasingly erratic. The client has shared all the information they possess on <EM4>~mission(TargetName)</EM4> and we’ve been able to pinpoint their ship’s location.\\n\\nContract Investigator Actions:\\nTravel to <EM4>~mission(Location|Address)</EM4> and verify the status of <EM4>~mission(TargetName)</EM4>. If they are deceased, examine their body and we will pass the information on to the client.\\n\\nAdditional Notes:\\nOur scout reported heavy outlaw activity in the vicinity and was forced to retreat, meaning we have designated this as a highly dangerous case."
+      "Contractor|SearchBodySpaceTitleHard": "@Hockrow_searchbody_space_H_Title_001",
+      "Contractor|SearchBodySpaceDescriptionHard": "@Hockrow_searchbody_space_H_Desc_001"
     },
     "Hockcrow_SearchBody_VeryEasy_Title_001": {
       "HotColdObject": "@Search_Investigate",
@@ -6699,38 +6699,38 @@
     },
     "searchbodyspace_title_M": {
       "ReputationRank": "@RepScope_Contractor_Rank2",
-      "Contractor|SearchBodySpaceTitleMedium": "Locate Missing Friend: ~mission(TargetName)",
-      "Contractor|SearchBodySpaceDescriptionMedium": "Hockrow Agency \\nCase File #MP58235\\nLead Investigator: Arken Mallor\\n\\nCase Summary: \\nOur client has reported a friend of hers has gone missing. They’d apparently racked up a substantial debt with a group of outlaws and the client is worried for their safety.\\n\\n\\nContract Investigator Actions:\\nWe’ve received word that <EM4>~mission(TargetName)</EM4>’s ship was last seen at <EM4>~mission(Location|Address)</EM4> looking heavily damaged. Head to the location and investigate their ship. If you can find their body, verify their status and we can drop back to the client.\\n\\nAdditional Notes:\\nConsider the missing person’s association with outlaws, we advise you to exhibit caution during this investigation."
+      "Contractor|SearchBodySpaceTitleMedium": "@Hockrow_searchbody_space_M_Title_001",
+      "Contractor|SearchBodySpaceDescriptionMedium": "@Hockrow_searchbody_space_M_Desc_001"
     },
     "Hockrow_searchbody_space_M_Title_001": {
       "ReputationRank": "@RepScope_Contractor_Rank2",
-      "Contractor|SearchBodySpaceTitleMedium": "Locate Missing Friend: ~mission(TargetName)",
-      "Contractor|SearchBodySpaceDescriptionMedium": "Hockrow Agency \\nCase File #MP58235\\nLead Investigator: Arken Mallor\\n\\nCase Summary: \\nOur client has reported a friend of hers has gone missing. They’d apparently racked up a substantial debt with a group of outlaws and the client is worried for their safety.\\n\\n\\nContract Investigator Actions:\\nWe’ve received word that <EM4>~mission(TargetName)</EM4>’s ship was last seen at <EM4>~mission(Location|Address)</EM4> looking heavily damaged. Head to the location and investigate their ship. If you can find their body, verify their status and we can drop back to the client.\\n\\nAdditional Notes:\\nConsider the missing person’s association with outlaws, we advise you to exhibit caution during this investigation."
+      "Contractor|SearchBodySpaceTitleMedium": "@Hockrow_searchbody_space_M_Title_001",
+      "Contractor|SearchBodySpaceDescriptionMedium": "@Hockrow_searchbody_space_M_Desc_001"
     },
     "searchbodyspace_desc_M": {
       "ReputationRank": "@RepScope_Contractor_Rank2",
-      "Contractor|SearchBodySpaceTitleMedium": "Locate Missing Friend: ~mission(TargetName)",
-      "Contractor|SearchBodySpaceDescriptionMedium": "Hockrow Agency \\nCase File #MP58235\\nLead Investigator: Arken Mallor\\n\\nCase Summary: \\nOur client has reported a friend of hers has gone missing. They’d apparently racked up a substantial debt with a group of outlaws and the client is worried for their safety.\\n\\n\\nContract Investigator Actions:\\nWe’ve received word that <EM4>~mission(TargetName)</EM4>’s ship was last seen at <EM4>~mission(Location|Address)</EM4> looking heavily damaged. Head to the location and investigate their ship. If you can find their body, verify their status and we can drop back to the client.\\n\\nAdditional Notes:\\nConsider the missing person’s association with outlaws, we advise you to exhibit caution during this investigation."
+      "Contractor|SearchBodySpaceTitleMedium": "@Hockrow_searchbody_space_M_Title_001",
+      "Contractor|SearchBodySpaceDescriptionMedium": "@Hockrow_searchbody_space_M_Desc_001"
     },
     "searchbodyspace_title_VE": {
       "ReputationRank": "@mobiGlas_Reputation_Stance_Neutral",
-      "Contractor|SearchBodySpaceTitleVeryEasy": "Locate Missing Person: ~mission(TargetName)",
-      "Contractor|SearchBodySpaceDescriptionVeryEasy": "Hockrow Agency \\nCase File #MP48597\\nLead Investigator: Arken Mallor\\n\\nCase Summary: \\nLooking for an operative to identify the status of a client’s missing partner. They lost contact with them abruptly during a comm call, so the client assumes the worst. We’re looking to provide them with some closure.\\n\\nContract Investigator Actions:\\nLocate <EM4>~mission(TargetName)</EM4> at <EM4>~mission(Location|Address)</EM4> and confirm their status. \\n\\nIf they are deceased, examine the body closely so we can verify their death via your mobiGlas.\\n\\nAdditional Notes:\\nThe sector you're headed to is relatively quiet so I'm guessing that whatever did happen to ~mission(TargetName|Last) it wasn't outlaws."
+      "Contractor|SearchBodySpaceTitleVeryEasy": "@Hockrow_searchbody_space_VE_Title_001",
+      "Contractor|SearchBodySpaceDescriptionVeryEasy": "@Hockrow_searchbody_space_VE_Desc_001"
     },
     "Hockrow_searchbody_space_VE_Title_001": {
       "ReputationRank": "@mobiGlas_Reputation_Stance_Neutral",
-      "Contractor|SearchBodySpaceTitleVeryEasy": "Locate Missing Person: ~mission(TargetName)",
-      "Contractor|SearchBodySpaceDescriptionVeryEasy": "Hockrow Agency \\nCase File #MP48597\\nLead Investigator: Arken Mallor\\n\\nCase Summary: \\nLooking for an operative to identify the status of a client’s missing partner. They lost contact with them abruptly during a comm call, so the client assumes the worst. We’re looking to provide them with some closure.\\n\\nContract Investigator Actions:\\nLocate <EM4>~mission(TargetName)</EM4> at <EM4>~mission(Location|Address)</EM4> and confirm their status. \\n\\nIf they are deceased, examine the body closely so we can verify their death via your mobiGlas.\\n\\nAdditional Notes:\\nThe sector you're headed to is relatively quiet so I'm guessing that whatever did happen to ~mission(TargetName|Last) it wasn't outlaws."
+      "Contractor|SearchBodySpaceTitleVeryEasy": "@Hockrow_searchbody_space_VE_Title_001",
+      "Contractor|SearchBodySpaceDescriptionVeryEasy": "@Hockrow_searchbody_space_VE_Desc_001"
     },
     "searchbodyspace_desc_VE": {
       "ReputationRank": "@mobiGlas_Reputation_Stance_Neutral",
-      "Contractor|SearchBodySpaceTitleVeryEasy": "Locate Missing Person: ~mission(TargetName)",
-      "Contractor|SearchBodySpaceDescriptionVeryEasy": "Hockrow Agency \\nCase File #MP48597\\nLead Investigator: Arken Mallor\\n\\nCase Summary: \\nLooking for an operative to identify the status of a client’s missing partner. They lost contact with them abruptly during a comm call, so the client assumes the worst. We’re looking to provide them with some closure.\\n\\nContract Investigator Actions:\\nLocate <EM4>~mission(TargetName)</EM4> at <EM4>~mission(Location|Address)</EM4> and confirm their status. \\n\\nIf they are deceased, examine the body closely so we can verify their death via your mobiGlas.\\n\\nAdditional Notes:\\nThe sector you're headed to is relatively quiet so I'm guessing that whatever did happen to ~mission(TargetName|Last) it wasn't outlaws."
+      "Contractor|SearchBodySpaceTitleVeryEasy": "@Hockrow_searchbody_space_VE_Title_001",
+      "Contractor|SearchBodySpaceDescriptionVeryEasy": "@Hockrow_searchbody_space_VE_Desc_001"
     },
     "Hockrow_searchbody_space_VH_Title_001": {
       "ReputationRank": "@RepScope_Contractor_Rank4",
-      "Contractor|SearchBodySpaceTitleVeryHard": "Locate Missing Pilot: ~mission(TargetName)",
-      "Contractor|SearchBodySpaceDescriptionVeryHard": "Hockrow Agency \\nCase File #MP66432\\nLead Investigator: Arken Mallor\\n\\nCase Summary: \\nNeed a skilled operator with combat experience to investigate the last known location of <EM4>~mission(TargetName)</EM4>. Their employer hired us to look for they as they were carrying some highly valuable cargo, but the trackers have been disabled and the pilot is no longer responding.\\n\\nWe suspect that outlaws have attacked the ship and seized the cargo for themselves. The client has expressed that they consider the cargo lost but would like to know if the pilot is dead so they can inform their family. \\n\\nContract Investigator Actions:\\nInvestigate <EM4>~mission(Location|Address)</EM4> and locate the <EM4>~mission(TargetName)</EM4>’s ship. If you are able to find the pilot’s body, confirm their status so we may inform the client.\\n\\nAdditional Notes:\\nBackup is highly recommended for this encounter."
+      "Contractor|SearchBodySpaceTitleVeryHard": "@Hockrow_searchbody_space_VH_Title_001",
+      "Contractor|SearchBodySpaceDescriptionVeryHard": "@Hockrow_searchbody_space_VH_Desc_001"
     },
     "Hockcrow_SearchBody_Medium_Title_001": {
       "HotColdObject": "@Search_Investigate",
@@ -6744,11 +6744,11 @@
     },
     "Covalex_Delivery_Stanton_Hard_Title_001": {
       "ReputationRank": "@RepScope_Contractor_Rank1",
-      "Contractor|SignOff": "Thanks in advance for ensuring prompt service,"
+      "Contractor|SignOff": "@Covalex_SignOff_001"
     },
     "Covalex_Delivery_Stanton_Hard_Desc_001": {
       "ReputationRank": "@RepScope_Contractor_Rank1",
-      "Contractor|SignOff": "Thanks in advance for ensuring prompt service,"
+      "Contractor|SignOff": "@Covalex_SignOff_001"
     },
     "headhunters_defendship_multi_SRT_PA_title_001": {
       "ReputationRank": "@RepScope_Contractor_Rank5"
@@ -6770,11 +6770,11 @@
     },
     "civilian_localdelivery_holiday_title_001": {
       "DescriptionSetup": "@Luminalia_1Box_DescriptionSetup",
-      "Contractor|LocalDeliveryDesc": "Happy Luminalia!\\n\\nI have a huge favor to ask. Thanks to some very ill timed maintenance issues, my ship is out of commission for at least a week and I won't be able to finish delivering presents to everyone on my gift list.\\n\\nLooked into using FTL but with their holiday pricing I'll end up paying more credits than what the gifts cost! \\n\\nFigured I would see if you're interested in helping me out. I get my gifts delivered on time and you get some extra Luminalia spending credits. \\n\\nThe gifts are wrapped and waiting at <EM4>~mission(Location|Address)</EM4>. ~mission(DescriptionSetup).\\n\\nThanks in advance and may your light glow a little brighter this year!\\n\\nSincerely,\\n~mission(GiftSender|First)"
+      "Contractor|LocalDeliveryDesc": "@civilian_localdelivery_holiday_desc_001"
     },
     "LocalDelivery_desc": {
       "DescriptionSetup": "@Luminalia_1Box_DescriptionSetup",
-      "Contractor|LocalDeliveryDesc": "Happy Luminalia!\\n\\nI have a huge favor to ask. Thanks to some very ill timed maintenance issues, my ship is out of commission for at least a week and I won't be able to finish delivering presents to everyone on my gift list.\\n\\nLooked into using FTL but with their holiday pricing I'll end up paying more credits than what the gifts cost! \\n\\nFigured I would see if you're interested in helping me out. I get my gifts delivered on time and you get some extra Luminalia spending credits. \\n\\nThe gifts are wrapped and waiting at <EM4>~mission(Location|Address)</EM4>. ~mission(DescriptionSetup).\\n\\nThanks in advance and may your light glow a little brighter this year!\\n\\nSincerely,\\n~mission(GiftSender|First)"
+      "Contractor|LocalDeliveryDesc": "@civilian_localdelivery_holiday_desc_001"
     },
     "DeadSaints_RecoverCargo_Super_Title": {
       "ReputationRank": "@RepScope_Contractor_Rank5"
@@ -6881,64 +6881,64 @@
     "deadsaints_recoveritem_H_Title_001": {
       "ObjectiveSetup": "@mission_item_0055",
       "ReputationRank": "@RepScope_Contractor_Rank3",
-      "Contractor|RecoverSpaceTitleHard": "Making the Most of a Bad Situation",
-      "Contractor|RecoverSpaceDescriptionHard": "Just got a comm from the pilot who was transporting some gear for me and it sounded like they got jumped while on the call. I need someone to head to their location, grab the four packages that are still left inside their ship and bring them back to me.\\n\\nBefore they cut out, they told me that the ships that attacked them weren’t your standard transporters. These assholes are rocking some serious weaponry. Bring a crew, get my shit, and take it to <EM4>~mission(Destination|Target|Address)</EM4>. This whole thing is such a mess that I’d be willing to fork out some extra creds if you can get this done.\\n\\n-Twitch"
+      "Contractor|RecoverSpaceTitleHard": "@deadsaints_recoveritem_H_Title_001",
+      "Contractor|RecoverSpaceDescriptionHard": "@deadsaints_recoveritem_H_Desc_001"
     },
     "Covalex_HaulCargo_AToB_title": {
       "CargoRouteToken": "@HaulCargo_CargoRoute_Interstellar",
       "CargoGradeToken": "@HaulCargo_CargoScale_Bulk",
       "ReputationRank": "@RepStanding_TransportGuild_Rank6",
       "MissionMaxSCUSize": "@FreightElevator_24SCU",
-      "Contractor|SignOff": "Thanks in advance for ensuring prompt service,"
+      "Contractor|SignOff": "@Covalex_SignOff_001"
     },
     "Covalex_HaulCargo_AtoB_desc_ToRuinStation": {
       "CargoRouteToken": "@HaulCargo_CargoRoute_Interstellar",
       "CargoGradeToken": "@HaulCargo_CargoScale_Bulk",
       "ReputationRank": "@RepStanding_TransportGuild_Rank6",
       "MissionMaxSCUSize": "@FreightElevator_24SCU",
-      "Contractor|SignOff": "Thanks in advance for ensuring prompt service,"
+      "Contractor|SignOff": "@Covalex_SignOff_001"
     },
     "Covalex_HaulCargo_AtoB_desc_FromRuinStation": {
       "CargoRouteToken": "@HaulCargo_CargoRoute_Interstellar",
       "CargoGradeToken": "@HaulCargo_CargoScale_Bulk",
       "ReputationRank": "@RepStanding_TransportGuild_Rank6",
       "MissionMaxSCUSize": "@FreightElevator_24SCU",
-      "Contractor|SignOff": "Thanks in advance for ensuring prompt service,"
+      "Contractor|SignOff": "@Covalex_SignOff_001"
     },
     "Covalex_HaulCargo_AtoB_desc_FromLevski": {
       "CargoRouteToken": "@HaulCargo_CargoRoute_Interstellar",
       "CargoGradeToken": "@HaulCargo_CargoScale_Bulk",
       "ReputationRank": "@RepStanding_TransportGuild_Rank6",
       "MissionMaxSCUSize": "@FreightElevator_24SCU",
-      "Contractor|SignOff": "Thanks in advance for ensuring prompt service,"
+      "Contractor|SignOff": "@Covalex_SignOff_001"
     },
     "Covalex_HaulCargo_AtoB_desc_ToLevski": {
       "CargoRouteToken": "@HaulCargo_CargoRoute_Interstellar",
       "CargoGradeToken": "@HaulCargo_CargoScale_Bulk",
       "ReputationRank": "@RepStanding_TransportGuild_Rank6",
       "MissionMaxSCUSize": "@FreightElevator_24SCU",
-      "Contractor|SignOff": "Thanks in advance for ensuring prompt service,"
+      "Contractor|SignOff": "@Covalex_SignOff_001"
     },
     "Covalex_HaulCargo_SingleToMulti_title": {
       "CargoRouteToken": "@HaulCargo_CargoRoute_Interstellar",
       "CargoGradeToken": "@HaulCargo_CargoScale_Large",
       "ReputationRank": "@RepStanding_TransportGuild_Rank6",
       "MissionMaxSCUSize": "@FreightElevator_16SCU",
-      "Contractor|SignOff": "Thanks in advance for ensuring prompt service,"
+      "Contractor|SignOff": "@Covalex_SignOff_001"
     },
     "Covalex_HaulCargo_SingleToMulti_desc_ToCFP_Danger": {
       "CargoRouteToken": "@HaulCargo_CargoRoute_Interstellar",
       "CargoGradeToken": "@HaulCargo_CargoScale_Large",
       "ReputationRank": "@RepStanding_TransportGuild_Rank6",
       "MissionMaxSCUSize": "@FreightElevator_16SCU",
-      "Contractor|SignOff": "Thanks in advance for ensuring prompt service,"
+      "Contractor|SignOff": "@Covalex_SignOff_001"
     },
     "Covalex_HaulCargo_SingleToMulti_desc_Valakkar_Timed": {
       "CargoRouteToken": "@HaulCargo_CargoRoute_Interstellar",
       "CargoGradeToken": "@HaulCargo_CargoScale_Large",
       "ReputationRank": "@RepStanding_TransportGuild_Rank6",
       "MissionMaxSCUSize": "@FreightElevator_16SCU",
-      "Contractor|SignOff": "Thanks in advance for ensuring prompt service,"
+      "Contractor|SignOff": "@Covalex_SignOff_001"
     },
     "BHG_Certification_Super_Title": {
       "Danger": "@hurston_danger_009",
@@ -6952,27 +6952,27 @@
     },
     "Covalex_RecoverCargo_Medium_Title": {
       "ReputationRank": "@RepStanding_TransportGuild_Rank3",
-      "Contractor|SignOff": "Thanks in advance for ensuring prompt service,"
+      "Contractor|SignOff": "@Covalex_SignOff_001"
     },
     "Covalex_RecoverCargo_Medium_Description": {
       "ReputationRank": "@RepStanding_TransportGuild_Rank3",
-      "Contractor|SignOff": "Thanks in advance for ensuring prompt service,"
+      "Contractor|SignOff": "@Covalex_SignOff_001"
     },
     "Covalex_Delivery_Nyx_Medium_Title_001": {
       "ReputationRank": "@mobiGlas_Reputation_Stance_Neutral",
-      "Contractor|SignOff": "Thanks in advance for ensuring prompt service,"
+      "Contractor|SignOff": "@Covalex_SignOff_001"
     },
     "Covalex_Delivery_Nyx_Medium_Desc_001": {
       "ReputationRank": "@mobiGlas_Reputation_Stance_Neutral",
-      "Contractor|SignOff": "Thanks in advance for ensuring prompt service,"
+      "Contractor|SignOff": "@Covalex_SignOff_001"
     },
     "Covalex_Delivery_Stanton_Medium_Title_001": {
       "ReputationRank": "@mobiGlas_Reputation_Stance_Neutral",
-      "Contractor|SignOff": "Thanks in advance for ensuring prompt service,"
+      "Contractor|SignOff": "@Covalex_SignOff_001"
     },
     "Covalex_Delivery_Stanton_Medium_Desc_001": {
       "ReputationRank": "@mobiGlas_Reputation_Stance_Neutral",
-      "Contractor|SignOff": "Thanks in advance for ensuring prompt service,"
+      "Contractor|SignOff": "@Covalex_SignOff_001"
     },
     "Shubin_Industrial_HandMining_Pyro_M_DiscoverPlanetary_Title_001": {
       "System": "@PyroSystem",
@@ -7082,8 +7082,8 @@
     },
     "vaughn_searchbody_space_M_Title_001": {
       "ReputationRank": "@RepScope_Contractor_Rank2",
-      "Contractor|SearchBodySpaceTitleMedium": "My Deepest Condolences",
-      "Contractor|SearchBodySpaceDescriptionMedium": "Whilst we pride ourselves on our efficiency and general cleanliness when it comes to our work, sometimes our contractors can get a little carried away themselves. Circumstances surrounding a former contractor’s death, and more importantly, the target, are somewhat unclear to us.\\n\\nWe’ll need you to travel to <EM4>~mission(Location|Address)</EM4> and locate <EM4>~mission(TargetName)</EM4>’s body so we can deliver clear confirmation to our client. As for the former contractor… you needn’t concern yourself with them. Arrangements for disposal have already been made.\\n\\nSincerely,\\n\\nVaughn"
+      "Contractor|SearchBodySpaceTitleMedium": "@vaughn_searchbody_space_M_Title_001",
+      "Contractor|SearchBodySpaceDescriptionMedium": "@vaughn_searchbody_space_M_Desc_001"
     },
     "headhunters_EliminateSpecific_CFP_M_title_001": {
       "ReputationRank": "@RepScope_Contractor_Rank1"
@@ -7171,18 +7171,18 @@
     },
     "searchbodyspace_title_intro": {
       "ReputationRank": "@mobiGlas_Reputation_Stance_Neutral",
-      "Contractor|SearchBodySpaceTitleIntro": "NEW HIRE: Locate Missing Person",
-      "Contractor|SearchBodySpaceDescriptionIntro": "Hockrow Agency \\nCase File #MP38100\\nLead Investigator: Arken Mallor\\n\\nCase Summary: \\nHockrow Agency is looking for new contractors with a strong stomach and familiarity with dangerous situations to handle the legwork of an active missing persons investigation. \\n\\nReports indicate that it is highly unlikely that you will encounter any hostiles.\\n\\nContract Investigator Actions:\\nTravel to <EM4>~mission(Location|Address)</EM4>, search for <EM4>~mission(TargetName)</EM4>, and confirm their status. If they are deceased, examine the body closely so we can verify their death via your mobiGlas.\\n\\nAdditional Notes:\\nSuccessful completion of this task will open up other employment opportunities within Hockrow Agency."
+      "Contractor|SearchBodySpaceTitleIntro": "@Hockrow_searchbody_space_Intro_Title_001",
+      "Contractor|SearchBodySpaceDescriptionIntro": "@Hockrow_searchbody_space_Intro_Desc_001"
     },
     "Hockrow_searchbody_space_Intro_Title_001": {
       "ReputationRank": "@mobiGlas_Reputation_Stance_Neutral",
-      "Contractor|SearchBodySpaceTitleIntro": "NEW HIRE: Locate Missing Person",
-      "Contractor|SearchBodySpaceDescriptionIntro": "Hockrow Agency \\nCase File #MP38100\\nLead Investigator: Arken Mallor\\n\\nCase Summary: \\nHockrow Agency is looking for new contractors with a strong stomach and familiarity with dangerous situations to handle the legwork of an active missing persons investigation. \\n\\nReports indicate that it is highly unlikely that you will encounter any hostiles.\\n\\nContract Investigator Actions:\\nTravel to <EM4>~mission(Location|Address)</EM4>, search for <EM4>~mission(TargetName)</EM4>, and confirm their status. If they are deceased, examine the body closely so we can verify their death via your mobiGlas.\\n\\nAdditional Notes:\\nSuccessful completion of this task will open up other employment opportunities within Hockrow Agency."
+      "Contractor|SearchBodySpaceTitleIntro": "@Hockrow_searchbody_space_Intro_Title_001",
+      "Contractor|SearchBodySpaceDescriptionIntro": "@Hockrow_searchbody_space_Intro_Desc_001"
     },
     "searchbodyspace_desc_intro": {
       "ReputationRank": "@mobiGlas_Reputation_Stance_Neutral",
-      "Contractor|SearchBodySpaceTitleIntro": "NEW HIRE: Locate Missing Person",
-      "Contractor|SearchBodySpaceDescriptionIntro": "Hockrow Agency \\nCase File #MP38100\\nLead Investigator: Arken Mallor\\n\\nCase Summary: \\nHockrow Agency is looking for new contractors with a strong stomach and familiarity with dangerous situations to handle the legwork of an active missing persons investigation. \\n\\nReports indicate that it is highly unlikely that you will encounter any hostiles.\\n\\nContract Investigator Actions:\\nTravel to <EM4>~mission(Location|Address)</EM4>, search for <EM4>~mission(TargetName)</EM4>, and confirm their status. If they are deceased, examine the body closely so we can verify their death via your mobiGlas.\\n\\nAdditional Notes:\\nSuccessful completion of this task will open up other employment opportunities within Hockrow Agency."
+      "Contractor|SearchBodySpaceTitleIntro": "@Hockrow_searchbody_space_Intro_Title_001",
+      "Contractor|SearchBodySpaceDescriptionIntro": "@Hockrow_searchbody_space_Intro_Desc_001"
     },
     "Eckhart_ShipAmbush_Intro_title": {
       "ReputationRank": "@mobiGlas_Reputation_Stance_Neutral"
@@ -7193,8 +7193,8 @@
     "FTL_RecoverItem_Intro_Title_001": {
       "ObjectiveSetup": "@mission_item_0055",
       "ReputationRank": "@mobiGlas_Reputation_Stance_Neutral",
-      "Contractor|RecoverSpaceTitleIntro": "NEW RETRIEVAL RUN AVAILABLE",
-      "Contractor|RecoverSpaceDescriptionIntro": "ATTENTION ALL FTL COURIERS\\nFOR IMMEDIATE ASSIGNMENT\\n\\n**CONTRACT DETAILS** \\n\\nPICKUP LOCATION – One of our ships went down at <EM4>~mission(Location|Address)</EM4>. Need a courier to retrieve the package.\\n\\nDROPOFF LOCATION – Package will need to be delivered to <EM4>~mission(Destination|Target|Address)</EM4>. \\n\\nTHREAT LEVEL – <EM4>Minimal combat</EM4> expected.\\nTRAVEL – All transportation needs should be arranged by courier. \\n\\n~mission(Contractor|SignOff)"
+      "Contractor|RecoverSpaceTitleIntro": "@FTL_RecoverItem_Intro_Title_001",
+      "Contractor|RecoverSpaceDescriptionIntro": "@FTL_RecoverItem_Intro_Desc_001"
     },
     "headhunters_bombingrun_E_title_001": {
       "ItemsToDestroy": "@destroyItems_BombingRunItem",
@@ -7206,18 +7206,18 @@
     },
     "searchbodyspace_title_S": {
       "ReputationRank": "@RepScope_Contractor_Rank5",
-      "Contractor|SearchBodySpaceTitleSuper": "No Honor Amongst Assassins",
-      "Contractor|SearchBodySpaceDescriptionSuper": "I have a very specific task that requires my best people. \\n\\nSomething unusual seems to have occurred over at <EM4>~mission(Location|Address)</EM4>. One of our contractors seems to have gone rogue after completing their assignment, refusing to communicate with us, and indiscriminately attacking those they come across. Now, I have other methods for dealing with renegade assets but our client still requires confirmation of the original target’s death which we are unable to provide due to this pilot’s presence.\\n\\nI need you to head to the location and identify that <EM4>~mission(TargetName)</EM4> is well and truly dead, preferably without being obliterated by this former, disgruntled contractor. As a fair warning, they were one of our most thorough, and ruthless employees, so extreme caution is advised. You will want to bring your most competent of allies to support you with this. \\n\\nSincerely,\\n\\nVaughn"
+      "Contractor|SearchBodySpaceTitleSuper": "@vaughn_searchbody_space_S_Title_001",
+      "Contractor|SearchBodySpaceDescriptionSuper": "@vaughn_searchbody_space_S_Desc_001"
     },
     "vaughn_searchbody_space_S_Title_001": {
       "ReputationRank": "@RepScope_Contractor_Rank5",
-      "Contractor|SearchBodySpaceTitleSuper": "No Honor Amongst Assassins",
-      "Contractor|SearchBodySpaceDescriptionSuper": "I have a very specific task that requires my best people. \\n\\nSomething unusual seems to have occurred over at <EM4>~mission(Location|Address)</EM4>. One of our contractors seems to have gone rogue after completing their assignment, refusing to communicate with us, and indiscriminately attacking those they come across. Now, I have other methods for dealing with renegade assets but our client still requires confirmation of the original target’s death which we are unable to provide due to this pilot’s presence.\\n\\nI need you to head to the location and identify that <EM4>~mission(TargetName)</EM4> is well and truly dead, preferably without being obliterated by this former, disgruntled contractor. As a fair warning, they were one of our most thorough, and ruthless employees, so extreme caution is advised. You will want to bring your most competent of allies to support you with this. \\n\\nSincerely,\\n\\nVaughn"
+      "Contractor|SearchBodySpaceTitleSuper": "@vaughn_searchbody_space_S_Title_001",
+      "Contractor|SearchBodySpaceDescriptionSuper": "@vaughn_searchbody_space_S_Desc_001"
     },
     "searchbodyspace_desc_S": {
       "ReputationRank": "@RepScope_Contractor_Rank5",
-      "Contractor|SearchBodySpaceTitleSuper": "No Honor Amongst Assassins",
-      "Contractor|SearchBodySpaceDescriptionSuper": "I have a very specific task that requires my best people. \\n\\nSomething unusual seems to have occurred over at <EM4>~mission(Location|Address)</EM4>. One of our contractors seems to have gone rogue after completing their assignment, refusing to communicate with us, and indiscriminately attacking those they come across. Now, I have other methods for dealing with renegade assets but our client still requires confirmation of the original target’s death which we are unable to provide due to this pilot’s presence.\\n\\nI need you to head to the location and identify that <EM4>~mission(TargetName)</EM4> is well and truly dead, preferably without being obliterated by this former, disgruntled contractor. As a fair warning, they were one of our most thorough, and ruthless employees, so extreme caution is advised. You will want to bring your most competent of allies to support you with this. \\n\\nSincerely,\\n\\nVaughn"
+      "Contractor|SearchBodySpaceTitleSuper": "@vaughn_searchbody_space_S_Title_001",
+      "Contractor|SearchBodySpaceDescriptionSuper": "@vaughn_searchbody_space_S_Desc_001"
     },
     "RAIN_CollectResources_storm_title_002": {
       "ReputationRank": "@RepScope_Contractor_Rank2"
@@ -7295,8 +7295,8 @@
     "BitZeros_blackbox_VH_Title_001": {
       "ObjectiveSetup": "@mission_item_0055",
       "ReputationRank": "@RepScope_Contractor_Rank4",
-      "Contractor|BlackBoxRecoverTitleVeryHard": "Our Version of The Truth",
-      "Contractor|BlackBoxRecoverDescriptionVeryHard": "I’m not gonna give you the whole backstory of what this person has done to us, but all you need to know is that some scumbag is trying to get a payout for a ship crash and the insurance company wants to see the blackbox recording to make sure everything is “above board”.\\n\\nWe’re not gonna let that happen though.\\n\\nSnatch that blackbox at <EM4>~mission(Location|Address)</EM4> and bring it to us instead so we can do some “creative editing” on the recording.\\n\\nApparently, this area is a bit of a hot zone. Probably why they staged the accident there. You should probably bring some backup so you don’t get ghosted before you can bring the blackbox to us at <EM4>~mission(Destination|Target|Address)</EM4>.\\n\\n-Bit Zeros"
+      "Contractor|BlackBoxRecoverTitleVeryHard": "@BitZeros_blackbox_VH_Title_001",
+      "Contractor|BlackBoxRecoverDescriptionVeryHard": "@BitZeros_blackbox_VH_Desc_001"
     },
     "cfp_ChainElimAll_2C_ElimSpec_GenAttack_M_title_001": {
       "ReputationRank": "@RepScope_Contractor_Rank3"
@@ -7375,14 +7375,14 @@
     "deadsaints_recoveritem_VE_Title_001": {
       "ObjectiveSetup": "@mission_item_0055",
       "ReputationRank": "@mobiGlas_Reputation_Stance_Neutral",
-      "Contractor|RecoverSpaceTitleVeryEasy": "Pick Up and Drop Off",
-      "Contractor|RecoverSpaceDescriptionVeryEasy": "Need someone solid to head to <EM4>~mission(Location|Address)</EM4> and finish a delivery for me. The last contractor got themselves perished and now my stash is sitting in the back of their ship.\\n\\nThe scavs that took out my pilot might be there too, so stay alert. Take my package to <EM4>~mission(Destination|Target|Address)</EM4> and I’ll pay you for your time.\\n\\n-Twitch"
+      "Contractor|RecoverSpaceTitleVeryEasy": "@deadsaints_recoveritem_VE_Title_001",
+      "Contractor|RecoverSpaceDescriptionVeryEasy": "@deadsaints_recoveritem_VE_Desc_001"
     },
     "BitZeros_blackbox_VE_Title_001": {
       "ObjectiveSetup": "@mission_item_0055",
       "ReputationRank": "@mobiGlas_Reputation_Stance_Neutral",
-      "Contractor|BlackBoxRecoverTitleVeryEasy": "Pick Up, Put Down",
-      "Contractor|BlackBoxRecoverDescriptionVeryEasy": "Someone of interest to us recently kicked the bucket (not our fault) over at <EM4>~mission(Location|Address)</EM4> and we’re pretty curious what happened. We need you to grab the blackbox from the ship and drop it off at <EM4>~mission(Destination|Target|Address)</EM4>.\\n\\nThis is a shipwreck by the way, so chances are some scavs will be around there too. But don’t worry, that’s been factored into your pay too.\\n\\n-Bit Zeros"
+      "Contractor|BlackBoxRecoverTitleVeryEasy": "@BitZeros_blackbox_VE_Title_001",
+      "Contractor|BlackBoxRecoverDescriptionVeryEasy": "@BitZeros_blackbox_VE_Desc_001"
     },
     "cfp_defendship_VLRT_title_001": {
       "ReputationRank": "@mobiGlas_Reputation_Stance_Neutral"
@@ -7410,8 +7410,8 @@
     },
     "Hockrow_searchbody_space_E_Title_001": {
       "ReputationRank": "@RepScope_Contractor_Rank1",
-      "Contractor|SearchBodySpaceTitleEasy": "Potential Assassin Victim: ~mission(TargetName)",
-      "Contractor|SearchBodySpaceDescriptionEasy": "Hockrow Agency \\nCase File #MP50122\\nLead Investigator: Arken Mallor\\n\\nCase Summary: \\nNeed an operative to help us potentially prevent a death. An informant has reported an active hit issued for <EM4>~mission(TargetName)</EM4> and fears the worst, but the client has hired us like us to look into it. \\n\\nContract Investigator Actions:\\nLast known location was <EM4>~mission(Location|Address)</EM4>. Head over there and see if the person mentioned by our client is still with us. If they’re not, examine the body closely so we can report back to them with details of their death.\\n\\nAdditional Notes:\\nThis contract has been flagged as <EM4>combat-likely</EM4> so prepare accordingly."
+      "Contractor|SearchBodySpaceTitleEasy": "@Hockrow_searchbody_space_E_Title_001",
+      "Contractor|SearchBodySpaceDescriptionEasy": "@Hockrow_searchbody_space_E_Desc_001"
     },
     "Foxwell_EliminateSpecific_NonHostiles_title_001": {
       "ReputationRank": "@RepStanding_Security_Rank1"
@@ -7515,8 +7515,8 @@
     },
     "vaughn_searchbody_space_VE_Title_001": {
       "ReputationRank": "@mobiGlas_Reputation_Stance_Neutral",
-      "Contractor|SearchBodySpaceTitleVeryEasy": "Putting a Mind at Ease",
-      "Contractor|SearchBodySpaceDescriptionVeryEasy": "Despite having given the client my word that their target has been dealt with, they are disposed to bouts of paranoia, so they require additional digital evidence of their demise.\\n\\nI’ll need you to head to <EM4>~mission(Location|Address)</EM4> and give the corpse a thorough once over. Whilst I’m confident <EM4>~mission(TargetName)</EM4> is taken care of, verification via your mobiGlas will hopefully bring some peace of mind to my client.\\n\\nI can’t imagine you coming across any significant trouble, but in this line of work, some trouble is always to be expected.\\n\\nSincerely,\\n\\nVaughn"
+      "Contractor|SearchBodySpaceTitleVeryEasy": "@vaughn_searchbody_space_VE_Title_001",
+      "Contractor|SearchBodySpaceDescriptionVeryEasy": "@vaughn_searchbody_space_VE_Desc_001"
     },
     "headhunters_defendship_multi_VHRT_PA_title_001": {
       "ReputationRank": "@RepScope_Contractor_Rank4"
@@ -7568,11 +7568,11 @@
     },
     "Covalex_RecoverCargo_Super_Title": {
       "ReputationRank": "@RepStanding_TransportGuild_Rank6",
-      "Contractor|SignOff": "Thanks in advance for ensuring prompt service,"
+      "Contractor|SignOff": "@Covalex_SignOff_001"
     },
     "Covalex_RecoverCargo_Super_Description": {
       "ReputationRank": "@RepStanding_TransportGuild_Rank6",
-      "Contractor|SignOff": "Thanks in advance for ensuring prompt service,"
+      "Contractor|SignOff": "@Covalex_SignOff_001"
     },
     "CFP_RecoverCargo_Medium_Title": {
       "ReputationRank": "@RepScope_Contractor_Rank1"
@@ -7679,8 +7679,8 @@
     "RedWind_RecoverItem_H_Title_001": {
       "ObjectiveSetup": "@mission_item_0055",
       "ReputationRank": "@RepScope_Contractor_Rank3",
-      "Contractor|RecoverSpaceTitleHard": "Red Wind Challenging Package Recovery",
-      "Contractor|RecoverSpaceDescriptionHard": "RED WIND LINEHAUL\\n'YOUR GOODS IN GOOD HANDS'\\n----------------------------\\n\\nNeed an experienced pilot for this recovery contract. Unfortunately, the original delivery pilot was targeting by a group of outlaws. Thankfully, the client’s packages are still sitting in their damaged ship located at <EM4>~mission(Location|Address)</EM4>.\\n\\nYou’ll potentially need to <EM4>bring some backup</EM4> with you to ensure the successful collection and delivery of the packages.\\n\\nPACKAGES TO RECOVER\\n     · <EM4>4x ~mission(Item1)</EM4>\\n\\nDROP OFF LOCATION\\n     · Deliver to <EM4>~mission(Destination|Target|Address)</EM4>\\n\\nConsidering the danger of this contract, we’re willing to offer a slight pay increase as hazard pay.\\n\\nTAKE PRIDE IN YOUR WORK – Even as a contractor you are representing Red Wind Linehaul. Do not intentionally do anything to harm the company’s reputation."
+      "Contractor|RecoverSpaceTitleHard": "@RedWind_RecoverItem_H_Title_001",
+      "Contractor|RecoverSpaceDescriptionHard": "@RedWind_RecoverItem_H_Desc_001"
     },
     "RedWind_RecoverCargo_VeryHard_Title": {
       "ReputationRank": "@RepScope_Contractor_Rank3"
@@ -7691,8 +7691,8 @@
     "RedWind_RecoverItem_VH_Title_001": {
       "ObjectiveSetup": "@mission_item_0055",
       "ReputationRank": "@RepScope_Contractor_Rank4",
-      "Contractor|RecoverSpaceTitleVeryHard": "Red Wind Dangerous Package Recovery",
-      "Contractor|RecoverSpaceDescriptionVeryHard": "RED WIND LINEHAUL\\n'YOUR GOODS IN GOOD HANDS'\\n----------------------------\\n\\nWe appreciate how hard you’ve been working for us recently, which is why we’d like to offer you this advanced contract. An important client of ours is waiting for delivery on multiple packages but the courier due to deliver them is no longer responding. The package trackers are showing that they’re at <EM4>~mission(Location|Address)</EM4>, meaning we have some time to recover the delivery.\\n\\nPACKAGES TO RECOVER\\n     · <EM4>5x ~mission(Item1)</EM4>\\n\\nDROP OFF LOCATION\\n     · Deliver to <EM4>~mission(Destination|Target|Address)</EM4>\\n\\nWe cannot stress enough how important the success of this delivery is. Since we do not know what happened to the original courier, we strongly urge you to travel with <EM4>several trustworthy combat pilots.</EM4>\\n\\nNeedless to say, we’re offering a substantial payout for this one proportionate to the danger of the contract.\\n\\nTAKE PRIDE IN YOUR WORK – Even as a contractor you are representing Red Wind Linehaul. Do not intentionally do anything to harm the company’s reputation."
+      "Contractor|RecoverSpaceTitleVeryHard": "@RedWind_RecoverItem_VH_Title_001",
+      "Contractor|RecoverSpaceDescriptionVeryHard": "@RedWind_RecoverItem_VH_Desc_001"
     },
     "RedWind_RecoverCargo_Easy_Title": {
       "ReputationRank": "@mobiGlas_Reputation_Stance_Neutral"
@@ -7703,20 +7703,20 @@
     "RedWind_RecoverItem_E_Title_001": {
       "ObjectiveSetup": "@mission_item_0055",
       "ReputationRank": "@RepScope_Contractor_Rank1",
-      "Contractor|RecoverSpaceTitleEasy": "Red Wind Easy Package Recovery",
-      "Contractor|RecoverSpaceDescriptionEasy": "RED WIND LINEHAUL\\n'YOUR GOODS IN GOOD HANDS'\\n----------------------------\\n\\nSeems a pilot of ours ran into some trouble and left a client’s delivery unfulfilled. We suspect they may no longer be with us, but it’s important that we continue to offer outstanding levels of service and complete the job. If you accept, please head to <EM4>~mission(Location|Address)</EM4> to pick up the packages. Be advised you may encounter some <EM4>opportunistic outlaws</EM4> near the derelict ship.\\n\\nPACKAGES TO RECOVER\\n     · <EM4>2x ~mission(Item1)</EM4>\\n\\nDROP OFF LOCATION\\n     · Deliver to <EM4>~mission(Destination|Target|Address)</EM4>\\n\\n\\nTAKE PRIDE IN YOUR WORK – Even as a contractor you are representing Red Wind Linehaul. Do not intentionally do anything to harm the company’s reputation."
+      "Contractor|RecoverSpaceTitleEasy": "@RedWind_RecoverItem_E_Title_001",
+      "Contractor|RecoverSpaceDescriptionEasy": "@RedWind_RecoverItem_E_Desc_001"
     },
     "RedWind_RecoverItem_VE_Title_001": {
       "ObjectiveSetup": "@mission_item_0055",
       "ReputationRank": "@mobiGlas_Reputation_Stance_Neutral",
-      "Contractor|RecoverSpaceTitleVeryEasy": "Red Wind Package Recovery",
-      "Contractor|RecoverSpaceDescriptionVeryEasy": "RED WIND LINEHAUL\\n'YOUR GOODS IN GOOD HANDS'\\n----------------------------\\n\\nA contractor of ours has run into some trouble and abandoned their ship over at <EM4>~mission(Location|Address)</EM4>. We need someone to head to their ship, pick up the package they left there, and finish the job.\\n\\nPACKAGES TO RECOVER\\n     · <EM4>1x ~mission(Item1)</EM4>\\n\\nDROP OFF LOCATION\\n     · Deliver to <EM4>~mission(Destination|Target|Address)</EM4>\\n\\nWe’re currently uncertain as to why they failed to complete the contract, so be cautious when approaching the ship.\\n\\nTAKE PRIDE IN YOUR WORK – Even as a contractor you are representing Red Wind Linehaul. Do not intentionally do anything to harm the company’s reputation."
+      "Contractor|RecoverSpaceTitleVeryEasy": "@RedWind_RecoverItem_VE_Title_001",
+      "Contractor|RecoverSpaceDescriptionVeryEasy": "@RedWind_RecoverItem_VE_Desc_001"
     },
     "RedWind_RecoverItem_Intro_Title_001": {
       "ObjectiveSetup": "@mission_item_0055",
       "ReputationRank": "@mobiGlas_Reputation_Stance_Neutral",
-      "Contractor|RecoverSpaceTitleIntro": "Red Wind Seeking New Couriers",
-      "Contractor|RecoverSpaceDescriptionIntro": "RED WIND LINEHAUL\\n'YOUR GOODS IN GOOD HANDS'\\n----------------------------\\n\\nRed Wind is excited to announce that we are looking to hire new couriers to help with deliveries across the ’verse. We pride ourselves on been a flexible company that’s eager to meet the needs of all clients, everywhere. We’ll ask no questions; if you want it there, we’ll get it there. If that sounds like you, we have an introductory contract to see if you’re the right fit.\\n\\nWe need a resilient new hire to head to <EM4>~mission(Location|Address)</EM4>, recover the package abandoned by a former employee, and finish the delivery.\\n\\nPACKAGES TO RECOVER\\n     · <EM4>1x ~mission(Item1)</EM4>\\n\\nDROP OFF LOCATION\\n     · Deliver to <EM4>~mission(Destination|Target|Address)</EM4>\\n\\nIf you’re able to handle this contract we’d be delighted to send you more courier opportunities.\\n\\nTAKE PRIDE IN YOUR WORK – Even as a contractor you are representing Red Wind Linehaul. Do not intentionally do anything to harm the company’s reputation."
+      "Contractor|RecoverSpaceTitleIntro": "@RedWind_RecoverItem_Intro_Title_001",
+      "Contractor|RecoverSpaceDescriptionIntro": "@RedWind_RecoverItem_Intro_Desc_001"
     },
     "RedWind_HaulCargo_title_intro": {
       "CargoRouteToken": "@HaulCargo_CargoRoute_Planetary",
@@ -7745,8 +7745,8 @@
     "RedWind_RecoverItem_M_Title_001": {
       "ObjectiveSetup": "@mission_item_0055",
       "ReputationRank": "@RepScope_Contractor_Rank2",
-      "Contractor|RecoverSpaceTitleMedium": "Red Wind Straightforward Package Recovery",
-      "Contractor|RecoverSpaceDescriptionMedium": "RED WIND LINEHAUL\\n'YOUR GOODS IN GOOD HANDS'\\n----------------------------\\n\\nOutlaws are making our jobs much harder to complete these days. We need a contractor with combat experience to head to our former delivery pilot’s ship location at <EM4>~mission(Location|Address)</EM4> and recover the packages left there.\\n\\nPACKAGES TO RECOVER\\n     · <EM4>3x ~mission(Item1)</EM4>\\n\\nDROP OFF LOCATION\\n     · Deliver to <EM4>~mission(Destination|Target|Address)</EM4>\\n\\nWhile you're out there, be on the lookout for trouble, we’re getting <EM4>reports of multiple outlaws</EM4> in the vicinity.\\n\\nTAKE PRIDE IN YOUR WORK – Even as a contractor you are representing Red Wind Linehaul. Do not intentionally do anything to harm the company’s reputation."
+      "Contractor|RecoverSpaceTitleMedium": "@RedWind_RecoverItem_M_Title_001",
+      "Contractor|RecoverSpaceDescriptionMedium": "@RedWind_RecoverItem_M_Desc_001"
     },
     "cfp_bombingrun_sabotage_generators_title_001": {
       "ItemsToDestroy1": "@destroyItems_BombingRunItem",
@@ -7831,8 +7831,8 @@
       "ReputationRank": "@RepScope_Contractor_Rank1"
     },
     "TarPits_TimedSalvage_Title_01": {
-      "Contractor|SalvageContractorTitle": "Risky ~mission(Ship) Salvage Job",
-      "Contractor|SalvageContractorDesc": "We’ve got our eye on a ~mission(ship) near ~mission(location) that’s ripe for salvaging. We’re too busy to snag it ourselves, so why not spread the wealth, right?\\n\\nIf you send us some credits, we’ll send you the ship’s exact coordinates. Don’t take too long to think it over, though. You’ve probably got about ~mission(timer) minutes until security gets there to check out the wreck. Could be more, could be less.\\n\\nYou could either tow it somewhere else first, or you could try to scrap what you can onsite before security shows. Don’t care which as long as you get it taken care of. And once you've salvaged everything you want, just go ahead and abandon this contract to clear your map. Helps keep everything nice and tidy."
+      "Contractor|SalvageContractorTitle": "@TarPits_TimedSalvage_Title_01",
+      "Contractor|SalvageContractorDesc": "@TarPits_TimedSalvage_Desc_01"
     },
     "RedWind_HaulCargo_AToB_desc_ToPyro_Danger": {
       "CargoRouteToken": "@HaulCargo_CargoRoute_Interstellar",
@@ -8100,11 +8100,11 @@
     },
     "Covalex_RecoverCargo_Easy_Title": {
       "ReputationRank": "@RepStanding_TransportGuild_Rank2",
-      "Contractor|SignOff": "Thanks in advance for ensuring prompt service,"
+      "Contractor|SignOff": "@Covalex_SignOff_001"
     },
     "Covalex_RecoverCargo_Easy_Description": {
       "ReputationRank": "@RepStanding_TransportGuild_Rank2",
-      "Contractor|SignOff": "Thanks in advance for ensuring prompt service,"
+      "Contractor|SignOff": "@Covalex_SignOff_001"
     },
     "Shubin_Industrial_HandMining_Nyx_M_PlanetarySystem_Title_001": {
       "System": "@NyxSystem",
@@ -8210,11 +8210,11 @@
     },
     "Covalex_Delivery_Stanton_Super_Title_001": {
       "ReputationRank": "@RepScope_Contractor_Rank3",
-      "Contractor|SignOff": "Thanks in advance for ensuring prompt service,"
+      "Contractor|SignOff": "@Covalex_SignOff_001"
     },
     "Covalex_Delivery_Stanton_Super_Desc_001": {
       "ReputationRank": "@RepScope_Contractor_Rank3",
-      "Contractor|SignOff": "Thanks in advance for ensuring prompt service,"
+      "Contractor|SignOff": "@Covalex_SignOff_001"
     },
     "Shubin_Industrial_ShipMining_VH_Org_Title_001": {
       "ReputationRank": "@RepScope_Contractor_Rank4"
@@ -8450,8 +8450,8 @@
     "BitZeros_blackbox_M_Title_001": {
       "ObjectiveSetup": "@mission_item_0055",
       "ReputationRank": "@RepScope_Contractor_Rank2",
-      "Contractor|BlackBoxRecoverTitleMedium": "Too Smart For Our Own Good",
-      "Contractor|BlackBoxRecoverDescriptionMedium": "We were a little too smart with this one and it’s kinda backfired. Sometimes you gotta dream big, you know? Anyway. we were looking to move some encrypted data to one of our data havens and decided to hide it in a ship’s blackbox. They filled the ship with “valuable” stuff as a decoy in case it got attacked. The plan worked a little too well and the cargo might have attracted the wrong kind of attention. They stole all the cargo but missed the blackbox. Bad news is the ship is now swarming with outlaws.\\n\\nThe data on that blackbox is useless to them, but we need it. If you can get it back for us, we can give you a nice cut from what we make. Seems like a fair deal, right?\\n\\nHead to <EM4>~mission(Location|Address)</EM4> and after you’ve done your thing take the flight recorder to <EM4>~mission(Destination|Target|Address)</EM4>.\\n\\n-Bit Zeros"
+      "Contractor|BlackBoxRecoverTitleMedium": "@BitZeros_blackbox_M_Title_001",
+      "Contractor|BlackBoxRecoverDescriptionMedium": "@BitZeros_blackbox_M_Desc_001"
     },
     "Eckhart_EscortShips_S_title": {
       "ReputationRank": "@RepScope_Contractor_Rank5"
@@ -8633,16 +8633,16 @@
     },
     "Hockrow_searchbody_space_S_Title_001": {
       "ReputationRank": "@RepScope_Contractor_Rank5",
-      "Contractor|SearchBodySpaceTitleSuper": "Verify Deceased Criminal: ~mission(TargetName)",
-      "Contractor|SearchBodySpaceDescriptionSuper": "Hockrow Agency \\nCase File #MP70001\\nLead Investigator: Arken Mallor\\n\\nCase Summary: \\nIn need of a highly competent operator for a special assignment. A highly dangerous outlaw that has been evading local authorities for some time has been reported to have been involved in a large-scale ship battle, resulting in their supposed death. Our client wishes to confirm that they have been neutralized.\\n\\nContract Investigator Actions:\\nWe require you to head to <EM4>~mission(Location|Address)</EM4> locate <EM4>~mission(TargetName)</EM4>’s body and confirm their death.\\n\\nAdditional Notes:\\nSerious preparation is advised for this contract as there is a strong potential for there to be highly aggressive and dangerous hostiles still on site. Arm yourself accordingly and consider bring other skilled pilots with you."
+      "Contractor|SearchBodySpaceTitleSuper": "@Hockrow_searchbody_space_S_Title_001",
+      "Contractor|SearchBodySpaceDescriptionSuper": "@Hockrow_searchbody_space_S_Desc_001"
     },
     "Covalex_Delivery_Stanton_VeryHard_Title_001": {
       "ReputationRank": "@RepScope_Contractor_Rank2",
-      "Contractor|SignOff": "Thanks in advance for ensuring prompt service,"
+      "Contractor|SignOff": "@Covalex_SignOff_001"
     },
     "Covalex_Delivery_Stanton_VeryHard_Desc_001": {
       "ReputationRank": "@RepScope_Contractor_Rank2",
-      "Contractor|SignOff": "Thanks in advance for ensuring prompt service,"
+      "Contractor|SignOff": "@Covalex_SignOff_001"
     },
     "Eckhart_EscortShips_H_title": {
       "ReputationRank": "@RepScope_Contractor_Rank3"
@@ -8711,8 +8711,8 @@
     "deadsaints_recoveritem_E_Title_001": {
       "ObjectiveSetup": "@mission_item_0055",
       "ReputationRank": "@RepScope_Contractor_Rank1",
-      "Contractor|RecoverSpaceTitleEasy": "Write Off",
-      "Contractor|RecoverSpaceDescriptionEasy": "Not sure how the hell this happened, but my pilot’s gone and got themselves killed over at <EM4>~mission(Location|Address)</EM4>. If you want to die on your own time, that’s your business, but they did it while carrying a stash for me. Now I gotta have someone go out there and finish their work.\\n\\nTake the two packages to <EM4>~mission(Destination|Target|Address)</EM4> and I’ll have one of my crew collect it later. If you see those assholes who took out my pilot, give ‘em hell.\\n\\n-Twitch"
+      "Contractor|RecoverSpaceTitleEasy": "@deadsaints_recoveritem_E_Title_001",
+      "Contractor|RecoverSpaceDescriptionEasy": "@deadsaints_recoveritem_E_Desc_001"
     },
     "headhunters_EliminateSpecific_XenoThreat_H_title_001": {
       "ReputationRank": "@RepScope_Contractor_Rank3"
