@@ -1,6 +1,6 @@
 {
   "version": "4.7.0-ptu.11509651",
-  "keyCount": 3359,
+  "keyCount": 3460,
   "keys": {
     "Covalex_RecoverCargo_VeryEasy_Title": "@Covalex_RecoverCargo_VeryEasy_Title",
     "Headhunters_Delivery_Outpost_title_001": "[DESTINATION] Errand",
@@ -1415,9 +1415,12 @@
     "TheCollector_Ships_ZeusES_Desc": "Wikelo can make new version of Zeus ship. I know it important ship to Human. Not sure why, but yes, very useful ship. Anyway, can upgrade and make a little prettier. What I need listed, if you want, bring. Bye.",
     "Covalex_HaulCargo_AToB_Rehire_desc": "Hey,\\n\\nHave a bit of good news for you. Covalex recently finished an evaluation of our contractor pool, and decided to reconsider your status as a cargo hauler. To requalify, all you need is to successfully complete the following delivery.\\n\\nPick up <EM4>Quartz</EM4> from a freight elevator at <EM4>[LOCATION]</EM4> and deliver it to a freight elevator at <EM4>[DESTINATION]</EM4>. In order to complete this haul in a fast and efficient manner, you'll need a ship that can haul <EM4>1 SCU cargo containers</EM4>.\\n\\nHopefully everything goes smoothly so we can welcome you back to the team.\\n\\nBy the way, we strongly encourage contractors to bring a <EM4>handheld tractor beam</EM4> along.   \\n\\nCovalex Shipping  \\n'Anything you need, anywhere you need it.'\\n\\nCovalex Shipping is a limited liability corporation. To encourage timely deliveries and prevent fraud on cargo hauls, Covalex Shipping will set a delivery time limit and upon expiration, any undelivered cargo will be considered stolen and treated as such. Total payment will be prorated according to the percentage of cargo successfully delivered.",
     "HaulCargo_AtoB_desc": "Hello,\\n\\nNeed a contractor for a simple cargo haul going from a freight elevator at <EM4>[LOCATION]</EM4> to a freight elevator at <EM4>[DESTINATION]</EM4>. At most the containers will be <EM4>4 SCU</EM4> in size. \\n\\nAlso, we strongly encourage contractors to bring a <EM4>handheld tractor beam</EM4> along. \\n\\nAny chance you’re available to take care of it for us?\\n\\n[SIGN_OFF]\\n\\nChase Hewitt\\nJr. Logistics Coordinator\\nCovalex Shipping  \\n'Anything you need, anywhere you need it.'\\n\\nCovalex Shipping is a limited liability corporation. To encourage timely deliveries and prevent fraud on cargo hauls, Covalex Shipping will set a delivery time limit and upon expiration, any undelivered cargo will be considered stolen and treated as such. Total payment will be prorated according to the percentage of cargo successfully delivered.",
+    "Covalex_HaulCargo_AToB_desc_01": "Hello,\\n\\nNeed a contractor for a simple cargo haul going from a freight elevator at <EM4>[LOCATION]</EM4> to a freight elevator at <EM4>[DESTINATION]</EM4>. At most the containers will be <EM4>4 SCU</EM4> in size. \\n\\nAlso, we strongly encourage contractors to bring a <EM4>handheld tractor beam</EM4> along. \\n\\nAny chance you’re available to take care of it for us?\\n\\n[SIGN_OFF]\\n\\nChase Hewitt\\nJr. Logistics Coordinator\\nCovalex Shipping  \\n'Anything you need, anywhere you need it.'\\n\\nCovalex Shipping is a limited liability corporation. To encourage timely deliveries and prevent fraud on cargo hauls, Covalex Shipping will set a delivery time limit and upon expiration, any undelivered cargo will be considered stolen and treated as such. Total payment will be prorated according to the percentage of cargo successfully delivered.",
     "Covalex_HaulCargo_AToB_Stanton_Interstellar": "Hey,\\n\\nAny interest in doing the Stanton leg of an interstellar run? \\n\\nThere’s a haul of <EM4>Hydrogen</EM4> waiting in containers <EM4>32 SCU</EM4> or smaller to be picked up from a freight elevator at <EM4>[LOCATION]</EM4> and delivered to a freight elevator at <EM4>[DESTINATION]</EM4>. No need to take it any further than that. I’ve got someone else lined up to run it through the jump to its final destination. \\n\\nBy the way, we strongly encourage contractors to bring a <EM4>handheld tractor beam</EM4> along.   \\n\\nThanks in advance for ensuring prompt service,\\n\\nChase Hewitt\\nJr. Logistics Coordinator\\nCovalex Shipping  \\n'Anything you need, anywhere you need it.'\\n\\nCovalex Shipping is a limited liability corporation. To encourage timely deliveries and prevent fraud on cargo hauls, Covalex Shipping will set a delivery time limit and upon expiration, any undelivered cargo will be considered stolen and treated as such. Total payment will be prorated according to the percentage of cargo successfully delivered.",
     "HaulCargo_MultiToSingle_desc": "Hello!\\n\\nThere’s a load of cargo (<EM4>32 SCU</EM4> or smaller) that needs to be delivered to a freight elevator at <EM4>[DESTINATION]</EM4>. The only thing is that the cargo is spread across a few locations, which I’ve listed out below.  \\n\\nPICK UP LOCATIONS (ANY ORDER)\\n\\n- Freight elevator at <EM4>[LOCATION]</EM4>\\n- Freight elevator at <EM4>[LOCATION1]</EM4>\\n- Freight elevator at <EM4>[LOCATION2]</EM4>\\n\\nMakes no difference what order you grab the stuff, as long as it’s all delivered.\\n\\nBy the way, we strongly encourage contractors to bring a <EM4>handheld tractor beam</EM4> along.   \\n\\n[SIGN_OFF]\\n\\nChase Hewitt\\nJr. Logistics Coordinator\\nCovalex Shipping  \\n'Anything you need, anywhere you need it.'\\n\\nCovalex Shipping is a limited liability corporation. To encourage timely deliveries and prevent fraud on cargo hauls, Covalex Shipping will set a delivery time limit and upon expiration, any undelivered cargo will be considered stolen and treated as such. Total payment will be prorated according to the percentage of cargo successfully delivered.",
+    "Covalex_HaulCargo_MultiToSingle_desc_01": "Hello!\\n\\nThere’s a load of cargo (<EM4>32 SCU</EM4> or smaller) that needs to be delivered to a freight elevator at <EM4>[DESTINATION]</EM4>. The only thing is that the cargo is spread across a few locations, which I’ve listed out below.  \\n\\nPICK UP LOCATIONS (ANY ORDER)\\n\\n- Freight elevator at <EM4>[LOCATION]</EM4>\\n- Freight elevator at <EM4>[LOCATION1]</EM4>\\n- Freight elevator at <EM4>[LOCATION2]</EM4>\\n\\nMakes no difference what order you grab the stuff, as long as it’s all delivered.\\n\\nBy the way, we strongly encourage contractors to bring a <EM4>handheld tractor beam</EM4> along.   \\n\\n[SIGN_OFF]\\n\\nChase Hewitt\\nJr. Logistics Coordinator\\nCovalex Shipping  \\n'Anything you need, anywhere you need it.'\\n\\nCovalex Shipping is a limited liability corporation. To encourage timely deliveries and prevent fraud on cargo hauls, Covalex Shipping will set a delivery time limit and upon expiration, any undelivered cargo will be considered stolen and treated as such. Total payment will be prorated according to the percentage of cargo successfully delivered.",
     "HaulCargo_SingleToMulti_desc": "Greetings, \\n\\nSeems like <EM4>[LOCATION]</EM4> currently has some <EM4>16 SCU</EM4> or smaller cargo that needs to be separated and delivered to a few different spots. \\n\\nDROP OFF LOCATIONS (ANY ORDER)\\n\\n- Freight elevator at <EM4>[DESTINATION]</EM4>\\n- Freight elevator at <EM4>[DESTINATION1]</EM4>\\n- Freight elevator at <EM4>[DESTINATION2]</EM4>\\n- Freight elevator at <EM4>[DESTINATION3]</EM4>\\n\\nDrop-offs can be done in whatever order works best for you.  \\n\\nBy the way, we strongly encourage contractors to bring a <EM4>handheld tractor beam</EM4> along.   \\n\\n[SIGN_OFF]\\n\\nChase Hewitt\\nJr. Logistics Coordinator\\nCovalex Shipping  \\n'Anything you need, anywhere you need it.'\\n\\nCovalex Shipping is a limited liability corporation. To encourage timely deliveries and prevent fraud on cargo hauls, Covalex Shipping will set a delivery time limit and upon expiration, any undelivered cargo will be considered stolen and treated as such. Total payment will be prorated according to the percentage of cargo successfully delivered.",
+    "Covalex_HaulCargo_SingleToMulti_desc_01": "Greetings, \\n\\nSeems like <EM4>[LOCATION]</EM4> currently has some <EM4>16 SCU</EM4> or smaller cargo that needs to be separated and delivered to a few different spots. \\n\\nDROP OFF LOCATIONS (ANY ORDER)\\n\\n- Freight elevator at <EM4>[DESTINATION]</EM4>\\n- Freight elevator at <EM4>[DESTINATION1]</EM4>\\n- Freight elevator at <EM4>[DESTINATION2]</EM4>\\n- Freight elevator at <EM4>[DESTINATION3]</EM4>\\n\\nDrop-offs can be done in whatever order works best for you.  \\n\\nBy the way, we strongly encourage contractors to bring a <EM4>handheld tractor beam</EM4> along.   \\n\\n[SIGN_OFF]\\n\\nChase Hewitt\\nJr. Logistics Coordinator\\nCovalex Shipping  \\n'Anything you need, anywhere you need it.'\\n\\nCovalex Shipping is a limited liability corporation. To encourage timely deliveries and prevent fraud on cargo hauls, Covalex Shipping will set a delivery time limit and upon expiration, any undelivered cargo will be considered stolen and treated as such. Total payment will be prorated according to the percentage of cargo successfully delivered.",
     "Covalex_HaulCargo_MultiToSingle_Waste_Waste_Stanton1": "Hi,\\n\\nNeed the trash collected from a few Hurston locations and then taken to a freight elevator at <EM4>[DESTINATION]</EM4>. Don't worry, none of the containers are bigger than <EM4>1 SCU</EM4>.\\n\\nPICK UP LOCATIONS (ANY ORDER)\\n\\n- Freight elevator at <EM4>[LOCATION]</EM4>\\n- Freight elevator at <EM4>[LOCATION1]</EM4>\\n\\nFun fact for you. Hurston is the only planet in Stanton that doesn’t separate their trash and scrap. One of their workers told me that the company did a cost-benefit analysis on it decades ago that determined it wasn’t worth putting a planet-wide system in place to facilitate it. Isn’t that the most Hurston thing ever?   \\n\\nBy the way, we strongly encourage contractors to bring a <EM4>handheld tractor beam</EM4> along.   \\n\\nThanks in advance for ensuring prompt service,\\n\\nChase Hewitt\\nJr. Logistics Coordinator\\nCovalex Shipping  \\n'Anything you need, anywhere you need it.'\\n\\nCovalex Shipping is a limited liability corporation. To encourage timely deliveries and prevent fraud on cargo hauls, Covalex Shipping will set a delivery time limit and upon expiration, any undelivered cargo will be considered stolen and treated as such. Total payment will be prorated according to the percentage of cargo successfully delivered.",
     "Covalex_HaulCargo_SingleToMulti_Processed_Mixed_QTFuelHydroFuelShipAmmo": "Hey,\\n\\nThe folks at <EM4>[LOCATION]</EM4> have what I like to call a “pilot’s special” waiting to be distributed - a haul of quantum fuel, hydrogen fuel, and ship ammo. Load it up from a freight elevator and deliver it to the following spots in whatever order works best for you. Expect the containers to all be <EM4>16 SCU</EM4> or smaller.   \\n\\nDROP OFF LOCATIONS (ANY ORDER)\\n\\n- Freight elevator at <EM4>[DESTINATION]</EM4>\\n- Freight elevator at <EM4>[DESTINATION1]</EM4>\\n- Freight elevator at <EM4>[DESTINATION2]</EM4>\\n- Freight elevator at <EM4>[DESTINATION3]</EM4> \\n\\nBy the way, we strongly encourage contractors to bring a <EM4>handheld tractor beam</EM4> along.   \\n\\nThanks in advance for ensuring prompt service,\\n\\nChase Hewitt\\nJr. Logistics Coordinator\\nCovalex Shipping  \\n'Anything you need, anywhere you need it.'\\n\\nCovalex Shipping is a limited liability corporation. To encourage timely deliveries and prevent fraud on cargo hauls, Covalex Shipping will set a delivery time limit and upon expiration, any undelivered cargo will be considered stolen and treated as such. Total payment will be prorated according to the percentage of cargo successfully delivered.",
     "Covalex_HaulCargo_MultiToSingle_desc_ScrapWaste_Stanton3": "Hi there,\\n\\nThere’s a few sites on ArcCorp that need their waste and scrap collected (all boxes <EM4>4 SCU</EM4> or smaller) and taken to a freight elevator at <EM4>[DESTINATION]</EM4>. Doesn’t matter what order you do the run, as long as you grab it all.    \\n\\nPICK UP LOCATIONS (ANY ORDER)\\n\\n- Freight elevator at <EM4>[LOCATION]</EM4>\\n- Freight elevator at <EM4>[LOCATION1]</EM4>\\n\\nYou know, my mom was a hauler who specialized in runs like this. It might not be the most glamorous stuff, but she claimed these runs had the best pay-to-risk ratio. Pirates never gave her any trouble when they found out what was on board.  \\n\\nBy the way, we strongly encourage contractors to bring a <EM4>handheld tractor beam</EM4> along.   \\n\\nThanks in advance for ensuring prompt service,\\n\\nChase Hewitt\\nJr. Logistics Coordinator\\nCovalex Shipping  \\n'Anything you need, anywhere you need it.'\\n\\nCovalex Shipping is a limited liability corporation. To encourage timely deliveries and prevent fraud on cargo hauls, Covalex Shipping will set a delivery time limit and upon expiration, any undelivered cargo will be considered stolen and treated as such. Total payment will be prorated according to the percentage of cargo successfully delivered.",
@@ -2289,6 +2292,104 @@
     "WallaceKlim_RepUI_Name": "Wallace Klim",
     "Wikelo_RepUI_Name": "Wikelo Emporium",
     "Xenothreat_RepUI_Name": "XenoThreat",
+    "Covalex_SignOff_001": "Thanks in advance for ensuring prompt service,",
+    "hurston_danger_004": "Very Low-Risk Target (Single Seater Craft, Minimal Support)",
+    "assassin_danger_0006": "As for gearing up for this little job, you shouldn't need anything out of the ordinary. ~mission(TargetName|Last) prefers to fly alone. I mean, for a real special occasion they might travel with a friend or two, but I'd be surprised.",
+    "assassin_danger_0005": "While you should be careful, cause you never know - my guess is that ~mission(TargetName|Last) is gonna drop easy. Poor sod chooses to fly solo and hardly ever bothers with anything more than a few escorts.",
+    "assassin_danger_0007": "Apparently, there's a good chance this scav's not gonna be traveling alone either. Seems that their little multicrew ship hardly ever flies without at least one or two friends along for the trip.",
+    "assassin_danger_0008": "Word is that the small multicrew ship ~mission(TargetName|Last) captains is being guarded by a few hired escorts. Can't say for sure if it's true, but good to be careful just in case.",
+    "assassin_danger_0010": "Make sure to bring your full arsenal when you go hunting. Since ~mission(TargetName|Last) usually captains a bigger multicrew ship and springs the extra credits for escort, something tells me you might need the extra firepower.",
+    "assassin_danger_0009": "Rumor has it that ~mission(TargetName|Last) typically travels with a full escort so be ready to hit hard. Even if you do get lucky and catch them alone, you'll still have their ship to deal with and supposedly they captain a bit of a beast.",
+    "hurston_danger_008": "Very High-Risk Target (Large Multicrew Craft, Heavy Support)",
+    "Nyx_Star": "Nyx",
+    "HaulCargo_CargoGrade_Bulk": "Large",
+    "HaulCargo_CargoGrade_Supply": "Medium",
+    "FreightElevator_8SCU": "8 SCU",
+    "HaulCargo_CargoGrade_Small": "Small",
+    "mission_item_0055": "Package",
+    "HaulCargo_CargoRoute_Interstellar": "Interstellar",
+    "FreightElevator_2SCU": "2 SCU",
+    "FreightElevator_16SCU": "16 SCU",
+    "FreightElevator_4SCU": "4 SCU",
+    "FreightElevator_1SCU": "1 SCU",
+    "mobiGlas_Reputation_Stance_Hostile": "Hostile",
+    "destoryitems_item_05": "Power Generators",
+    "destroyItems_BombingRunItem": "Liquid Fuel Tanks",
+    "mg_miles_mission_app_0001": "ME-01",
+    "HaulCargo_CargoScale_Small": "Small",
+    "HaulCargo_CargoScale_Medium": "Medium",
+    "HaulCargo_2_MultiToSingleToken": "- Freight elevator at <EM4>~mission(Location|Address)</EM4>\\n- Freight elevator at <EM4>~mission(Location1|Address)</EM4>",
+    "HaulCargo_4_MultiToSingleToken": "- Freight elevator at <EM4>~mission(Location|Address)</EM4>\\n- Freight elevator at <EM4>~mission(Location1|Address)</EM4>\\n- Freight elevator at <EM4>~mission(Location2|Address)</EM4>\\n- Freight elevator at <EM4>~mission(Location3|Address)</EM4>",
+    "HaulCargo_CargoRoute_Solar": "Stellar",
+    "FreightElevator_32SCU": "32 SCU",
+    "destoryitems_item_03": "Server Racks",
+    "HaulCargo_2_SingleToMultiToken": "- Freight elevator at <EM4>~mission(Destination|Address)</EM4>\\n- Freight elevator at <EM4>~mission(Destination1|Address)</EM4>",
+    "HaulCargo_3_SingleToMultiToken": "- Freight elevator at <EM4>~mission(Destination|Address)</EM4>\\n- Freight elevator at <EM4>~mission(Destination1|Address)</EM4>\\n- Freight elevator at <EM4>~mission(Destination2|Address)</EM4>",
+    "HaulCargo_CargoScale_Large": "Large",
+    "HeadHunters_Sabotage_Relays_obj_long_01": "Disable all ~mission(ObjectiveSetupItem)s in the area.",
+    "HeadHunters_Sabotage_Relays_obj_short_01": "Disable All ~mission(ObjectiveSetupItem)s",
+    "HeadHunters_Sabotage_Relays_obj_hud_01": "Disable All ~mission(ObjectiveSetupItem)s %ls",
+    "HeadHunters_Sabotage_Relays_obj_marker_01": "~mission(ObjectiveSetupItem)",
+    "HeadHunters_Sabotage_Relays_item": "Comm Tower",
+    "hurston_danger_009": "Extreme-Risk Target (Sub-Capital Class Vessel, Heavy Support)",
+    "PyroStar": "Pyro",
+    "FTL_SignOff_001": "Good luck and good speed, courier!",
+    "HaulCargo_4_SingleToMultiToken": "- Freight elevator at <EM4>~mission(Destination|Address)</EM4>\\n- Freight elevator at <EM4>~mission(Destination1|Address)</EM4>\\n- Freight elevator at <EM4>~mission(Destination2|Address)</EM4>\\n- Freight elevator at <EM4>~mission(Destination3|Address)</EM4>",
+    "destroyitemsspace_item_01": "Satellite",
+    "HaulCargo_3_MultiToSingleToken": "- Freight elevator at <EM4>~mission(Location|Address)</EM4>\\n- Freight elevator at <EM4>~mission(Location1|Address)</EM4>\\n- Freight elevator at <EM4>~mission(Location2|Address)</EM4>",
+    "destoryitems_item_01": "Narcotics",
+    "hurston_danger_006": "Moderate-Risk Target (Small Multicrew Craft, Average Support)",
+    "RepairOxygenKiosk_Route1": "Route 1",
+    "RepairOxygenKiosk_Depth1": "Depth 1",
+    "Hockrow_FacilityDelve_P1M1_obj_long_01": "Track down and access ~mission(ObjectiveSetupItem).",
+    "Hockrow_FacilityDelve_P1M1_obj_short_01": "Track Down and Access ~mission(ObjectiveSetupItem)",
+    "Hockrow_FacilityDelve_P1M1_obj_hud_01": "Track Down and Access ~mission(ObjectiveSetupItem)",
+    "Hockrow_FacilityDelve_P1M1_obj_marker_01": "~mission(ObjectiveSetupItem)",
+    "Hockrow_FacilityDelve_P1M2_item": "Jorrit's Files",
+    "Hockrow_FacilityDelve_P1M1_researchvialobby": "Research Wing via Lobby",
+    "Hockrow_FacilityDelve_P1M1_item": "Personnel Files",
+    "hurston_danger_007": "High-Risk Target (Large Multicrew Craft, Average Support)",
+    "HaulCargo_CargoRoute_Planetary": "Planetary",
+    "Search_Investigate": "Investigate",
+    "Hockcrow_SearchBody_MissingPersonList_002": "~mission(TargetName1) and ~mission(TargetName2)",
+    "Hockcrow_SearchBody_MissingPersonList_003": "~mission(TargetName1), ~mission(TargetName2), and ~mission(TargetName3)",
+    "Hockcrow_SearchBody_MissingPersonList_001": "~mission(TargetName)",
+    "Luminalia_1Box_DescriptionSetup": "This one is for ~mission(GiftRecipient1|First) over to <EM4>~mission(Destination|Target|Address)</EM4>",
+    "Industrial_Hint_Planetary_System": "These ores can be mined on a planet, or moon orbiting the planet, that we require the ore to be delivered to.",
+    "Industrial_Hint_Discovery_Solar": "These ores can be mined on the surface of other planets or moons in this solar system, but not on the surface of the delivery location.",
+    "Luminalia_2Box_DescriptionSetup": "I've got two that need delivery over to <EM4>~mission(Destination|Target|Address)</EM4>. One is for ~mission(GiftRecipient1|First) and the last one is for ~mission(GiftRecipient2|First). I can't wait to see the look on their faces when they get them.",
+    "Luminalia_3Box_DescriptionSetup": "All three are heading towards <EM4>~mission(Destination|Target|Address)</EM4>, but I've got one flagged for ~mission(GiftRecipient1|First), another for ~mission(GiftRecipient2|First), and the last one for ~mission(GiftRecipient3|First).",
+    "HaulCargo_CargoScale_Bulk": "Bulk",
+    "FreightElevator_24SCU": "24 SCU",
+    "Industrial_Hint_Discover_Planetary": "These ores can be mined on the surface of the planet or moon that we require the ore to be delivered to.",
+    "hurston_danger_002": "Medium",
+    "hurston_danger_005": "Low-Risk Target (Single Seater Craft, Average Support)",
+    "Industrial_Hint_Local_Planetary": "These ores can be mined from the caves on the surface of the planet that we require the ore to be delivered to.",
+    "HaulCargo_CargoRoute_Local": "Local",
+    "Tutorial01_Area18_JournalToken": "Currently, you are in Area 18, on ArcCorp, the third planet in the Stanton System – a great distance from Humanity’s origins in the Sol System. The four planets in the system are owned by megacorporations who each purchased a planet from the UEE and now govern their own region of space. They are: Hurston Dynamics, Crusader Industries, ArcCorp, and microTech. \\n\\n~mission(Location|Name) is the main commercial zone of the mega-city that sprawls across the surface of ArcCorp. From here, the tutorial will guide you to ~mission(Destination), the space station in orbit above the planet that can serve as your gateway to further exploration of the Stanton system.",
+    "mission_location_stanton_337": "Baijini Point",
+    "Burrito_Name": "Burrito",
+    "Tutorial_Water_Upper": "Water",
+    "Tutorial_Water_Lower": "water",
+    "ui_interactor_ground_floor": "Ground Floor",
+    "Tutorial_Shop_Area18": "Cubby Blast",
+    "Tutorial_Area18_Cityflight": "Cityflight",
+    "hurston_danger_003": "High",
+    "StantonStar": "Stanton",
+    "Industrial_Hint_Interstellar": "These ores can be mined on the surface of planets or moons in different solar systems and then delivered to the requested location.",
+    "HaulCargo_CargoGrade_ExtraSmall": "Extra Small",
+    "items_commodities_tungsten": "Tungsten",
+    "items_commodities_titanium": "Titanium",
+    "items_commodities_corundum": "Corundum",
+    "items_commodities_quartz": "Quartz",
+    "items_commodities_hydrogen": "Hydrogen",
+    "items_commodities_carbon": "Carbon",
+    "items_commodities_silicon": "Silicon",
+    "items_commodities_pressurized_ice": "Pressurized Ice",
+    "items_commodities_processedFood": "Processed Food",
+    "items_commodities_waste": "Waste",
+    "items_commodities_agriculturalSupplies": "Agricultural Supplies",
+    "items_commodities_aluminum": "Aluminum",
     "item_Namegmni_sniper_ballistic_01_arctic01": "A03 \"Canuto\" Sniper Rifle",
     "item_Namegmni_sniper_ballistic_01_urban01": "A03 \"Lodestone\" Sniper Rifle",
     "item_Namegmni_sniper_ballistic_01_green_grey01": "A03 \"Luckbringer\" Sniper Rifle",
@@ -3621,7 +3722,6 @@
     "SalvageContractor_Title": "~mission(Contractor|SalvageContractorTitle)",
     "Adagio_BasicSalvage_Title_01": "Claim #~mission(ClaimNumber): ~mission(Ship) Salvage Rights",
     "SalvageContractor_Description": "~mission(Contractor|SalvageContractorDesc)",
-    "Adagio_BasicSalvage_Desc_01": "Attention:\\n\\nRights to a new Salvage Claim are available for purchase. Exclusive access to the ship’s verified coordinates in monitored space will be provided upon confirmed credit transfer. The coordinates will remain accessible as long as the accepted contract is active. When you are satisfied with the amount of material you've salvaged, you may abandon the contract early with no penalty to clear the coordinates from your Starmap.\\n\\nClaim #~mission(ClaimNumber):\\n• SHIP: ~mission(Ship)\\n• CAUSE OF ACCIDENT: ~mission(ShipStory)\\n• LOCATION: ~mission(location)\\n\\nAdagio Rights Division",
     "SalvageContractor_Difficulty_Hard": "Be aware that due to the size of the Claim, a <EM4>Large Salvage Ship is recommended</EM4>.",
     "DeadSaints_RecoverCargo_Easy_Title": "Cleaning Up Someone Else’s Mess",
     "DeadSaints_RecoverCargo_Easy_Description": "You know when you ask someone a question and you have a feeling they’re lying, but you choose to give them the benefit of the doubt? Yeah. That’s what I’m dealing with right now.\\n\\nTwo “expert” haulers I hired to transport some gear for me ran into some trouble and ended up ditching my goods over at <EM4>~mission(Location|Address)</EM4>. Needless to say, I’ve ordered a hit on them, but what I need from you is to go recover that cargo. The tracker says the cargo’s still on the ship, so you’ll just need a <EM4>a heavy-duty tractor beam</EM4> and your own ship to recover it.\\n\\nYou might run into a couple of scavengers lurking around there, but I doubt you’ll have any trouble with them.\\n\\nWhen you’re done, take the stuff to <EM4>~mission(Destination|Address)</EM4> and I’ll sort you out with a reward.\\n\\n-Twitch",
@@ -4383,7 +4483,6 @@
     "Kaboos_Mission_Title": "Retrieve Additional Smuggler Intel",
     "Kaboos_Mission_Description": "MISSION SPECS\\n\\nArea of Operation: Nyx System\\nHostile Forces: Outlaws present and armed\\nEquipment Specs: Combat-rated Ship, Personal Arms\\nBriefing: InterSec needs your services once again.\\n\\nThe intel you previously gathered has been invaluable in identifying several prominent buyers of the illegally-obtained Vanduul parts. However, since then the Shattered Blade have continued their operations and the UEE is requesting that we <EM4>update our intel.</EM4>\\n\\nWe believe more information can be retrieved from the storage facilities located at the old <EM4>QV Logistics station.</EM4>\\n\\nThe operation parameters haven’t changed since your last mission: find the <EM4>encrypted data</EM4> and use the <EM4>decryption key</EM4> to decipher and upload the list to us. The Shattered Blade will have reinforced the area since the last time, so expect resistance.\\n\\nGood luck. We’ll be in touch.\\n\\n\\nRespectfully,\\n\\nDeacon Tobin\\nOperations Manager\\nInterSec Defense Solutions\\n\\nThis communication consists of confidential information solely intended for the recipient. Please disregard if received in error and notify sender. All operations are conducted at the contractor’s own personal risk and must adhere to UEE and system law where applicable.",
     "TarPits_TimedSalvage_Title_01": "Risky ~mission(Ship) Salvage Job",
-    "TarPits_TimedSalvage_Desc_01": "We’ve got our eye on a ~mission(ship) near ~mission(location) that’s ripe for salvaging. We’re too busy to snag it ourselves, so why not spread the wealth, right?\\n\\nIf you send us some credits, we’ll send you the ship’s exact coordinates. Don’t take too long to think it over, though. You’ve probably got about ~mission(timer) minutes until security gets there to check out the wreck. Could be more, could be less.\\n\\nYou could either tow it somewhere else first, or you could try to scrap what you can onsite before security shows. Don’t care which as long as you get it taken care of. And once you've salvaged everything you want, just go ahead and abandon this contract to clear your map. Helps keep everything nice and tidy.",
     "RedWind_HaulCargo_AToB_desc_ToPyro_Danger": "RED WIND LINEHAUL\\n'YOUR GOODS IN GOOD HANDS'\\n----------------------------\\n\\nHave a run here that could become a lucrative regular thing if we can pull it off.  This’ll take you into Pyro, so you’ll have to be ready to tangle with some of the locals. \\n\\nYou’ll need to grab the stuff from <EM4>~mission(Location|Address)</EM4>, make the jump to Pyro, and then get to <EM4>~mission(Destination|Address)</EM4>. \\n\\nAll you need to do is bring a ship with space for <EM4>~mission(MissionMaxSCUSize) cargo containers</EM4>, a <EM4>handheld tractor beam</EM4>, and be ready to do some damage if someone picks a fight with you.",
     "RedWind_HaulCargo_AToB_desc_FromPyro_Danger": "RED WIND LINEHAUL\\n'YOUR GOODS IN GOOD HANDS'\\n----------------------------\\n\\nGuess some companies see danger when offered a run in Pyro. We see profits. Got one here that starts in the system at <EM4>~mission(Location|Address)</EM4> and then goes to <EM4>~mission(Destination|Address)</EM4>.  \\n\\nThe client warned us that outlaws in Pyro regularly target this run, which has scared other hauling concerns. Be sure your ship is all geared up and can hold <EM4>~mission(MissionMaxSCUSize) cargo containers</EM4>. And don't forget to bring a <EM4>handheld tractor beam</EM4>.",
     "RedWind_HaulCargo_AToB_desc_LuxuryGoods_Danger_Timed": "RED WIND LINEHAUL\\n'YOUR GOODS IN GOOD HANDS'\\n----------------------------\\n\\nGot a contract from a major client who needs a skilled pilot to move a large load of luxury items from <EM4>~mission(Location|Address)</EM4> to <EM4>~mission(Destination|Address)</EM4>. \\n\\nYou'll need room for at least <EM4>~mission(MissionMaxSCUSize) cargo containers</EM4> in your hold. You'll also need a <EM4>handheld tractor beam</EM4> to get everything loaded and unloaded. \\n\\nAnd as a fair warning, the things you'll be carrying are pricey enough that you might attract some unwanted attention. <EM4>Be ready to defend yourself</EM4> if you can't evade.",
@@ -4743,10 +4842,13 @@
     "Covalex_HaulCargo_AToB_Rehire_title": "Covalex Cargo Hauling Re-evaluation",
     "Covalex_HaulCargo_AToB_Rehire_desc": "Hey,\\n\\nHave a bit of good news for you. Covalex recently finished an evaluation of our contractor pool, and decided to reconsider your status as a cargo hauler. To requalify, all you need is to successfully complete the following delivery.\\n\\nPick up <EM4>~mission(Item)</EM4> from a freight elevator at <EM4>~mission(Location|Address)</EM4> and deliver it to a freight elevator at <EM4>~mission(Destination|Address)</EM4>. In order to complete this haul in a fast and efficient manner, you'll need a ship that can haul <EM4>~mission(MissionMaxSCUSize) cargo containers</EM4>.\\n\\nHopefully everything goes smoothly so we can welcome you back to the team.\\n\\nBy the way, we strongly encourage contractors to bring a <EM4>handheld tractor beam</EM4> along.   \\n\\nCovalex Shipping  \\n'Anything you need, anywhere you need it.'\\n\\n\\n\\n\\n\\n\\n\\nCovalex Shipping is a limited liability corporation. To encourage timely deliveries and prevent fraud on cargo hauls, Covalex Shipping will set a delivery time limit and upon expiration, any undelivered cargo will be considered stolen and treated as such. Total payment will be prorated according to the percentage of cargo successfully delivered.",
     "HaulCargo_AtoB_desc": "~mission(Contractor|HaulCargo_AtoB)",
+    "Covalex_HaulCargo_AToB_desc_01": "Hello,\\n\\nNeed a contractor for a simple cargo haul going from a freight elevator at <EM4>~mission(Location|Address)</EM4> to a freight elevator at <EM4>~mission(Destination|Address)</EM4>. At most the containers will be <EM4>~mission(MissionMaxSCUSize)</EM4> in size. \\n\\nAlso, we strongly encourage contractors to bring a <EM4>handheld tractor beam</EM4> along. \\n\\nAny chance you’re available to take care of it for us?\\n\\n~mission(Contractor|SignOff)\\n\\nChase Hewitt\\nJr. Logistics Coordinator\\nCovalex Shipping  \\n'Anything you need, anywhere you need it.'\\n\\n\\n\\n\\n\\n\\n\\nCovalex Shipping is a limited liability corporation. To encourage timely deliveries and prevent fraud on cargo hauls, Covalex Shipping will set a delivery time limit and upon expiration, any undelivered cargo will be considered stolen and treated as such. Total payment will be prorated according to the percentage of cargo successfully delivered.",
     "Covalex_HaulCargo_AToB_Stanton_Interstellar": "Hey,\\n\\nAny interest in doing the Stanton leg of an interstellar run? \\n\\nThere’s a haul of <EM4>~mission(Item)</EM4> waiting in containers <EM4>~mission(MissionMaxSCUSize)</EM4> or smaller to be picked up from a freight elevator at <EM4>~mission(Location|Address)</EM4> and delivered to a freight elevator at <EM4>~mission(Destination|Address)</EM4>. No need to take it any further than that. I’ve got someone else lined up to run it through the jump to its final destination. \\n\\nBy the way, we strongly encourage contractors to bring a <EM4>handheld tractor beam</EM4> along.   \\n\\n~mission(Contractor|SignOff)\\n\\nChase Hewitt\\nJr. Logistics Coordinator\\nCovalex Shipping  \\n'Anything you need, anywhere you need it.'\\n\\n\\n\\n\\n\\n\\n\\nCovalex Shipping is a limited liability corporation. To encourage timely deliveries and prevent fraud on cargo hauls, Covalex Shipping will set a delivery time limit and upon expiration, any undelivered cargo will be considered stolen and treated as such. Total payment will be prorated according to the percentage of cargo successfully delivered.",
     "Covalex_HaulCargo_MultiToSingle_title": "~mission(ReputationRank) Rank - ~mission(CargoGradeToken) Cargo Haul",
     "HaulCargo_MultiToSingle_desc": "~mission(Contractor|HaulCargo_MultiToSingle)",
+    "Covalex_HaulCargo_MultiToSingle_desc_01": "Hello!\\n\\nThere’s a load of cargo (<EM4>~mission(MissionMaxSCUSize)</EM4> or smaller) that needs to be delivered to a freight elevator at <EM4>~mission(Destination|Address)</EM4>. The only thing is that the cargo is spread across a few locations, which I’ve listed out below.  \\n\\nPICK UP LOCATIONS (ANY ORDER)\\n\\n~mission(MultiToSingleToken)\\n\\nMakes no difference what order you grab the stuff, as long as it’s all delivered.\\n\\nBy the way, we strongly encourage contractors to bring a <EM4>handheld tractor beam</EM4> along.   \\n\\n~mission(Contractor|SignOff)\\n\\nChase Hewitt\\nJr. Logistics Coordinator\\nCovalex Shipping  \\n'Anything you need, anywhere you need it.'\\n\\n\\n\\n\\n\\n\\n\\nCovalex Shipping is a limited liability corporation. To encourage timely deliveries and prevent fraud on cargo hauls, Covalex Shipping will set a delivery time limit and upon expiration, any undelivered cargo will be considered stolen and treated as such. Total payment will be prorated according to the percentage of cargo successfully delivered.",
     "HaulCargo_SingleToMulti_desc": "~mission(Contractor|HaulCargo_SingleToMulti)",
+    "Covalex_HaulCargo_SingleToMulti_desc_01": "Greetings, \\n\\nSeems like <EM4>~mission(Location|Address)</EM4> currently has some <EM4>~mission(MissionMaxSCUSize)</EM4> or smaller cargo that needs to be separated and delivered to a few different spots. \\n\\nDROP OFF LOCATIONS (ANY ORDER)\\n\\n~mission(SingleToMultiToken)\\n\\nDrop-offs can be done in whatever order works best for you.  \\n\\nBy the way, we strongly encourage contractors to bring a <EM4>handheld tractor beam</EM4> along.   \\n\\n~mission(Contractor|SignOff)\\n\\nChase Hewitt\\nJr. Logistics Coordinator\\nCovalex Shipping  \\n'Anything you need, anywhere you need it.'\\n\\n\\n\\n\\n\\n\\n\\nCovalex Shipping is a limited liability corporation. To encourage timely deliveries and prevent fraud on cargo hauls, Covalex Shipping will set a delivery time limit and upon expiration, any undelivered cargo will be considered stolen and treated as such. Total payment will be prorated according to the percentage of cargo successfully delivered.",
     "Covalex_HaulCargo_MultiToSingle_Waste_Waste_Stanton1": "Hi,\\n\\nNeed the trash collected from a few Hurston locations and then taken to a freight elevator at <EM4>~mission(Destination|Address)</EM4>. Don't worry, none of the containers are bigger than <EM4>~mission(MissionMaxSCUSize)</EM4>.\\n\\nPICK UP LOCATIONS (ANY ORDER)\\n\\n~mission(MultiToSingleToken)\\n\\nFun fact for you. Hurston is the only planet in Stanton that doesn’t separate their trash and scrap. One of their workers told me that the company did a cost-benefit analysis on it decades ago that determined it wasn’t worth putting a planet-wide system in place to facilitate it. Isn’t that the most Hurston thing ever?   \\n\\nBy the way, we strongly encourage contractors to bring a <EM4>handheld tractor beam</EM4> along.   \\n\\n~mission(Contractor|SignOff)\\n\\nChase Hewitt\\nJr. Logistics Coordinator\\nCovalex Shipping  \\n'Anything you need, anywhere you need it.'\\n\\n\\n\\n\\n\\n\\n\\nCovalex Shipping is a limited liability corporation. To encourage timely deliveries and prevent fraud on cargo hauls, Covalex Shipping will set a delivery time limit and upon expiration, any undelivered cargo will be considered stolen and treated as such. Total payment will be prorated according to the percentage of cargo successfully delivered.",
     "Covalex_HaulCargo_SingleToMulti_Processed_Mixed_QTFuelHydroFuelShipAmmo": "Hey,\\n\\nThe folks at <EM4>~mission(Location|Address)</EM4> have what I like to call a “pilot’s special” waiting to be distributed - a haul of quantum fuel, hydrogen fuel, and ship ammo. Load it up from a freight elevator and deliver it to the following spots in whatever order works best for you. Expect the containers to all be <EM4>~mission(MissionMaxSCUSize)</EM4> or smaller.   \\n\\nDROP OFF LOCATIONS (ANY ORDER)\\n\\n~mission(SingleToMultiToken) \\n\\nBy the way, we strongly encourage contractors to bring a <EM4>handheld tractor beam</EM4> along.   \\n\\n~mission(Contractor|SignOff)\\n\\nChase Hewitt\\nJr. Logistics Coordinator\\nCovalex Shipping  \\n'Anything you need, anywhere you need it.'\\n\\n\\n\\n\\n\\n\\n\\nCovalex Shipping is a limited liability corporation. To encourage timely deliveries and prevent fraud on cargo hauls, Covalex Shipping will set a delivery time limit and upon expiration, any undelivered cargo will be considered stolen and treated as such. Total payment will be prorated according to the percentage of cargo successfully delivered.",
     "Covalex_HaulCargo_MultiToSingle_desc_ScrapWaste_Stanton3": "Hi there,\\n\\nThere’s a few sites on ArcCorp that need their waste and scrap collected (all boxes <EM4>~mission(MissionMaxSCUSize)</EM4> or smaller) and taken to a freight elevator at <EM4>~mission(Destination|Address)</EM4>. Doesn’t matter what order you do the run, as long as you grab it all.    \\n\\nPICK UP LOCATIONS (ANY ORDER)\\n\\n~mission(MultiToSingleToken)\\n\\nYou know, my mom was a hauler who specialized in runs like this. It might not be the most glamorous stuff, but she claimed these runs had the best pay-to-risk ratio. Pirates never gave her any trouble when they found out what was on board.  \\n\\nBy the way, we strongly encourage contractors to bring a <EM4>handheld tractor beam</EM4> along.   \\n\\n~mission(Contractor|SignOff)\\n\\nChase Hewitt\\nJr. Logistics Coordinator\\nCovalex Shipping  \\n'Anything you need, anywhere you need it.'\\n\\n\\n\\n\\n\\n\\n\\nCovalex Shipping is a limited liability corporation. To encourage timely deliveries and prevent fraud on cargo hauls, Covalex Shipping will set a delivery time limit and upon expiration, any undelivered cargo will be considered stolen and treated as such. Total payment will be prorated according to the percentage of cargo successfully delivered.",
@@ -5263,10 +5365,12 @@
       "ObjectiveSetup": "@mission_item_0055"
     },
     "HeadHunters_ShipAmbush_M_title_001": {
-      "ReputationRank": "@RepScope_Contractor_Rank2"
+      "ReputationRank": "@RepScope_Contractor_Rank2",
+      "ScripAmount": "5"
     },
     "HeadHunters_ShipAmbush_M_desc_001": {
-      "ReputationRank": "@RepScope_Contractor_Rank2"
+      "ReputationRank": "@RepScope_Contractor_Rank2",
+      "ScripAmount": "5"
     },
     "vaughn_assassination_VE_title_rehire": {
       "Danger": "@assassin_danger_0006",
@@ -5683,11 +5787,6 @@
       "Contractor|SalvageContractorTitle": "@Adagio_BasicSalvage_Title_01",
       "Contractor|SalvageContractorDesc": "@Adagio_BasicSalvage_Desc_01"
     },
-    "Adagio_BasicSalvage_Desc_01": {
-      "ReputationRank": "@RepScope_Contractor_Rank1",
-      "Contractor|SalvageContractorTitle": "@Adagio_BasicSalvage_Title_01",
-      "Contractor|SalvageContractorDesc": "@Adagio_BasicSalvage_Desc_01"
-    },
     "SalvageContractor_Difficulty_Hard": {
       "ReputationRank": "@RepScope_Contractor_Rank3",
       "Contractor|SalvageContractorTitle": "@Adagio_BasicSalvage_Title_01"
@@ -5729,6 +5828,54 @@
     },
     "RAIN_CollectResources_storm_desc_004": {
       "ReputationRank": "@RepScope_Contractor_Rank2"
+    },
+    "GFS_ShipWaveAttack_Mission01_Title": {
+      "ScripAmount": "1"
+    },
+    "GFS_ShipWaveAttack_Mission01_Desc": {
+      "ScripAmount": "1"
+    },
+    "GFS_ShipWaveAttack_Mission02_Title": {
+      "ScripAmount": "3"
+    },
+    "GFS_ShipWaveAttack_Mission02_Desc": {
+      "ScripAmount": "3"
+    },
+    "GFS_ShipWaveAttack_Mission03_Title": {
+      "ScripAmount": "5"
+    },
+    "GFS_ShipWaveAttack_Mission03_Desc": {
+      "ScripAmount": "5"
+    },
+    "GFS_ShipWaveAttack_Mission04_Title": {
+      "ScripAmount": "10"
+    },
+    "GFS_ShipWaveAttack_Mission04_Desc": {
+      "ScripAmount": "10"
+    },
+    "GFS_ShipWaveAttack_Mission05_Title": {
+      "ScripAmount": "12"
+    },
+    "GFS_ShipWaveAttack_Mission05_Desc": {
+      "ScripAmount": "12"
+    },
+    "GFS_ShipWaveAttack_Mission06_Title": {
+      "ScripAmount": "14"
+    },
+    "GFS_ShipWaveAttack_Mission06_Desc": {
+      "ScripAmount": "14"
+    },
+    "GFS_ShipWaveAttack_Mission07_Title": {
+      "ScripAmount": "16"
+    },
+    "GFS_ShipWaveAttack_Mission07_Desc": {
+      "ScripAmount": "16"
+    },
+    "GFS_ShipWaveAttack_Mission08_Title": {
+      "ScripAmount": "20"
+    },
+    "GFS_ShipWaveAttack_Mission08_Desc": {
+      "ScripAmount": "20"
     },
     "EckhartSecurity_EliminateAll_storm_data_H_title_001": {
       "ReputationRank": "@RepStanding_Security_Rank0"
@@ -5941,10 +6088,12 @@
       "ReputationRank": "@mobiGlas_Reputation_Stance_Neutral"
     },
     "Eckhart_ShipAmbush_VH_title": {
-      "ReputationRank": "@RepScope_Contractor_Rank4"
+      "ReputationRank": "@RepScope_Contractor_Rank4",
+      "ScripAmount": "12"
     },
     "Eckhart_ShipAmbush_VH_desc": {
-      "ReputationRank": "@RepScope_Contractor_Rank4"
+      "ReputationRank": "@RepScope_Contractor_Rank4",
+      "ScripAmount": "12"
     },
     "blackbox_recover_title_intro_001": {
       "ObjectiveSetup": "@mission_item_0055",
@@ -6207,10 +6356,12 @@
       "Contractor|RecoverSpaceDescriptionIntro": "@deadsaints_recoveritem_Intro_Desc_001"
     },
     "Headhunters_DefendLocation_VE_Title_001": {
-      "ReputationRank": "@mobiGlas_Reputation_Stance_Neutral"
+      "ReputationRank": "@mobiGlas_Reputation_Stance_Neutral",
+      "ScripAmount": "2"
     },
     "Headhunters_DefendLocation_VE_Desc_001": {
-      "ReputationRank": "@mobiGlas_Reputation_Stance_Neutral"
+      "ReputationRank": "@mobiGlas_Reputation_Stance_Neutral",
+      "ScripAmount": "2"
     },
     "cfp_bombingrun_E_title_001": {
       "ItemsToDestroy": "@destroyItems_BombingRunItem",
@@ -6231,10 +6382,12 @@
       "ReputationRank": "@RepScope_Contractor_Rank4"
     },
     "HeadHunters_ShipAmbush_S_title_001": {
-      "ReputationRank": "@RepScope_Contractor_Rank5"
+      "ReputationRank": "@RepScope_Contractor_Rank5",
+      "ScripAmount": "16"
     },
     "HeadHunters_ShipAmbush_S_desc_001": {
-      "ReputationRank": "@RepScope_Contractor_Rank5"
+      "ReputationRank": "@RepScope_Contractor_Rank5",
+      "ScripAmount": "16"
     },
     "FTL_Courier_Nyx_Easy_Title_001": {
       "ReputationRank": "@mobiGlas_Reputation_Stance_Neutral",
@@ -6267,10 +6420,12 @@
       "ReputationRank": "@RepScope_Contractor_Rank5"
     },
     "Eckhart_EscortShips_E_title": {
-      "ReputationRank": "@RepScope_Contractor_Rank1"
+      "ReputationRank": "@RepScope_Contractor_Rank1",
+      "ScripAmount": "4"
     },
     "Eckhart_EscortShips_E_desc": {
-      "ReputationRank": "@RepScope_Contractor_Rank1"
+      "ReputationRank": "@RepScope_Contractor_Rank1",
+      "ScripAmount": "4"
     },
     "EckhartSecurity_EliminateAll_DC_Title_001": {
       "ReputationRank": "@RepStanding_Security_Rank1"
@@ -6325,10 +6480,12 @@
       "ReputationRank": "@RepStanding_TransportGuild_Rank4"
     },
     "Eckhart_EscortShips_M_title": {
-      "ReputationRank": "@RepScope_Contractor_Rank2"
+      "ReputationRank": "@RepScope_Contractor_Rank2",
+      "ScripAmount": "8"
     },
     "Eckhart_EscortShips_M_desc": {
-      "ReputationRank": "@RepScope_Contractor_Rank2"
+      "ReputationRank": "@RepScope_Contractor_Rank2",
+      "ScripAmount": "8"
     },
     "cfp_maintenance_H_title_001": {
       "ReputationRank": "@RepScope_Contractor_Rank5"
@@ -6596,10 +6753,12 @@
       "ReputationRank": "@RepScope_Contractor_Rank3"
     },
     "Headhunters_DefendLocation_H_Title_001": {
-      "ReputationRank": "@RepScope_Contractor_Rank3"
+      "ReputationRank": "@RepScope_Contractor_Rank3",
+      "ScripAmount": "14"
     },
     "Headhunters_DefendLocation_H_Desc_001": {
-      "ReputationRank": "@RepScope_Contractor_Rank3"
+      "ReputationRank": "@RepScope_Contractor_Rank3",
+      "ScripAmount": "14"
     },
     "headhunters_defendship_VLRT_PA_title_001": {
       "ReputationRank": "@mobiGlas_Reputation_Stance_Neutral"
@@ -6632,10 +6791,12 @@
       "ReputationRank": "@RepScope_Contractor_Rank3"
     },
     "Eckhart_ShipAmbush_S_title": {
-      "ReputationRank": "@RepScope_Contractor_Rank5"
+      "ReputationRank": "@RepScope_Contractor_Rank5",
+      "ScripAmount": "16"
     },
     "Eckhart_ShipAmbush_S_desc": {
-      "ReputationRank": "@RepScope_Contractor_Rank5"
+      "ReputationRank": "@RepScope_Contractor_Rank5",
+      "ScripAmount": "16"
     },
     "headhunters_ChainElimAll_3C_ElimSpec_AttackCFP_VH_title_001": {
       "ReputationRank": "@RepScope_Contractor_Rank5"
@@ -6670,10 +6831,12 @@
       "ReputationRank": "@RepScope_Contractor_Rank1"
     },
     "Headhunters_SecurityPatrol_S_Title_001": {
-      "ReputationRank": "@RepScope_Contractor_Rank5"
+      "ReputationRank": "@RepScope_Contractor_Rank5",
+      "ScripAmount": "16"
     },
     "Headhunters_SecurityPatrol_S_Desc_001": {
-      "ReputationRank": "@RepScope_Contractor_Rank5"
+      "ReputationRank": "@RepScope_Contractor_Rank5",
+      "ScripAmount": "16"
     },
     "EckhartSecurity_DestroyServers_FacilityDelving_Title_001": {
       "ItemsToDestroy": "@destoryitems_item_03",
@@ -6854,10 +7017,12 @@
       "ReputationRank": "@mobiGlas_Reputation_Stance_Neutral"
     },
     "Eckhart_ShipAmbush_M_title": {
-      "ReputationRank": "@RepScope_Contractor_Rank2"
+      "ReputationRank": "@RepScope_Contractor_Rank2",
+      "ScripAmount": "5"
     },
     "Eckhart_ShipAmbush_M_desc": {
-      "ReputationRank": "@RepScope_Contractor_Rank2"
+      "ReputationRank": "@RepScope_Contractor_Rank2",
+      "ScripAmount": "5"
     },
     "BitZeros_blackbox_H_Title_001": {
       "ObjectiveSetup": "@mission_item_0055",
@@ -7052,10 +7217,12 @@
       "ReputationRank": "@RepScope_Contractor_Rank1"
     },
     "Headhunters_SecurityPatrol_H_Title_001": {
-      "ReputationRank": "@RepScope_Contractor_Rank3"
+      "ReputationRank": "@RepScope_Contractor_Rank3",
+      "ScripAmount": "14"
     },
     "Headhunters_SecurityPatrol_H_Desc_001": {
-      "ReputationRank": "@RepScope_Contractor_Rank3"
+      "ReputationRank": "@RepScope_Contractor_Rank3",
+      "ScripAmount": "14"
     },
     "civilian_localdelivery_holiday_title_001": {
       "DescriptionSetup": "@Luminalia_1Box_DescriptionSetup",
@@ -7082,10 +7249,12 @@
       "ReputationRank": "@mobiGlas_Reputation_Stance_Neutral"
     },
     "Eckhart_EscortShips_VE_title": {
-      "ReputationRank": "@mobiGlas_Reputation_Stance_Neutral"
+      "ReputationRank": "@mobiGlas_Reputation_Stance_Neutral",
+      "ScripAmount": "2"
     },
     "Eckhart_EscortShips_VE_desc": {
-      "ReputationRank": "@mobiGlas_Reputation_Stance_Neutral"
+      "ReputationRank": "@mobiGlas_Reputation_Stance_Neutral",
+      "ScripAmount": "2"
     },
     "Shubin_Industrial_HandMining_Pyro_H_PlanetarySystem_Title_001": {
       "System": "@PyroSystem",
@@ -7494,10 +7663,12 @@
       "Contractor|SearchBodySpaceDescriptionIntro": "@Hockrow_searchbody_space_Intro_Desc_001"
     },
     "Eckhart_ShipAmbush_Intro_title": {
-      "ReputationRank": "@mobiGlas_Reputation_Stance_Neutral"
+      "ReputationRank": "@mobiGlas_Reputation_Stance_Neutral",
+      "ScripAmount": "1"
     },
     "Eckhart_ShipAmbush_Intro_desc": {
-      "ReputationRank": "@mobiGlas_Reputation_Stance_Neutral"
+      "ReputationRank": "@mobiGlas_Reputation_Stance_Neutral",
+      "ScripAmount": "1"
     },
     "FTL_RecoverItem_Intro_Title_001": {
       "ObjectiveSetup": "@mission_item_0055",
@@ -7566,40 +7737,52 @@
       "ReputationRank": "@RepScope_Contractor_Rank2"
     },
     "Foxwell_SecurityPatrol_H_Title_001": {
-      "ReputationRank": "@RepScope_Contractor_Rank3"
+      "ReputationRank": "@RepScope_Contractor_Rank3",
+      "ScripAmount": "14"
     },
     "Foxwell_SecurityPatrol_H_Desc_001": {
-      "ReputationRank": "@RepScope_Contractor_Rank3"
+      "ReputationRank": "@RepScope_Contractor_Rank3",
+      "ScripAmount": "14"
     },
     "Foxwell_DefendLocation_H_Title_001": {
-      "ReputationRank": "@RepScope_Contractor_Rank3"
+      "ReputationRank": "@RepScope_Contractor_Rank3",
+      "ScripAmount": "14"
     },
     "Foxwell_DefendLocation_H_Desc_001": {
-      "ReputationRank": "@RepScope_Contractor_Rank3"
+      "ReputationRank": "@RepScope_Contractor_Rank3",
+      "ScripAmount": "14"
     },
     "Foxwell_ShipAmbush_H_title_001": {
-      "ReputationRank": "@RepScope_Contractor_Rank3"
+      "ReputationRank": "@RepScope_Contractor_Rank3",
+      "ScripAmount": "8"
     },
     "Foxwell_ShipAmbush_H_desc_001": {
-      "ReputationRank": "@RepScope_Contractor_Rank3"
+      "ReputationRank": "@RepScope_Contractor_Rank3",
+      "ScripAmount": "8"
     },
     "Foxwell_SecurityPatrol_M_Title_001": {
-      "ReputationRank": "@RepScope_Contractor_Rank2"
+      "ReputationRank": "@RepScope_Contractor_Rank2",
+      "ScripAmount": "8"
     },
     "Foxwell_SecurityPatrol_M_Desc_001": {
-      "ReputationRank": "@RepScope_Contractor_Rank2"
+      "ReputationRank": "@RepScope_Contractor_Rank2",
+      "ScripAmount": "8"
     },
     "Foxwell_DefendLocation_M_Title_001": {
-      "ReputationRank": "@RepScope_Contractor_Rank2"
+      "ReputationRank": "@RepScope_Contractor_Rank2",
+      "ScripAmount": "8"
     },
     "Foxwell_DefendLocation_M_Desc_001": {
-      "ReputationRank": "@RepScope_Contractor_Rank2"
+      "ReputationRank": "@RepScope_Contractor_Rank2",
+      "ScripAmount": "8"
     },
     "Foxwell_ShipAmbush_M_title_001": {
-      "ReputationRank": "@RepScope_Contractor_Rank2"
+      "ReputationRank": "@RepScope_Contractor_Rank2",
+      "ScripAmount": "5"
     },
     "Foxwell_ShipAmbush_M_desc_001": {
-      "ReputationRank": "@RepScope_Contractor_Rank2"
+      "ReputationRank": "@RepScope_Contractor_Rank2",
+      "ScripAmount": "5"
     },
     "Foxwell_ShipWaveAttack_ClearHostiles_Title_H_001": {
       "ReputationRank": "@RepScope_Contractor_Rank3"
@@ -7648,58 +7831,76 @@
       "ReputationRank": "@RepScope_Contractor_Rank5"
     },
     "CFP_SecurityPatrol_VH_Title_001": {
-      "ReputationRank": "@RepScope_Contractor_Rank4"
+      "ReputationRank": "@RepScope_Contractor_Rank4",
+      "ScripAmount": "18"
     },
     "CFP_SecurityPatrol_VH_Desc_001": {
-      "ReputationRank": "@RepScope_Contractor_Rank4"
+      "ReputationRank": "@RepScope_Contractor_Rank4",
+      "ScripAmount": "18"
     },
     "InterSec_SecurityPatrol_H_Title_001": {
-      "ReputationRank": "@mobiGlas_Reputation_Stance_Neutral"
+      "ReputationRank": "@mobiGlas_Reputation_Stance_Neutral",
+      "ScripAmount": "14"
     },
     "InterSec_SecurityPatrol_H_Desc_001": {
-      "ReputationRank": "@mobiGlas_Reputation_Stance_Neutral"
+      "ReputationRank": "@mobiGlas_Reputation_Stance_Neutral",
+      "ScripAmount": "14"
     },
     "CFP_SecurityPatrol_M_Title_001": {
-      "ReputationRank": "@RepScope_Contractor_Rank2"
+      "ReputationRank": "@RepScope_Contractor_Rank2",
+      "ScripAmount": "8"
     },
     "CFP_SecurityPatrol_M_Desc_001": {
-      "ReputationRank": "@RepScope_Contractor_Rank2"
+      "ReputationRank": "@RepScope_Contractor_Rank2",
+      "ScripAmount": "8"
     },
     "CFP_SecurityPatrol_S_Title_001": {
-      "ReputationRank": "@RepScope_Contractor_Rank5"
+      "ReputationRank": "@RepScope_Contractor_Rank5",
+      "ScripAmount": "24"
     },
     "CFP_SecurityPatrol_S_Desc_001": {
-      "ReputationRank": "@RepScope_Contractor_Rank5"
+      "ReputationRank": "@RepScope_Contractor_Rank5",
+      "ScripAmount": "24"
     },
     "CFP_SecurityPatrol_H_Title_001": {
-      "ReputationRank": "@RepScope_Contractor_Rank3"
+      "ReputationRank": "@RepScope_Contractor_Rank3",
+      "ScripAmount": "14"
     },
     "CFP_SecurityPatrol_H_Desc_001": {
-      "ReputationRank": "@RepScope_Contractor_Rank3"
+      "ReputationRank": "@RepScope_Contractor_Rank3",
+      "ScripAmount": "14"
     },
     "CFP_SecurityPatrol_E_Title_001": {
-      "ReputationRank": "@RepScope_Contractor_Rank1"
+      "ReputationRank": "@RepScope_Contractor_Rank1",
+      "ScripAmount": "4"
     },
     "CFP_SecurityPatrol_E_Desc_001": {
-      "ReputationRank": "@RepScope_Contractor_Rank1"
+      "ReputationRank": "@RepScope_Contractor_Rank1",
+      "ScripAmount": "4"
     },
     "InterSec_SecurityPatrol_VH_Title_001": {
-      "ReputationRank": "@RepScope_Contractor_Rank1"
+      "ReputationRank": "@RepScope_Contractor_Rank1",
+      "ScripAmount": "18"
     },
     "InterSec_SecurityPatrol_VH_desc_001": {
-      "ReputationRank": "@RepScope_Contractor_Rank1"
+      "ReputationRank": "@RepScope_Contractor_Rank1",
+      "ScripAmount": "18"
     },
     "CFP_SecurityPatrol_VE_Title_001": {
-      "ReputationRank": "@mobiGlas_Reputation_Stance_Neutral"
+      "ReputationRank": "@mobiGlas_Reputation_Stance_Neutral",
+      "ScripAmount": "2"
     },
     "CFP_SecurityPatrol_VE_Desc_001": {
-      "ReputationRank": "@mobiGlas_Reputation_Stance_Neutral"
+      "ReputationRank": "@mobiGlas_Reputation_Stance_Neutral",
+      "ScripAmount": "2"
     },
     "InterSec_SecurityPatrol_S_Title_001": {
-      "ReputationRank": "@RepScope_Contractor_Rank2"
+      "ReputationRank": "@RepScope_Contractor_Rank2",
+      "ScripAmount": "24"
     },
     "InterSec_SecurityPatrol_S_Desc_001": {
-      "ReputationRank": "@RepScope_Contractor_Rank2"
+      "ReputationRank": "@RepScope_Contractor_Rank2",
+      "ScripAmount": "24"
     },
     "deadsaints_recoveritem_VE_Title_001": {
       "ObjectiveSetup": "@mission_item_0055",
@@ -7814,10 +8015,12 @@
       "ReputationRank": "@RepStanding_Security_Rank3"
     },
     "Headhunters_DefendLocation_E_Title_001": {
-      "ReputationRank": "@RepScope_Contractor_Rank1"
+      "ReputationRank": "@RepScope_Contractor_Rank1",
+      "ScripAmount": "4"
     },
     "Headhunters_DefendLocation_E_Desc_001": {
-      "ReputationRank": "@RepScope_Contractor_Rank1"
+      "ReputationRank": "@RepScope_Contractor_Rank1",
+      "ScripAmount": "4"
     },
     "Intersec_DefendShip_Title_Hard_001": {
       "ReputationRank": "@RepScope_Contractor_Rank2"
@@ -7838,10 +8041,12 @@
       "ReputationRank": "@mobiGlas_Reputation_Stance_Neutral"
     },
     "Eckhart_EscortShips_VH_title": {
-      "ReputationRank": "@RepScope_Contractor_Rank4"
+      "ReputationRank": "@RepScope_Contractor_Rank4",
+      "ScripAmount": "18"
     },
     "Eckhart_EscortShips_VH_desc": {
-      "ReputationRank": "@RepScope_Contractor_Rank4"
+      "ReputationRank": "@RepScope_Contractor_Rank4",
+      "ScripAmount": "18"
     },
     "EckhartSecurity_DestroyServers_FacilityDelving_Title_002": {
       "ItemsToDestroy": "@destoryitems_item_03",
@@ -7932,10 +8137,12 @@
       "ReputationRank": "@RepScope_Contractor_Rank1"
     },
     "Foxwell_ShipAmbush_VH_title_001": {
-      "ReputationRank": "@RepScope_Contractor_Rank4"
+      "ReputationRank": "@RepScope_Contractor_Rank4",
+      "ScripAmount": "12"
     },
     "Foxwell_ShipAmbush_VH_desc_001": {
-      "ReputationRank": "@RepScope_Contractor_Rank4"
+      "ReputationRank": "@RepScope_Contractor_Rank4",
+      "ScripAmount": "12"
     },
     "Foxwell_HaulCargo_MultiToSingle_title_01": {
       "CargoRouteToken": "@HaulCargo_CargoRoute_Solar",
@@ -7968,10 +8175,12 @@
       "ReputationRank": "@RepScope_Contractor_Rank4"
     },
     "Foxwell_SecurityPatrol_VH_Title_001": {
-      "ReputationRank": "@RepScope_Contractor_Rank4"
+      "ReputationRank": "@RepScope_Contractor_Rank4",
+      "ScripAmount": "18"
     },
     "Foxwell_SecurityPatrol_VH_Desc_001": {
-      "ReputationRank": "@RepScope_Contractor_Rank4"
+      "ReputationRank": "@RepScope_Contractor_Rank4",
+      "ScripAmount": "18"
     },
     "Foxwell_HaulCargo_AToB_PAF_title_01": {
       "CargoRouteToken": "@HaulCargo_CargoRoute_Solar",
@@ -7998,28 +8207,36 @@
       "ReputationRank": "@RepStanding_TransportGuild_Rank3"
     },
     "Foxwell_DefendLocation_VH_Title_001": {
-      "ReputationRank": "@RepScope_Contractor_Rank4"
+      "ReputationRank": "@RepScope_Contractor_Rank4",
+      "ScripAmount": "18"
     },
     "Foxwell_DefendLocation_VH_Desc_001": {
-      "ReputationRank": "@RepScope_Contractor_Rank4"
+      "ReputationRank": "@RepScope_Contractor_Rank4",
+      "ScripAmount": "18"
     },
     "Foxwell_SecurityPatrol_S_Title_001": {
-      "ReputationRank": "@RepScope_Contractor_Rank5"
+      "ReputationRank": "@RepScope_Contractor_Rank5",
+      "ScripAmount": "24"
     },
     "Foxwell_SecurityPatrol_S_Desc_001": {
-      "ReputationRank": "@RepScope_Contractor_Rank5"
+      "ReputationRank": "@RepScope_Contractor_Rank5",
+      "ScripAmount": "24"
     },
     "Foxwell_DefendLocation_S_Title_001": {
-      "ReputationRank": "@RepScope_Contractor_Rank5"
+      "ReputationRank": "@RepScope_Contractor_Rank5",
+      "ScripAmount": "24"
     },
     "Foxwell_DefendLocation_S_Desc_001": {
-      "ReputationRank": "@RepScope_Contractor_Rank5"
+      "ReputationRank": "@RepScope_Contractor_Rank5",
+      "ScripAmount": "24"
     },
     "Foxwell_ShipAmbush_S_title_001": {
-      "ReputationRank": "@RepScope_Contractor_Rank5"
+      "ReputationRank": "@RepScope_Contractor_Rank5",
+      "ScripAmount": "16"
     },
     "Foxwell_ShipAmbush_S_desc_001": {
-      "ReputationRank": "@RepScope_Contractor_Rank5"
+      "ReputationRank": "@RepScope_Contractor_Rank5",
+      "ScripAmount": "16"
     },
     "RedWind_RecoverCargo_Hard_Title": {
       "ReputationRank": "@RepScope_Contractor_Rank2"
@@ -8164,10 +8381,12 @@
       "ReputationRank": "@RepStanding_Security_Rank5"
     },
     "HeadHunters_ShipAmbush_H_title_001": {
-      "ReputationRank": "@RepScope_Contractor_Rank3"
+      "ReputationRank": "@RepScope_Contractor_Rank3",
+      "ScripAmount": "8"
     },
     "HeadHunters_ShipAmbush_H_desc_001": {
-      "ReputationRank": "@RepScope_Contractor_Rank3"
+      "ReputationRank": "@RepScope_Contractor_Rank3",
+      "ScripAmount": "8"
     },
     "headhunters_eliminateall_outpost_title_01": {
       "ReputationRank": "@mobiGlas_Reputation_Stance_Neutral"
@@ -8194,10 +8413,12 @@
       "ReputationRank": "@RepScope_Contractor_Rank4"
     },
     "Headhunters_DefendLocation_S_Title_001": {
-      "ReputationRank": "@RepScope_Contractor_Rank5"
+      "ReputationRank": "@RepScope_Contractor_Rank5",
+      "ScripAmount": "24"
     },
     "Headhunters_DefendLocation_S_Desc_001": {
-      "ReputationRank": "@RepScope_Contractor_Rank5"
+      "ReputationRank": "@RepScope_Contractor_Rank5",
+      "ScripAmount": "24"
     },
     "cfp_ChainElimAll_2C_ElimSpec_HHAttack_H_title_001": {
       "ReputationRank": "@RepScope_Contractor_Rank4"
@@ -8212,16 +8433,14 @@
       "ReputationRank": "@RepScope_Contractor_Rank2"
     },
     "Kaboos_Mission_Title": {
-      "ReputationRank": "@RepScope_Contractor_Rank1"
+      "ReputationRank": "@RepScope_Contractor_Rank1",
+      "ScripAmount": "30"
     },
     "Kaboos_Mission_Description": {
-      "ReputationRank": "@RepScope_Contractor_Rank1"
+      "ReputationRank": "@RepScope_Contractor_Rank1",
+      "ScripAmount": "30"
     },
     "TarPits_TimedSalvage_Title_01": {
-      "Contractor|SalvageContractorTitle": "@TarPits_TimedSalvage_Title_01",
-      "Contractor|SalvageContractorDesc": "@TarPits_TimedSalvage_Desc_01"
-    },
-    "TarPits_TimedSalvage_Desc_01": {
       "Contractor|SalvageContractorTitle": "@TarPits_TimedSalvage_Title_01",
       "Contractor|SalvageContractorDesc": "@TarPits_TimedSalvage_Desc_01"
     },
@@ -8358,16 +8577,20 @@
       "ReputationRank": "@mobiGlas_Reputation_Stance_Neutral"
     },
     "Headhunters_SecurityPatrol_E_Title_001": {
-      "ReputationRank": "@RepScope_Contractor_Rank1"
+      "ReputationRank": "@RepScope_Contractor_Rank1",
+      "ScripAmount": "4"
     },
     "Headhunters_SecurityPatrol_E_Desc_001": {
-      "ReputationRank": "@RepScope_Contractor_Rank1"
+      "ReputationRank": "@RepScope_Contractor_Rank1",
+      "ScripAmount": "4"
     },
     "Headhunters_DefendLocation_M_Title_001": {
-      "ReputationRank": "@RepScope_Contractor_Rank2"
+      "ReputationRank": "@RepScope_Contractor_Rank2",
+      "ScripAmount": "8"
     },
     "Headhunters_DefendLocation_M_Desc_001": {
-      "ReputationRank": "@RepScope_Contractor_Rank2"
+      "ReputationRank": "@RepScope_Contractor_Rank2",
+      "ScripAmount": "8"
     },
     "EckhartSecurity_Defend_E_Title_001": {
       "ReputationRank": "@RepStanding_Security_Rank1"
@@ -8382,10 +8605,12 @@
       "ReputationRank": "@RepStanding_Security_Rank0"
     },
     "Headhunters_SecurityPatrol_VE_Title_001": {
-      "ReputationRank": "@mobiGlas_Reputation_Stance_Neutral"
+      "ReputationRank": "@mobiGlas_Reputation_Stance_Neutral",
+      "ScripAmount": "2"
     },
     "Headhunters_SecurityPatrol_VE_Desc_001": {
-      "ReputationRank": "@mobiGlas_Reputation_Stance_Neutral"
+      "ReputationRank": "@mobiGlas_Reputation_Stance_Neutral",
+      "ScripAmount": "2"
     },
     "EckhartSecurity_DestroyServers_FacilityDelving_Title_004": {
       "ItemsToDestroy": "@destoryitems_item_03",
@@ -8402,16 +8627,20 @@
       "ReputationRank": "@mobiGlas_Reputation_Stance_Neutral"
     },
     "HeadHunters_ShipAmbush_Intro_title_001": {
-      "ReputationRank": "@mobiGlas_Reputation_Stance_Neutral"
+      "ReputationRank": "@mobiGlas_Reputation_Stance_Neutral",
+      "ScripAmount": "1"
     },
     "HeadHunters_ShipAmbush_Intro_desc_001": {
-      "ReputationRank": "@mobiGlas_Reputation_Stance_Neutral"
+      "ReputationRank": "@mobiGlas_Reputation_Stance_Neutral",
+      "ScripAmount": "1"
     },
     "Eckhart_ShipAmbush_VE_title": {
-      "ReputationRank": "@mobiGlas_Reputation_Stance_Neutral"
+      "ReputationRank": "@mobiGlas_Reputation_Stance_Neutral",
+      "ScripAmount": "1"
     },
     "Eckhart_ShipAmbush_VE_desc": {
-      "ReputationRank": "@mobiGlas_Reputation_Stance_Neutral"
+      "ReputationRank": "@mobiGlas_Reputation_Stance_Neutral",
+      "ScripAmount": "1"
     },
     "cfp_defendship_MRT_title_001": {
       "ReputationRank": "@RepScope_Contractor_Rank2"
@@ -8476,10 +8705,12 @@
       "ObjectiveSetupItem": "@HeadHunters_Sabotage_Relays_item"
     },
     "HeadHunters_ShipAmbush_E_title_001": {
-      "ReputationRank": "@RepScope_Contractor_Rank1"
+      "ReputationRank": "@RepScope_Contractor_Rank1",
+      "ScripAmount": "3"
     },
     "HeadHunters_ShipAmbush_E_desc_001": {
-      "ReputationRank": "@RepScope_Contractor_Rank1"
+      "ReputationRank": "@RepScope_Contractor_Rank1",
+      "ScripAmount": "3"
     },
     "headhunters_killship_gen_lrt_title_001": {
       "Danger": "@hurston_danger_005",
@@ -8594,10 +8825,12 @@
       "ReputationRank": "@RepScope_Contractor_Rank2"
     },
     "Headhunters_SecurityPatrol_M_Title_001": {
-      "ReputationRank": "@RepScope_Contractor_Rank2"
+      "ReputationRank": "@RepScope_Contractor_Rank2",
+      "ScripAmount": "8"
     },
     "Headhunters_SecurityPatrol_M_Desc_001": {
-      "ReputationRank": "@RepScope_Contractor_Rank2"
+      "ReputationRank": "@RepScope_Contractor_Rank2",
+      "ScripAmount": "8"
     },
     "Covalex_Delivery_Stanton_Super_Title_001": {
       "ReputationRank": "@RepScope_Contractor_Rank3",
@@ -8620,10 +8853,12 @@
       "ReputationRank": "@RepScope_Contractor_Rank4"
     },
     "Headhunters_SecurityPatrol_VH_Title_001": {
-      "ReputationRank": "@RepScope_Contractor_Rank4"
+      "ReputationRank": "@RepScope_Contractor_Rank4",
+      "ScripAmount": "18"
     },
     "Headhunters_SecurityPatrol_VH_Desc_001": {
-      "ReputationRank": "@RepScope_Contractor_Rank4"
+      "ReputationRank": "@RepScope_Contractor_Rank4",
+      "ScripAmount": "18"
     },
     "EckhartSecurity_RecoverCargo_Medium_Title": {
       "ReputationRank": "@RepScope_Contractor_Rank2"
@@ -8650,10 +8885,12 @@
       "ReputationRank": "@mobiGlas_Reputation_Stance_Neutral"
     },
     "Headhunters_DefendLocation_VH_Title_001": {
-      "ReputationRank": "@RepScope_Contractor_Rank4"
+      "ReputationRank": "@RepScope_Contractor_Rank4",
+      "ScripAmount": "18"
     },
     "Headhunters_DefendLocation_VH_Desc_001": {
-      "ReputationRank": "@RepScope_Contractor_Rank4"
+      "ReputationRank": "@RepScope_Contractor_Rank4",
+      "ScripAmount": "18"
     },
     "eckhart_defendship_MRT_title_001": {
       "ReputationRank": "@RepScope_Contractor_Rank2"
@@ -8704,10 +8941,12 @@
       "ReputationRank": "@RepScope_Contractor_Rank1"
     },
     "HeadHunters_ShipAmbush_VE_title_001": {
-      "ReputationRank": "@mobiGlas_Reputation_Stance_Neutral"
+      "ReputationRank": "@mobiGlas_Reputation_Stance_Neutral",
+      "ScripAmount": "1"
     },
     "HeadHunters_ShipAmbush_VE_desc_001": {
-      "ReputationRank": "@mobiGlas_Reputation_Stance_Neutral"
+      "ReputationRank": "@mobiGlas_Reputation_Stance_Neutral",
+      "ScripAmount": "1"
     },
     "Foxwell_EliminateAll_title_001": {
       "ReputationRank": "@RepStanding_Security_Rank2"
@@ -8722,10 +8961,12 @@
       "ReputationRank": "@RepScope_Contractor_Rank4"
     },
     "HeadHunters_ShipAmbush_VH_title_001": {
-      "ReputationRank": "@RepScope_Contractor_Rank4"
+      "ReputationRank": "@RepScope_Contractor_Rank4",
+      "ScripAmount": "12"
     },
     "HeadHunters_ShipAmbush_VH_desc_001": {
-      "ReputationRank": "@RepScope_Contractor_Rank4"
+      "ReputationRank": "@RepScope_Contractor_Rank4",
+      "ScripAmount": "12"
     },
     "headhunters_bombingrun_E_CFP_title_001": {
       "ItemsToDestroy": "@destroyItems_BombingRunItem",
@@ -8837,10 +9078,12 @@
       "ReputationRank": "@RepScope_Contractor_Rank5"
     },
     "Eckhart_ShipAmbush_E_title": {
-      "ReputationRank": "@RepScope_Contractor_Rank1"
+      "ReputationRank": "@RepScope_Contractor_Rank1",
+      "ScripAmount": "3"
     },
     "Eckhart_ShipAmbush_E_desc": {
-      "ReputationRank": "@RepScope_Contractor_Rank1"
+      "ReputationRank": "@RepScope_Contractor_Rank1",
+      "ScripAmount": "3"
     },
     "BitZeros_blackbox_M_Title_001": {
       "ObjectiveSetup": "@mission_item_0055",
@@ -8855,10 +9098,12 @@
       "Contractor|BlackBoxRecoverDescriptionMedium": "@BitZeros_blackbox_M_Desc_001"
     },
     "Eckhart_EscortShips_S_title": {
-      "ReputationRank": "@RepScope_Contractor_Rank5"
+      "ReputationRank": "@RepScope_Contractor_Rank5",
+      "ScripAmount": "24"
     },
     "Eckhart_EscortShips_S_desc": {
-      "ReputationRank": "@RepScope_Contractor_Rank5"
+      "ReputationRank": "@RepScope_Contractor_Rank5",
+      "ScripAmount": "24"
     },
     "Foxwell_EliminateSpecific_title_001": {
       "ReputationRank": "@RepStanding_Security_Rank1"
@@ -8913,10 +9158,12 @@
       "ReputationRank": "@RepScope_Contractor_Rank3"
     },
     "Eckhart_ShipAmbush_H_title": {
-      "ReputationRank": "@RepScope_Contractor_Rank3"
+      "ReputationRank": "@RepScope_Contractor_Rank3",
+      "ScripAmount": "8"
     },
     "Eckhart_ShipAmbush_H_desc": {
-      "ReputationRank": "@RepScope_Contractor_Rank3"
+      "ReputationRank": "@RepScope_Contractor_Rank3",
+      "ScripAmount": "8"
     },
     "headhunters_eliminateall_XT_derelicts_title_01": {
       "ReputationRank": "@RepScope_Contractor_Rank2"
@@ -8963,10 +9210,12 @@
       "ReputationRank": "@mobiGlas_Reputation_Stance_Neutral"
     },
     "Kaboos_Intro_Title": {
-      "ReputationRank": "@RepScope_Contractor_Rank1"
+      "ReputationRank": "@RepScope_Contractor_Rank1",
+      "ScripAmount": "50"
     },
     "Kaboos_Intro_Description": {
-      "ReputationRank": "@RepScope_Contractor_Rank1"
+      "ReputationRank": "@RepScope_Contractor_Rank1",
+      "ScripAmount": "50"
     },
     "bhg_bounty_title_ShatteredBlade_001": {
       "Danger": "@hurston_danger_005",
@@ -9051,10 +9300,12 @@
       "Contractor|SignOff": "@Covalex_SignOff_001"
     },
     "Eckhart_EscortShips_H_title": {
-      "ReputationRank": "@RepScope_Contractor_Rank3"
+      "ReputationRank": "@RepScope_Contractor_Rank3",
+      "ScripAmount": "14"
     },
     "Eckhart_EscortShips_H_desc": {
-      "ReputationRank": "@RepScope_Contractor_Rank3"
+      "ReputationRank": "@RepScope_Contractor_Rank3",
+      "ScripAmount": "14"
     },
     "RAIN_collectresources_multiple_OLP_name_01": {
       "ReputationRank": "@RepScope_Contractor_Rank1"
@@ -9247,10 +9498,12 @@
       "ReputationRank": "@mobiGlas_Reputation_Stance_Neutral"
     },
     "Foxwell_ShipAmbush_VE_title_001": {
-      "ReputationRank": "@mobiGlas_Reputation_Stance_Neutral"
+      "ReputationRank": "@mobiGlas_Reputation_Stance_Neutral",
+      "ScripAmount": "1"
     },
     "Foxwell_ShipAmbush_VE_desc_001": {
-      "ReputationRank": "@mobiGlas_Reputation_Stance_Neutral"
+      "ReputationRank": "@mobiGlas_Reputation_Stance_Neutral",
+      "ScripAmount": "1"
     },
     "Foxwell_EliminateAll_PAF_M_title_001": {
       "ReputationRank": "@RepStanding_Security_Rank0"
@@ -9265,10 +9518,12 @@
       "ReputationRank": "@mobiGlas_Reputation_Stance_Neutral"
     },
     "Foxwell_DefendLocation_E_Title_001": {
-      "ReputationRank": "@RepScope_Contractor_Rank1"
+      "ReputationRank": "@RepScope_Contractor_Rank1",
+      "ScripAmount": "4"
     },
     "Foxwell_DefendLocation_E_Desc_001": {
-      "ReputationRank": "@RepScope_Contractor_Rank1"
+      "ReputationRank": "@RepScope_Contractor_Rank1",
+      "ScripAmount": "4"
     },
     "Foxwell_bombingrun_E_title_001": {
       "ItemsToDestroy": "@destroyItems_BombingRunItem",
@@ -9299,28 +9554,193 @@
       "ReputationRank": "@RepScope_Contractor_Rank1"
     },
     "Foxwell_SecurityPatrol_VE_Title_001": {
-      "ReputationRank": "@mobiGlas_Reputation_Stance_Neutral"
+      "ReputationRank": "@mobiGlas_Reputation_Stance_Neutral",
+      "ScripAmount": "2"
     },
     "Foxwell_SecurityPatrol_VE_Desc_001": {
-      "ReputationRank": "@mobiGlas_Reputation_Stance_Neutral"
+      "ReputationRank": "@mobiGlas_Reputation_Stance_Neutral",
+      "ScripAmount": "2"
     },
     "Foxwell_SecurityPatrol_E_Title_001": {
-      "ReputationRank": "@RepScope_Contractor_Rank1"
+      "ReputationRank": "@RepScope_Contractor_Rank1",
+      "ScripAmount": "4"
     },
     "Foxwell_SecurityPatrol_E_Desc_001": {
-      "ReputationRank": "@RepScope_Contractor_Rank1"
+      "ReputationRank": "@RepScope_Contractor_Rank1",
+      "ScripAmount": "4"
     },
     "Foxwell_DefendLocation_VE_Title_001": {
-      "ReputationRank": "@mobiGlas_Reputation_Stance_Neutral"
+      "ReputationRank": "@mobiGlas_Reputation_Stance_Neutral",
+      "ScripAmount": "2"
     },
     "Foxwell_DefendLocation_VE_Desc_001": {
-      "ReputationRank": "@mobiGlas_Reputation_Stance_Neutral"
+      "ReputationRank": "@mobiGlas_Reputation_Stance_Neutral",
+      "ScripAmount": "2"
     },
     "Foxwell_ShipAmbush_E_title_001": {
-      "ReputationRank": "@RepScope_Contractor_Rank1"
+      "ReputationRank": "@RepScope_Contractor_Rank1",
+      "ScripAmount": "3"
     },
     "Foxwell_ShipAmbush_E_desc_001": {
-      "ReputationRank": "@RepScope_Contractor_Rank1"
+      "ReputationRank": "@RepScope_Contractor_Rank1",
+      "ScripAmount": "3"
+    },
+    "Covalex_HaulCargo_AToB_Rehire_title": {
+      "CargoRouteToken": "@HaulCargo_CargoRoute_Planetary",
+      "CargoGradeToken": "@HaulCargo_CargoGrade_ExtraSmall",
+      "ReputationRank": "@RepStanding_TransportGuild_Rank0",
+      "MissionMaxSCUSize": "@FreightElevator_1SCU",
+      "Item": "@items_commodities_tungsten"
+    },
+    "Covalex_HaulCargo_AToB_Rehire_desc": {
+      "CargoRouteToken": "@HaulCargo_CargoRoute_Planetary",
+      "CargoGradeToken": "@HaulCargo_CargoGrade_ExtraSmall",
+      "ReputationRank": "@RepStanding_TransportGuild_Rank0",
+      "MissionMaxSCUSize": "@FreightElevator_1SCU",
+      "Item": "@items_commodities_tungsten"
+    },
+    "HaulCargo_AtoB_desc": {
+      "CargoRouteToken": "@HaulCargo_CargoRoute_Solar",
+      "CargoGradeToken": "@HaulCargo_CargoGrade_Bulk",
+      "ReputationRank": "@RepStanding_TransportGuild_Rank4",
+      "MissionMaxSCUSize": "@FreightElevator_32SCU"
+    },
+    "Covalex_HaulCargo_AToB_desc_01": {
+      "CargoRouteToken": "@HaulCargo_CargoRoute_Solar",
+      "CargoGradeToken": "@HaulCargo_CargoGrade_Bulk",
+      "ReputationRank": "@RepStanding_TransportGuild_Rank4",
+      "MissionMaxSCUSize": "@FreightElevator_32SCU"
+    },
+    "Covalex_HaulCargo_AToB_Stanton_Interstellar": {
+      "CargoRouteToken": "@HaulCargo_CargoRoute_Interstellar",
+      "CargoGradeToken": "@HaulCargo_CargoGrade_Bulk",
+      "ReputationRank": "@RepStanding_TransportGuild_Rank4",
+      "MissionMaxSCUSize": "@FreightElevator_32SCU",
+      "Item": "@items_commodities_hydrogen"
+    },
+    "Covalex_HaulCargo_MultiToSingle_title": {
+      "CargoRouteToken": "@HaulCargo_CargoRoute_Solar",
+      "CargoGradeToken": "@HaulCargo_CargoGrade_Bulk",
+      "ReputationRank": "@RepStanding_TransportGuild_Rank4",
+      "MissionMaxSCUSize": "@FreightElevator_32SCU",
+      "MultiToSingleToken": "@HaulCargo_2_MultiToSingleToken"
+    },
+    "HaulCargo_MultiToSingle_desc": {
+      "CargoRouteToken": "@HaulCargo_CargoRoute_Solar",
+      "CargoGradeToken": "@HaulCargo_CargoGrade_Bulk",
+      "ReputationRank": "@RepStanding_TransportGuild_Rank4",
+      "MissionMaxSCUSize": "@FreightElevator_32SCU",
+      "MultiToSingleToken": "@HaulCargo_2_MultiToSingleToken"
+    },
+    "Covalex_HaulCargo_MultiToSingle_desc_01": {
+      "CargoRouteToken": "@HaulCargo_CargoRoute_Solar",
+      "CargoGradeToken": "@HaulCargo_CargoGrade_Bulk",
+      "ReputationRank": "@RepStanding_TransportGuild_Rank4",
+      "MissionMaxSCUSize": "@FreightElevator_32SCU",
+      "MultiToSingleToken": "@HaulCargo_2_MultiToSingleToken"
+    },
+    "HaulCargo_SingleToMulti_desc": {
+      "CargoRouteToken": "@HaulCargo_CargoRoute_Solar",
+      "CargoGradeToken": "@HaulCargo_CargoGrade_Bulk",
+      "ReputationRank": "@RepStanding_TransportGuild_Rank4",
+      "MissionMaxSCUSize": "@FreightElevator_32SCU",
+      "SingleToMultiToken": "@HaulCargo_2_SingleToMultiToken"
+    },
+    "Covalex_HaulCargo_SingleToMulti_desc_01": {
+      "CargoRouteToken": "@HaulCargo_CargoRoute_Solar",
+      "CargoGradeToken": "@HaulCargo_CargoGrade_Bulk",
+      "ReputationRank": "@RepStanding_TransportGuild_Rank4",
+      "MissionMaxSCUSize": "@FreightElevator_32SCU",
+      "SingleToMultiToken": "@HaulCargo_2_SingleToMultiToken"
+    },
+    "Covalex_HaulCargo_MultiToSingle_Waste_Waste_Stanton1": {
+      "CargoRouteToken": "@HaulCargo_CargoRoute_Planetary",
+      "CargoGradeToken": "@HaulCargo_CargoGrade_Supply",
+      "ReputationRank": "@RepStanding_TransportGuild_Rank4",
+      "MissionMaxSCUSize": "@FreightElevator_8SCU",
+      "MultiToSingleToken": "@HaulCargo_3_MultiToSingleToken"
+    },
+    "Covalex_HaulCargo_SingleToMulti_Processed_Mixed_QTFuelHydroFuelShipAmmo": {
+      "CargoRouteToken": "@HaulCargo_CargoRoute_Planetary",
+      "CargoGradeToken": "@HaulCargo_CargoGrade_Supply",
+      "ReputationRank": "@RepStanding_TransportGuild_Rank4",
+      "MissionMaxSCUSize": "@FreightElevator_16SCU",
+      "SingleToMultiToken": "@HaulCargo_2_SingleToMultiToken"
+    },
+    "Covalex_HaulCargo_MultiToSingle_desc_ScrapWaste_Stanton3": {
+      "CargoRouteToken": "@HaulCargo_CargoRoute_Planetary",
+      "CargoGradeToken": "@HaulCargo_CargoGrade_Small",
+      "ReputationRank": "@RepStanding_TransportGuild_Rank4",
+      "MissionMaxSCUSize": "@FreightElevator_4SCU",
+      "MultiToSingleToken": "@HaulCargo_4_MultiToSingleToken"
+    },
+    "Covalex_HaulCargo_SingleToMulti_Processed_Stims": {
+      "CargoRouteToken": "@HaulCargo_CargoRoute_Local",
+      "CargoGradeToken": "@HaulCargo_CargoGrade_Small",
+      "ReputationRank": "@RepStanding_TransportGuild_Rank4",
+      "MissionMaxSCUSize": "@FreightElevator_4SCU",
+      "SingleToMultiToken": "@HaulCargo_3_SingleToMultiToken"
+    },
+    "Covalex_HaulCargo_SingleToMulti_RefinedOre": {
+      "CargoRouteToken": "@HaulCargo_CargoRoute_Solar",
+      "CargoGradeToken": "@HaulCargo_CargoGrade_Small",
+      "ReputationRank": "@RepStanding_TransportGuild_Rank4",
+      "MissionMaxSCUSize": "@FreightElevator_4SCU",
+      "SingleToMultiToken": "@HaulCargo_4_SingleToMultiToken",
+      "Item": "@items_commodities_corundum"
+    },
+    "Covalex_HaulCargo_AToB_Scrap": {
+      "CargoRouteToken": "@HaulCargo_CargoRoute_Planetary",
+      "CargoGradeToken": "@HaulCargo_CargoGrade_ExtraSmall",
+      "ReputationRank": "@RepStanding_TransportGuild_Rank2",
+      "MissionMaxSCUSize": "@FreightElevator_1SCU"
+    },
+    "Covalex_HaulCargo_AtoB_desc_RawOre_Stanton1": {
+      "CargoRouteToken": "@HaulCargo_CargoRoute_Planetary",
+      "CargoGradeToken": "@HaulCargo_CargoGrade_Supply",
+      "ReputationRank": "@RepStanding_TransportGuild_Rank2",
+      "MissionMaxSCUSize": "@FreightElevator_8SCU"
+    },
+    "Covalex_HaulCargo_MultiToSingle_desc_RawOre_Stanton1": {
+      "CargoRouteToken": "@HaulCargo_CargoRoute_Local",
+      "CargoGradeToken": "@HaulCargo_CargoGrade_Small",
+      "ReputationRank": "@RepStanding_TransportGuild_Rank2",
+      "MissionMaxSCUSize": "@FreightElevator_4SCU",
+      "MultiToSingleToken": "@HaulCargo_2_MultiToSingleToken"
+    },
+    "Covalex_HaulCargo_SingleToMulti_desc_ProcessedFood_Stanton2": {
+      "CargoRouteToken": "@HaulCargo_CargoRoute_Solar",
+      "CargoGradeToken": "@HaulCargo_CargoGrade_Small",
+      "ReputationRank": "@RepStanding_TransportGuild_Rank2",
+      "MissionMaxSCUSize": "@FreightElevator_4SCU",
+      "SingleToMultiToken": "@HaulCargo_2_SingleToMultiToken"
+    },
+    "Covalex_HaulCargo_SingleToMulti_desc_RefinedOre_Mixed": {
+      "CargoRouteToken": "@HaulCargo_CargoRoute_Solar",
+      "CargoGradeToken": "@HaulCargo_CargoGrade_Supply",
+      "ReputationRank": "@RepStanding_TransportGuild_Rank6",
+      "MissionMaxSCUSize": "@FreightElevator_16SCU",
+      "SingleToMultiToken": "@HaulCargo_4_SingleToMultiToken"
+    },
+    "Covalex_HaulCargo_AToB_Intro_title": {
+      "CargoRouteToken": "@HaulCargo_CargoRoute_Planetary",
+      "CargoGradeToken": "@HaulCargo_CargoGrade_ExtraSmall",
+      "ReputationRank": "@RepStanding_TransportGuild_Rank0",
+      "MissionMaxSCUSize": "@FreightElevator_1SCU",
+      "Item": "@items_commodities_tungsten"
+    },
+    "Covalex_HaulCargo_AToB_Intro_desc": {
+      "CargoRouteToken": "@HaulCargo_CargoRoute_Planetary",
+      "CargoGradeToken": "@HaulCargo_CargoGrade_ExtraSmall",
+      "ReputationRank": "@RepStanding_TransportGuild_Rank0",
+      "MissionMaxSCUSize": "@FreightElevator_1SCU",
+      "Item": "@items_commodities_tungsten"
+    },
+    "Covalex_HaulCargo_AtoB_desc_ProcessedFood_Stanton2": {
+      "CargoRouteToken": "@HaulCargo_CargoRoute_Solar",
+      "CargoGradeToken": "@HaulCargo_CargoGrade_Small",
+      "ReputationRank": "@RepStanding_TransportGuild_Rank1",
+      "MissionMaxSCUSize": "@FreightElevator_4SCU"
     }
   }
 }

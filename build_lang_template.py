@@ -321,34 +321,44 @@ def collect_keys_from_merged(merged_path: str, reverse: dict,
     for c in data.get("legacyContracts", []):
         tk = c.get("titleKey", "")
         tlk = c.get("titleLocKey", "")
+        tsubs = c.get("tokenSubstitutions") or {}
         english = c.get("title", "")
         if tk:
             clean = tk.lstrip("@")
             titles[clean] = english
             _store_raw(clean)
+            if tsubs and token_subs_out is not None:
+                token_subs_out.setdefault(f"_tsub_{clean}", dict(tsubs))
         if tlk:
             titles[tlk] = english
             _store_raw(tlk)
+            if tsubs and token_subs_out is not None:
+                token_subs_out.setdefault(f"_tsub_{tlk}", dict(tsubs))
         dk = c.get("descriptionKey", "")
         dlk = c.get("descriptionLocKey", "")
+        english_desc = c.get("description", "")
         if dk:
             clean = dk.lstrip("@")
-            descriptions[clean] = c.get("description", "")
+            descriptions[clean] = english_desc
             _store_raw(clean)
+            if tsubs and token_subs_out is not None:
+                token_subs_out.setdefault(f"_tsub_{clean}", dict(tsubs))
         if dlk:
-            descriptions[dlk] = c.get("description", "")
+            descriptions[dlk] = english_desc
             _store_raw(dlk)
+            if tsubs and token_subs_out is not None:
+                token_subs_out.setdefault(f"_tsub_{dlk}", dict(tsubs))
 
     keys["titles"] = titles
     keys["descriptions"] = descriptions
 
     # --- Locations: Reverse-Lookup ---
     locations = {}
-    for pid, loc in data.get("locationPools", {}).items():
-        if not isinstance(loc, dict):
+    for pid, loc_entry in data.get("locationPools", {}).items():
+        if not isinstance(loc_entry, dict):
             continue
         for field in ("name", "planet", "moon", "system"):
-            val = loc.get(field, "")
+            val = loc_entry.get(field, "")
             if val and not val.startswith("@"):
                 rk = reverse.get(val)
                 if rk:
@@ -398,6 +408,29 @@ def collect_keys_from_merged(merged_path: str, reverse: dict,
                 factions[nk.lstrip("@")] = nm
     keys["scopes"] = scopes
     keys["factions"] = factions
+
+    # --- Token Values: all loc-keys referenced in tokenSubstitutions ---
+    # These are needed by the frontend to resolve [MAX_SCU], [SIGN_OFF] etc.
+    # in translated text at runtime.
+    token_values = {}
+    all_existing = set(titles) | set(descriptions) | set(scopes) | set(factions) | set(locations)
+    _tv_debug_total = 0
+    _tv_debug_skip = 0
+    _tv_debug_noloc = 0
+    for contracts_key in ("contracts", "legacyContracts"):
+        for c in data.get(contracts_key, []):
+            for token, loc_key in (c.get("tokenSubstitutions") or {}).items():
+                clean = loc_key.lstrip("@")
+                _tv_debug_total += 1
+                if clean in all_existing or clean in token_values:
+                    _tv_debug_skip += 1
+                    continue
+                resolved = loc.get(clean, "")
+                if not resolved:
+                    _tv_debug_noloc += 1
+                    continue
+                token_values[clean] = resolved
+    keys["tokenValues"] = token_values
 
     return keys
 
@@ -491,14 +524,11 @@ def build_translation(template: dict, foreign_ini_path: str, version: str,
 
     # rawKeys for mismatch detection (raw EN text before token resolution)
     raw_keys = template.get("rawKeys", {})
-    # tokenSubstitutions: {locKey -> {tokenName -> loc_key_for_value}}
-    token_subs = template.get("tokenSubstitutions", {})
 
     translated = {}
     missing = []
     noloc = []
     mismatched = []
-    substituted = 0
     placeholder_fallback = 0
     length_fallback = 0
 
@@ -522,53 +552,10 @@ def build_translation(template: dict, foreign_ini_path: str, version: str,
             # Normalize ~mission() tokens
             foreign_normalized = normalize_runtime_tokens(foreign_val)
 
-            # Apply token substitutions: replace placeholders with
-            # foreign language values (e.g. [RANK] -> "Мастер")
-            subs = token_subs.get(key, {})
-            if subs:
-                for token_name, loc_key in subs.items():
-                    # Skip Contractor sub-tokens (Title/Description/SignOff)
-                    # — these are ~mission(Contractor|SubKey) redirects whose
-                    # value is the RESOLVED text for a DIFFERENT field.
-                    # They share the [CONTRACTOR] placeholder but replacing it
-                    # would put a title into a description or vice versa.
-                    if "|" in token_name and token_name.split("|")[0] == "Contractor":
-                        continue
-                    # Determine placeholder name (e.g. ReputationRank -> [RANK])
-                    placeholder = _TOKEN_DISPLAY_MAP.get(
-                        token_name,
-                        f"[{token_name.split('|')[0].upper()}]"
-                    )
-                    if not placeholder or placeholder not in foreign_normalized:
-                        continue
-                    # Look up loc-key in foreign global.ini
-                    foreign_value = None
-                    clean_key = loc_key.lstrip("@")
-                    foreign_value = (foreign_loc.get(clean_key)
-                                     or foreign_loc.get(f"@{clean_key}")
-                                     or foreign_lower.get(clean_key.lower())
-                                     or foreign_lower.get(f"@{clean_key}".lower()))
-                    if foreign_value:
-                        while foreign_value.endswith("\\n"):
-                            foreign_value = foreign_value[:-2].rstrip()
-                        foreign_normalized = foreign_normalized.replace(
-                            placeholder, foreign_value
-                        )
-                        substituted += 1
-                    else:
-                        # Fallback: use EN value (better than placeholder)
-                        en_value = en_loc.get(clean_key) or en_loc.get(f"@{clean_key}")
-                        if en_value:
-                            while en_value.endswith("\\n"):
-                                en_value = en_value[:-2].rstrip()
-                            foreign_normalized = foreign_normalized.replace(
-                                placeholder, en_value
-                            )
-
-            # Re-normalize: substituted values may contain ~mission() tokens
-            # (e.g. RU Adagio_BasicSalvage_Title_01 has ~mission(ClaimNumber))
-            if "~mission(" in foreign_normalized:
-                foreign_normalized = normalize_runtime_tokens(foreign_normalized)
+            # Token substitution is now handled by the frontend per-contract
+            # via resolveTokens(). Placeholders like [MAX_SCU], [RANK] etc.
+            # stay in the translated text and are resolved at runtime using
+            # contract.tokenSubstitutions + loc(locKey) lookup.
 
             # Placeholder-only detection: if the entire foreign text is just
             # placeholders (e.g. "[CONTRACTOR]"), fall back to English.
@@ -608,7 +595,6 @@ def build_translation(template: dict, foreign_ini_path: str, version: str,
         "placeholderFallback": placeholder_fallback,
         "lengthFallback": length_fallback,
         "mismatch": len(mismatched),
-        "tokenSubstitutions": substituted,
         "missingKeys": sorted(missing),
         "mismatchKeys": sorted(mismatched),
     }
@@ -637,7 +623,6 @@ def _print_translation_report(translation, stats, out_name):
     print(f"  Placeholder:   {stats.get('placeholderFallback', 0)} (placeholder-only -> EN fallback)")
     print(f"  Length:        {stats.get('lengthFallback', 0)} (suspiciously short -> EN fallback)")
     print(f"  Mismatch:      {stats.get('mismatch', 0)} (token placeholders in foreign text)")
-    print(f"  Substituted:   {stats.get('tokenSubstitutions', 0)} (placeholders replaced with foreign values)")
     print(f"  No loc key:    {stats['noLocKey']} (kept as-is)")
 
     if stats["missing"] > 0:
